@@ -45,6 +45,7 @@ Establish the team's core pair. For each Pokemon:
 2. Read its abilities and moves from the roster. Look up move details in moves.json and ability effects in abilities.json as needed.
 3. Suggest a competitive set (moves, ability, item) as a starting point
 4. Explain why these two work together (type synergy, role coverage, archetype fit)
+5. Note what role each plays in a bring-4 context -- these two will likely appear in most bring-4 groups. Example: "Garchomp is your primary attacker, Whimsicott is your speed control -- expect to bring both in most games."
 
 ### 3. Build Out (slots 3-4)
 
