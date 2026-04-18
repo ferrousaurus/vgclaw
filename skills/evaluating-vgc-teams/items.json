@@ -1,0 +1,470 @@
+{
+  "Black Belt": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This belt helps with focus and boosts the power of the holder's Fighting-type moves."
+  },
+  "Black Glasses": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves."
+  },
+  "Bright Powder": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pok\u00e9mon's moves."
+  },
+  "Charcoal": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a combustible fuel that boosts the power of the holder's Fire-type moves."
+  },
+  "Choice Scarf": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This curious scarf boosts the holder's Speed stat but only allows the use of a single move."
+  },
+  "Dragon Fang": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This hard, sharp fang boosts the power of the holder's Dragon-type moves."
+  },
+  "Fairy Feather": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves."
+  },
+  "Focus Band": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP."
+  },
+  "Focus Sash": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP\u2014but only once."
+  },
+  "Hard Stone": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a durable stone that boosts the power of the holder's Rock-type moves."
+  },
+  "King's Rock": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack."
+  },
+  "Leftovers": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It slowly but steadily restores the holder's HP."
+  },
+  "Light Ball": {
+    "category": "Hold Item",
+    "effect": "An item to be held by Pikachu. It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats."
+  },
+  "Magnet": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a powerful magnet that boosts the power of the holder's Electric-type moves."
+  },
+  "Mental Herb": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. The holder will be able to shake off move-binding effects to move freely\u2014 but only once."
+  },
+  "Metal Coat": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a special metallic coating that boosts the power of the holder's Steel-type moves."
+  },
+  "Miracle Seed": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a seed imbued with life force that boosts the power of the holder's Grass-type moves."
+  },
+  "Mystic Water": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This teardrop-shaped gem boosts the power of the holder's Water-type moves."
+  },
+  "Never-Melt Ice": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves."
+  },
+  "Poison Barb": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This small poisonous barb boosts the power of the holder's Poison-type moves."
+  },
+  "Quick Claw": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This light, sharp claw lets the holder occasionally unleash a move faster than it usually would."
+  },
+  "Scope Lens": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio."
+  },
+  "Sharp Beak": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a long, sharp beak that boosts the power of the holder's Flying-type moves."
+  },
+  "Shell Bell": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. The holder restores a little HP to itself every time it inflicts damage with an attack."
+  },
+  "Silk Scarf": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a sumptuous scarf that boosts the power of the holder's Normal-type moves."
+  },
+  "Silver Powder": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a shiny silver powder that boosts the power of the holder's Bug-type moves."
+  },
+  "Soft Sand": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This loose, silky sand boosts the power of the holder's Ground-type moves."
+  },
+  "Spell Tag": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves."
+  },
+  "Twisted Spoon": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves."
+  },
+  "White Herb": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pok\u00e9mon. It will restore any lowered stat in battle\u2014but only once."
+  },
+  "Abomasite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Abomasnow holding this stone will be able to Mega Evolve during battle."
+  },
+  "Absolite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Absol holding this stone will be able to Mega Evolve during battle."
+  },
+  "Aerodactylite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Aerodactyl holding this stone will be able to Mega Evolve during battle."
+  },
+  "Aggronite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Aggron holding this stone will be able to Mega Evolve during battle."
+  },
+  "Alakazite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Alakazam holding this stone will be able to Mega Evolve during battle."
+  },
+  "Altarianite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Altaria holding this stone will be able to Mega Evolve during battle."
+  },
+  "Ampharosite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Ampharos holding this stone will be able to Mega Evolve during battle."
+  },
+  "Audinite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Audino holding this stone will be able to Mega Evolve during battle."
+  },
+  "Banettite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Banette holding this stone will be able to Mega Evolve during battle."
+  },
+  "Beedrillite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Beedrill holding this stone will be able to Mega Evolve during battle."
+  },
+  "Blastoisinite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Blastoise holding this stone will be able to Mega Evolve during battle."
+  },
+  "Cameruptite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Camerupt holding this stone will be able to Mega Evolve during battle."
+  },
+  "Chandelurite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle."
+  },
+  "Charizardite X": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle."
+  },
+  "Charizardite Y": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle."
+  },
+  "Chesnaughtite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle."
+  },
+  "Chimechite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle."
+  },
+  "Clefablite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle."
+  },
+  "Crabominite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle."
+  },
+  "Delphoxite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle."
+  },
+  "Dragoninite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle."
+  },
+  "Drampanite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle."
+  },
+  "Emboarite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle."
+  },
+  "Excadrite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle."
+  },
+  "Feraligite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle."
+  },
+  "Floettite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle."
+  },
+  "Froslassite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle."
+  },
+  "Galladite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Gallade holding this stone will be able to Mega Evolve during battle."
+  },
+  "Garchompite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Garchomp holding this stone will be able to Mega Evolve during battle."
+  },
+  "Gardevoirite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Gardevoir holding this stone will be able to Mega Evolve during battle."
+  },
+  "Gengarite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Gengar holding this stone will be able to Mega Evolve during battle."
+  },
+  "Glalitite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Glalie holding this stone will be able to Mega Evolve during battle."
+  },
+  "Glimmoranite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle."
+  },
+  "Golurkite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle."
+  },
+  "Greninjite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle."
+  },
+  "Gyaradosite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Gyarados holding this stone will be able to Mega Evolve during battle."
+  },
+  "Hawluchanite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle."
+  },
+  "Heracronite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Heracross holding this stone will be able to Mega Evolve during battle."
+  },
+  "Houndoominite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Houndoom holding this stone will be able to Mega Evolve during battle."
+  },
+  "Kangaskhanite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Kangaskhan holding this stone will be able to Mega Evolve during battle."
+  },
+  "Lopunnite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Lopunny holding this stone will be able to Mega Evolve during battle."
+  },
+  "Lucarionite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Lucario holding this stone will be able to Mega Evolve during battle."
+  },
+  "Manectite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Manectric holding this stone will be able to Mega Evolve during battle."
+  },
+  "Medichamite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Medicham holding this stone will be able to Mega Evolve during battle."
+  },
+  "Meganiumite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle."
+  },
+  "Meowsticite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle."
+  },
+  "Pidgeotite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Pidgeot holding this stone will be able to Mega Evolve during battle."
+  },
+  "Pinsirite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Pinsir holding this stone will be able to Mega Evolve during battle."
+  },
+  "Sablenite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Sableye holding this stone will be able to Mega Evolve during battle."
+  },
+  "Scizorite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Scizor holding this stone will be able to Mega Evolve during battle."
+  },
+  "Scovillainite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle."
+  },
+  "Sharpedonite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Sharpedo holding this stone will be able to Mega Evolve during battle."
+  },
+  "Skarmorite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle."
+  },
+  "Slowbronite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however."
+  },
+  "Starminite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle."
+  },
+  "Steelixite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Steelix holding this stone will be able to Mega Evolve during battle."
+  },
+  "Tyranitarite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Tyranitar holding this stone will be able to Mega Evolve during battle."
+  },
+  "Venusaurite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Venusaur holding this stone will be able to Mega Evolve during battle."
+  },
+  "Victreebelite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle."
+  },
+  "Aspear Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to thaw itself after being frozen."
+  },
+  "Babiri Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Steel-type move, the power of that move will be weakened."
+  },
+  "Charti Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Rock-type move, the power of that move will be weakened."
+  },
+  "Cheri Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to free itself from paralysis."
+  },
+  "Chesto Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to shake off its drowsiness."
+  },
+  "Chilan Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a Normal-type move, the power of that move will be weakened."
+  },
+  "Chople Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Fighting-type move, the power of that move will be weakened."
+  },
+  "Coba Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Flying-type move, the power of that move will be weakened."
+  },
+  "Colbur Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Dark-type move, the power of that move will be weakened."
+  },
+  "Haban Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Dragon-type move, the power of that move will be weakened."
+  },
+  "Kasib Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Ghost-type move, the power of that move will be weakened."
+  },
+  "Kebia Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Poison-type move, the power of that move will be weakened."
+  },
+  "Leppa Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to restore 10 PP to a move."
+  },
+  "Lum Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to cure itself of any status condition it may have."
+  },
+  "Occa Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Fire-type move, the power of that move will be weakened."
+  },
+  "Oran Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to restore 10 HP to itself."
+  },
+  "Passho Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Water-type move, the power of that move will be weakened."
+  },
+  "Payapa Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Psychic-type move, the power of that move will be weakened."
+  },
+  "Pecha Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to lift the effects of being poisoned from itself."
+  },
+  "Persim Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to cure itself of confusion."
+  },
+  "Rawst Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to cure itself of a burn."
+  },
+  "Rindo Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Grass-type move, the power of that move will be weakened."
+  },
+  "Roseli Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Fairy-type move, the power of that move will be weakened."
+  },
+  "Shuca Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Ground-type move, the power of that move will be weakened."
+  },
+  "Sitrus Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holds one of these Berries, it will be able to restore a small amount of HP to itself."
+  },
+  "Tanga Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Bug-type move, the power of that move will be weakened."
+  },
+  "Wacan Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Electric-type move, the power of that move will be weakened."
+  },
+  "Yache Berry": {
+    "category": "Berry",
+    "effect": "If a Pok\u00e9mon holding this Berry is hit with a supereffective Ice-type move, the power of that move will be weakened."
+  }
+}
