@@ -4,7 +4,16 @@
       "WebFetch(domain:pokeapi.co)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(chmod +x /Users/jordanrust/Source/ferrousaurus/vgclaude/fetch-roster.sh)",
+      "Bash(bash fetch-roster.sh)",
+      "Bash(curl -sf https://pokeapi.co/api/v2/pokemon/__TRACKED_VAR__)",
+      "WebFetch(domain:www.serebii.net)",
+      "Bash(python3 -c \"import urllib.request; print\\('urllib available'\\)\")",
+      "Bash(python3 -c \"import html.parser; print\\('html.parser available'\\)\")",
+      "Bash(python3 -c \"import re, json; print\\('re+json available'\\)\")",
+      "Bash(curl -s \"https://www.serebii.net/pokedex-champions/incineroar/\")",
+      "Bash(python3 -c ':*)"
     ]
   }
 }
