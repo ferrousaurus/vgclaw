@@ -84,6 +84,8 @@ Build sets from the Pokemon's available moves and abilities in champions-roster.
 
 Cross-reference with Pikalytics common sets when available. The user customizes from here.
 
+**Mode-aware sets:** Consider which bring-4 groups each Pokemon participates in. Pokemon appearing in multiple modes should have versatile sets (e.g., balanced EV spreads, moves useful in both game plans). Pokemon appearing in only one mode can be more specialized (e.g., min-speed Torkoal for Trick Room mode only). Mention this trade-off when it's relevant to the set choice, not for every Pokemon.
+
 ### 6. Team Analysis
 
 Run all four analysis layers. Present results clearly.
