@@ -138,33 +138,28 @@ def parse_move_page(html_content):
     # PP, Power, Accuracy: three values in sequence after the header row
     pp_section = html_content[html_content.find("Power Points"):] if "Power Points" in html_content else ""
     if pp_section:
-        vals = re.findall(r'class="cen">\s*\n?\s*(\S+)', pp_section[:500])
+        vals = re.findall(r'class="cen">\s*\n?\s*([^<\s]+)', pp_section[:500])
         if len(vals) >= 3:
             result["pp"] = int(vals[0]) if vals[0] != "--" else None
             result["power"] = int(vals[1]) if vals[1] != "--" else None
             result["accuracy"] = int(vals[2]) if vals[2] != "--" else None
 
     # Priority and target: after 'Speed Priority' header
+    # Layout: 3 header cells (Crit Rate, Speed Priority, Hit in Battle)
+    #         3 value cells  (4.17%,     0,              All Adjacent Pokemon)
     priority_section = html_content[html_content.find("Speed Priority"):] if "Speed Priority" in html_content else ""
     if priority_section:
-        vals = re.findall(r'class="cen">\s*\n?\s*([^<\t]+)', priority_section[:600])
+        vals = re.findall(r'class="cen"[^>]*>\s*\n?\s*(.*?)\s*</td>', priority_section[:600], re.DOTALL)
         if len(vals) >= 3:
-            # vals[0] = crit rate, vals[1] = priority, vals[2+] = target
+            # vals[0] = crit rate, vals[1] = priority, vals[2] = target
             try:
                 result["priority"] = int(vals[1].strip())
             except ValueError:
                 result["priority"] = 0
-            # Target is in a cell that may contain "All Adjacent", "Selected Target", etc.
-            target_match = re.search(
-                r'Hit in Battle.*?class="cen">\s*\n?\s*(.*?)\s*</td>',
-                priority_section[:600], re.DOTALL
-            )
-            if target_match:
-                target_text = re.sub(r'<[^>]+>', '', target_match.group(1)).strip()
-                target_text = html_module.unescape(target_text)
-                # Normalize common targets
-                target_text = target_text.replace("Pokémon", "").strip()
-                result["target"] = target_text
+            target_text = re.sub(r'<[^>]+>', '', vals[2]).strip()
+            target_text = html_module.unescape(target_text)
+            target_text = target_text.replace("Pokémon", "").strip()
+            result["target"] = target_text
 
     # Effect: In-Depth Effect section
     effect_match = re.search(
@@ -246,9 +241,8 @@ def cmd_moves():
     moves_data = {}
     sorted_moves = sorted(all_moves)
     for i, move_name in enumerate(sorted_moves):
-        slug = move_name.lower().replace(" ", "").replace("'", "").replace("-", "")
-        # Some moves keep hyphens in slug (Double-Edge -> double-edge)
-        # Try the no-special-chars version first
+        slug = move_name.lower().replace(" ", "")
+        # Serebii keeps hyphens and apostrophes, just strips spaces
         url = f"https://www.serebii.net/attackdex-champions/{slug}.shtml"
         cache_key = f"moves/{slug}.html"
 
@@ -264,11 +258,20 @@ def cmd_moves():
             continue
 
         parsed = parse_move_page(html_content)
+        category = parsed.get("category", "Unknown")
+        if category == "Other":
+            category = "Status"
+        power = parsed.get("power")
+        accuracy = parsed.get("accuracy")
+        if category == "Status":
+            power = None
+            if accuracy is not None and accuracy > 100:
+                accuracy = None  # "always hits" encoded as 101
         moves_data[move_name] = {
             "type": parsed.get("type", "Unknown"),
-            "category": parsed.get("category", "Unknown"),
-            "power": parsed.get("power"),
-            "accuracy": parsed.get("accuracy"),
+            "category": category,
+            "power": power,
+            "accuracy": accuracy,
             "pp": parsed.get("pp"),
             "priority": parsed.get("priority", 0),
             "target": parsed.get("target", "Unknown"),
