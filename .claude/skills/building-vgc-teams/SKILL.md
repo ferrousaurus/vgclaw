@@ -18,6 +18,7 @@ Conversational team builder for Pokemon Champions VGC. Guides intermediate playe
 - `type-chart.json` -- type effectiveness multipliers (2, 1, 0.5, 0). Missing entries = 1x.
 - `moves.json` -- move details (type, category, power, accuracy, priority, target, effect)
 - `abilities.json` -- ability effects
+- `items.json` -- held item details (category, effect)
 
 **Runtime fetches:**
 - **Pikalytics** -- Fetch `https://www.pikalytics.com/champions` for current usage stats, top threats, common sets, and teammates. Parse what you can from the HTML. If the fetch fails, ask the user what they're seeing in the meta.
@@ -25,6 +26,7 @@ Conversational team builder for Pokemon Champions VGC. Guides intermediate playe
 **Reference (load when needed):**
 - `reference/roles.md` -- VGC role definitions
 - `reference/archetypes.md` -- common team archetypes
+- `reference/items.md` -- item selection heuristics
 
 ## Workflow
 
@@ -63,12 +65,16 @@ Fill remaining holes:
 
 For each of the 6 Pokemon, suggest a starting set:
 - Ability
-- Held item (no duplicate items across the team)
+- Held item
 - 4 moves
 - Nature
 - EVs (suggest a simple spread like 252/252/4 as a baseline)
 
-Build sets from the Pokemon's available moves and abilities in champions-roster.json. Look up move details (type, power, category) in moves.json. Cross-reference with Pikalytics common sets when available. The user customizes from here.
+Build sets from the Pokemon's available moves and abilities in champions-roster.json. Look up move details (type, power, category) in moves.json.
+
+**Item selection:** Load `reference/items.md` for selection heuristics. For each Pokemon, suggest an item based on its role and the team's existing items. Verify the item exists in `items.json`. Enforce no duplicate items across the team. If a Pokemon is Mega-eligible and the team doesn't already have a Mega, consider whether the Mega Stone is worth the item slot.
+
+Cross-reference with Pikalytics common sets when available. The user customizes from here.
 
 ### 6. Team Analysis
 
