@@ -69,6 +69,13 @@ For each slot, suggest 2-3 Pokemon framed as swap-ins:
 
 If the team only has one viable mode after both slots are filled, flag it: "Your team currently brings the same 4 every game. Consider [alternative Pokemon] for slot [N] to give you a [description] mode against [matchup]."
 
+**Alternate Mega candidates:** If the core-4 includes a Mega Stone carrier (the primary Mega), at least one slot 5-6 candidate across both rounds should be Mega-eligible (has a `mega` field in champions-roster.json) with a Mega form that addresses the primary Mega's bad matchups. If none of the organic candidates are Mega-eligible, add one as an additional option (the list grows from 2-3 to 3-4 candidates for that slot). Prioritize candidates whose Mega form counter-types what counters the primary Mega. Note if the candidate also enables a different game plan as a secondary benefit.
+
+When presenting a Mega-eligible candidate:
+- Note it carries a Mega Stone and **replaces the primary Mega in the bring-4** — two Mega Stone carriers must never appear in the same bring-4 group.
+- Explain what the Mega form addresses and which specific counters to the primary Mega it handles. Example: "Mega Scizor threatens the Fairy types that wall Mega Feraligatr's Dragonize."
+- If the user declines the alternate Mega for both slots, accept the decision and move on. The alternate Mega is always a recommendation, never forced.
+
 ### 5. Set Refinement
 
 For each of the 6 Pokemon, suggest a starting set:
