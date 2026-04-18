@@ -53,7 +53,7 @@ Identify gaps in the current team:
 2. **Role gaps** -- Load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out?
 3. **Meta threats** -- Fetch Pikalytics. Which top-usage Pokemon threaten the current core?
 
-For each gap, suggest 2-3 Pokemon from the roster that address it. Prefer Pokemon that fill multiple gaps. Present trade-offs.
+For each gap, suggest 2-3 Pokemon from the roster that address it. Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, note any pair synergies with existing team members -- load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
 
 ### 4. Final Slots (5-6)
 
@@ -61,6 +61,7 @@ Fill remaining holes:
 - Coverage gaps from the type analysis
 - Anti-meta picks that handle common threats
 - "Glue" Pokemon that support the team's game plan
+- Pair synergy -- does the new Pokemon form strong mode pairs or offensive combos with existing members? A Pokemon that fills a type gap AND creates a Fake Out + setup pair is better than one that only fills the type gap.
 
 ### 5. Set Refinement
 
