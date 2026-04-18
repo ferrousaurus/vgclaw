@@ -1,0 +1,4902 @@
+{
+  "Accelerock": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Acid Armor": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Acid Spray": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Acrobatics": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 55,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Acupressure": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self or Ally",
+    "effect": ""
+  },
+  "Aerial Ace": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 101,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "After You": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Agility": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Air Cutter": {
+    "type": "Flying",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 95,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Air Slash": {
+    "type": "Flying",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Alluring Voice": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ally Switch": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 2,
+    "target": "Self",
+    "effect": "This move if used in succession has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Amnesia": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Ancient Power": {
+    "type": "Rock",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Apple Acid": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aqua Cutter": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aqua Jet": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aqua Ring": {
+    "type": "Water",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Aqua Step": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aqua Tail": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Armor Cannon": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aromatic Mist": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Adjacent Ally",
+    "effect": ""
+  },
+  "Assurance": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Attract": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aura Sphere": {
+    "type": "Fighting",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 101,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aura Wheel": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 110,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Aurora Veil": {
+    "type": "Ice",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Ally",
+    "effect": "This move will put up a protective barrier that will reduce the damage inflicted by attacks by 50% in Single Battles, and 33% in Double Battles. It can run in conjunction with Reflect and Light Screen but does not stack. It can only be activated during Hail, but will continue if Hail ends during its time. The ability Infiltrator ignores its effects"
+  },
+  "Avalanche": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": -4,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Axe Kick": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Baby-Doll Eyes": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Baneful Bunker": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Baton Pass": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Beak Blast": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": -3,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Beat Up": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Belch": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Belly Drum": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Bind": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 15,
+    "accuracy": 85,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bite": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bitter Blade": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bitter Malice": {
+    "type": "Ghost",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Blast Burn": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Blaze Kick": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Blizzard": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 70,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Block": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Body Press": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Body Slam": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bone Rush": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 30,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Boomburst": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Bounce": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 85,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Brave Bird": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Breaking Swipe": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Brick Break": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move will remove any Reflect, Light Screen, Aurora Veil or that is in play on the opponent's team."
+  },
+  "Brutal Swing": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Bug Bite": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bug Buzz": {
+    "type": "Bug",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bulk Up": {
+    "type": "Fighting",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Bulldoze": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Bullet Punch": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Bullet Seed": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Burn Up": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 130,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Burning Jealousy": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Opponent's Side",
+    "effect": ""
+  },
+  "Calm Mind": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Ceaseless Edge": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 90,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Charge": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Charge Beam": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Charm": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Chilling Water": {
+    "type": "Water",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Chilly Reception": {
+    "type": "Ice",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Circle Throw": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": -6,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Clanging Scales": {
+    "type": "Dragon",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Clangorous Soul": {
+    "type": "Dragon",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Clear Smog": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 101,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Close Combat": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Coaching": {
+    "type": "Fighting",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "All allies",
+    "effect": ""
+  },
+  "Coil": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Comeuppance": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Previous opponent",
+    "effect": ""
+  },
+  "Confuse Ray": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Copycat": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Corrosive Gas": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Cosmic Power": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Cotton Guard": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Cotton Spore": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Counter": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": -5,
+    "target": "Special",
+    "effect": ""
+  },
+  "Covet": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Crabhammer": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Cross Chop": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Cross Poison": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Crunch": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Crush Claw": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Curse": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Special",
+    "effect": ""
+  },
+  "Dark Pulse": {
+    "type": "Dark",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Darkest Lariat": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dazzling Gleam": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Decorate": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Defog": {
+    "type": "Flying",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack also removes the effect of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes and Stealth Rock on the target Pok\u00e9mon's side of battle. It also removes the effects of all Terrains on the battlefield if it has been set up by a Pok\u00e9mon using moves or abilities."
+  },
+  "Destiny Bond": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Detect": {
+    "type": "Fighting",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Dig": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dire Claw": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Disable": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Discharge": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Dive": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Double Hit": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 35,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Double Team": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Double-Edge": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Draco Meteor": {
+    "type": "Dragon",
+    "category": "Special",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Cheer": {
+    "type": "Dragon",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Claw": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Dance": {
+    "type": "Dragon",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Dragon Darts": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Pulse": {
+    "type": "Dragon",
+    "category": "Special",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Rush": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 75,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dragon Tail": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": -6,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Drain Punch": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Draining Kiss": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Drill Peck": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Drill Run": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dual Wingbeat": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Dynamic Punch": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 50,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Earth Power": {
+    "type": "Ground",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Earthquake": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": "If used against an opponent that is using Dig, the damage inflicted will be doubled"
+  },
+  "Eerie Impulse": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Eerie Spell": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Electric Terrain": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It prevents the Pok\u00e9mon from sleep and boosts the power of Electric-type moves on grounded Pok\u00e9mon by 30%"
+  },
+  "Electrify": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Electro Ball": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Electro Ball is unique in that its power is determined based upon both the user's speed and the speed of the target. More damage is inflicted if the opponent is slower than the user. This isn't done via a specific calculation but has set amounts based upon the speed values."
+  },
+  "Electro Shot": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 130,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Electroweb": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 55,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Encore": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move causes the target to use their last used move for their next three turns. It will fail if the target's move failed, it hasn't used a move since being sent out, or if the last move they used has 0PP. It will also fail if the target used Encore, Mimic, Mirror Move, Sketch, Struggle or Transform in their last turn."
+  },
+  "Endeavor": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Endure": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Energy Ball": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Entrainment": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move changes the opponent's abiliy to that of the user of this move. Doesn't work against Pok\u00e9mon with the Truant, Zen Mode or Multitype abilities."
+  },
+  "Eruption": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": "Power wise, this attack has a Base Power of 150 but that completely changes all depending on the HP. This is calculated in the manner below:"
+  },
+  "Expanding Force": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Explosion": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 250,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Extrasensory": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Extreme Speed": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 2,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Facade": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fairy Lock": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Fake Out": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 3,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fake Tears": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Feather Dance": {
+    "type": "Flying",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Feint": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 30,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 2,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fell Stinger": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fickle Beam": {
+    "type": "Dragon",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fiery Dance": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Final Gambit": {
+    "type": "Fighting",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fire Blast": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 85,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fire Fang": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fire Lash": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fire Punch": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fire Spin": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 35,
+    "accuracy": 85,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "First Impression": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 2,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fissure": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 30,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flail": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flame Charge": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flamethrower": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flare Blitz": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flash Cannon": {
+    "type": "Steel",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flatter": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fling": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "As the Base Power can get up to 130, it adds major strategy possibilities, especially on Dark Type Pok\u00e9mon which get the Same Type Attack Bonus from this move. Causing 195 Base Power maximum"
+  },
+  "Flip Turn": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flower Trick": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 101,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Fly": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Flying Press": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has it's own special type affinity"
+  },
+  "Focus Blast": {
+    "type": "Fighting",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 70,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Focus Energy": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Focus Punch": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": -3,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Follow Me": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 2,
+    "target": "Self",
+    "effect": ""
+  },
+  "Forest's Curse": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Foul Play": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move utilises the opponent's current Attack stat into the calculation of this move. This takes status conditions and stat boosts/drops into consideration but does not include any boost from the opponent's ability."
+  },
+  "Freeze-Dry": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has it's own special type affinity"
+  },
+  "Frenzy Plant": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Frost Breath": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Future Sight": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move causes damage to the opponent two turns after it is used. The damage given cannot critical hit without external influence. It bypasses any Protection (Protect, Endure etc.) of the opponent on the turn it damages and if the opponent switches out, it hits the new Pok\u00e9mon"
+  },
+  "Gastro Acid": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Giga Drain": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Giga Impact": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Gigaton Hammer": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 160,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Glare": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Grass Knot": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Grass Knot as standard in Pok\u00e9mon Champions"
+  },
+  "Grassy Glide": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 55,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Grassy Terrain": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It increases their Hit Points by 1/16th per turn and increases Grass-type move power by 30%"
+  },
+  "Grav Apple": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has its power increased to 120 if the Gravity effect is in play."
+  },
+  "Gravity": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Field",
+    "effect": "In addition to lowering all Pok\u00e9mon's Evasion stat and grounding Ground-type moves, it prevents the following moves from working. If they are in effect such as Fly or Sky Drop, then those moves get cancelled. The following moves cannot be used when Gravity is in effect"
+  },
+  "Growth": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move increases Attack & Special Attack one stage in standard weather. However, if Sunny Day or Drought has been used and Growth is then used, the Pok\u00e9mon's Attack & Special Attack is increased by two stages"
+  },
+  "Guard Split": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Guard Swap": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Guillotine": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 30,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Gunk Shot": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 80,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Gyro Ball": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack's Base Power is anything from 1 up to 150 making it a very powerful attack to be used. However, this is completely dependant on your Pok\u00e9mon's Speed as well as the Speed of your target. First, the user & targets speeds are claculated. Their Speed Stat is taken into account as well as other effects such as previous attack effects that my have raised or lowered speed, whether the Pok\u00e9mon is Paralyzed and whether or not it is holding an item that lowers Speed such as the Power Items used to train EVs or an Iron ball."
+  },
+  "Hammer Arm": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Hard Press": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Haze": {
+    "type": "Ice",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Head Smash": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 150,
+    "accuracy": 80,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Headlong Rush": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Heal Bell": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Team",
+    "effect": ""
+  },
+  "Heal Pulse": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Healing Wish": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Heat Crash": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Heat Crash works on a similar manner to Grass Knot & Low Kick, but instead factor in both the user's weight and the opponent's weight and as such, can be mercilessly manipulated using the above weight manipulation methods"
+  },
+  "Heat Wave": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 95,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Heavy Slam": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Heavy Slam works on a similar manner to Grass Knot & Low Kick, but instead factor in both the user's weight and the opponent's weight and as such, can be mercilessly manipulated using the above weight manipulation methods"
+  },
+  "Helping Hand": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 5,
+    "target": "Adjacent Ally",
+    "effect": ""
+  },
+  "Hex": {
+    "type": "Ghost",
+    "category": "Special",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "High Horsepower": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 95,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "High Jump Kick": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Horn Drill": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 30,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Horn Leech": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Howl": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Hurricane": {
+    "type": "Flying",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 70,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move increases in accuracy to 100% during rain but drops to 50% accuracy within harsh sunlight."
+  },
+  "Hydro Cannon": {
+    "type": "Water",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Hydro Pump": {
+    "type": "Water",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 80,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Hyper Beam": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Hyper Voice": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Hypnosis": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": 60,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Beam": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Fang": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Hammer": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Punch": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Shard": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ice Spinner": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Icicle Crash": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Icicle Spear": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Icy Wind": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 55,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Imprison": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Infernal Parade": {
+    "type": "Ghost",
+    "category": "Special",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Inferno": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 100,
+    "accuracy": 50,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Infestation": {
+    "type": "Bug",
+    "category": "Special",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Ingrain": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Instruct": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Iron Defense": {
+    "type": "Steel",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Iron Head": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Iron Tail": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 75,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Jet Punch": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "King's Shield": {
+    "type": "Steel",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Knock Off": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "If the target of this move is holding an item, then the target will lose the item and the power of the move is increased by 50%.  The item cannot be recovered with RecycleIf the Pok\u00e9mon is holding an item that cannot be removed, such as Giratina with the Griseous Orb, Arceus holding any of its plates or a Pok\u00e9mon who is holding a Mega Stone needed for it to Mega Evolve, then the move will not do extra damage and they will not lose the hold item. If the user is knocked out from recoil caused by the opponent's hold item or ability, then the opponent will keep the hold item. If the target has got the Sticky Hold ability, the damage will be increased, but the opponent will not lose the hold item."
+  },
+  "Kowtow Cleave": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 101,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Lash Out": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Last Resort": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 140,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Last Respects": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack will increase its base power based on the amount of Pok\u00e9mon that are fainted in your party. For each Pok\u00e9mon fainted, it increases by 50 base power."
+  },
+  "Lava Plume": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Leaf Blade": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Leaf Storm": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Leech Life": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Leech Seed": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Life Dew": {
+    "type": "Water",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Allies",
+    "effect": ""
+  },
+  "Light Screen": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Ally",
+    "effect": ""
+  },
+  "Light of Ruin": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Liquidation": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Lock-On": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Low Kick": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Low Kick as standard in Pok\u00e9mon Champions"
+  },
+  "Low Sweep": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Lumina Crash": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Lunge": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Mach Punch": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Magic Powder": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Magic Room": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Magnet Rise": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Magnetic Flux": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Team",
+    "effect": ""
+  },
+  "Matcha Gotcha": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 90,
+    "pp": 16,
+    "priority": 0,
+    "target": "All opponents",
+    "effect": ""
+  },
+  "Mean Look": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Mega Kick": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 75,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Megahorn": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Memento": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Metal Burst": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Special",
+    "effect": ""
+  },
+  "Metal Sound": {
+    "type": "Steel",
+    "category": "Status",
+    "power": null,
+    "accuracy": 85,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Meteor Beam": {
+    "type": "Rock",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Meteor Mash": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Minimize": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move, while increasing your evasion, makes you more vulnerable to certain attacks. These attacks ignore the evasion boost and do double the original damage. These moves are: Body Slam, Dragon Rush, Flying Press, Heat Crash, Heavy Slam, Phantom Force, Steamroller, Stomp"
+  },
+  "Mirror Coat": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": -5,
+    "target": "Special",
+    "effect": ""
+  },
+  "Misty Explosion": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 100,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Misty Terrain": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It protects the Pok\u00e9mon from status afflictions and halves the power of Dragon-type moves for Pok\u00e9mon on the ground"
+  },
+  "Moonblast": {
+    "type": "Fairy",
+    "category": "Special",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Moonlight": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move recovers its HP depending upon the weather. If no weather is in effect, it heals the user by 50% of their maximum Hit Points. If Sunny Day is in effect, this move heals the user by 66.66% of its maximum Hit Points and if Rain Dance, Hail or Sandstorm is in effect, this move heals the user by 25% of their maximum Hit Points"
+  },
+  "Morning Sun": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move recovers its HP depending upon the weather. If no weather is in effect, it heals the user by 50% of their maximum Hit Points. If Sunny Day is in effect, this move heals the user by 66.66% of its maximum Hit Points and if Rain Dance, Hail or Sandstorm is in effect, this move heals the user by 25% of their maximum Hit Points"
+  },
+  "Mortal Spin": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 30,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent Opponents",
+    "effect": ""
+  },
+  "Mountain Gale": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Mud Shot": {
+    "type": "Ground",
+    "category": "Special",
+    "power": 55,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Mud-Slap": {
+    "type": "Ground",
+    "category": "Special",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Muddy Water": {
+    "type": "Water",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 85,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Mystical Fire": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Nasty Plot": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Night Daze": {
+    "type": "Dark",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Night Shade": {
+    "type": "Ghost",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Night Slash": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Noble Roar": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Nuzzle": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Outrage": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Random Target",
+    "effect": ""
+  },
+  "Overheat": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 130,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pain Split": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Parabolic Charge": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Parting Shot": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Payback": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Perish Song": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "All",
+    "effect": ""
+  },
+  "Petal Blizzard": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Petal Dance": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Random Target",
+    "effect": ""
+  },
+  "Phantom Force": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pin Missile": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 95,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Play Rough": {
+    "type": "Fairy",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pluck": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Poison Fang": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Poison Jab": {
+    "type": "Poison",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Poison Powder": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": 75,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pollen Puff": {
+    "type": "Bug",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Poltergeist": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 110,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Population Bomb": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 20,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pounce": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Pound": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Power Gem": {
+    "type": "Rock",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Power Split": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Power Swap": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Power Trick": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Power Trip": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pok\u00e9mon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
+  },
+  "Power Whip": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 85,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Protect": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Psych Up": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Psychic": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Psychic Fangs": {
+    "type": "Psychic",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move will remove any Reflect, Light Screen, Aurora Veil or that is in play on the opponent's team."
+  },
+  "Psychic Noise": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Psychic Terrain": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It prevents all Pok\u00e9mon on the ground from using attacks or being targeted by attacks with increased priority from opposing Pok\u00e9mon, and boosts the power of Psychic-type moves on grounded Pok\u00e9mon by 30%"
+  },
+  "Psycho Cut": {
+    "type": "Psychic",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Psyshield Bash": {
+    "type": "Psychic",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Ally",
+    "effect": ""
+  },
+  "Psyshock": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Quash": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Quick Attack": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Quick Guard": {
+    "type": "Fighting",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Unknown",
+    "effect": "Unlike Protect, which works on all moves, Quick Guard prevents all effects from moves with a heightened Speed Priority. In addition to that, it also protects all the player's Pok\u00e9mon on the field rather than just the user."
+  },
+  "Quiver Dance": {
+    "type": "Bug",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Rage Powder": {
+    "type": "Bug",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 2,
+    "target": "Self",
+    "effect": ""
+  },
+  "Raging Bull": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move's type changes based on the user's form.\r\nIf Combat Breed, the move is a Fighting-type move\r\nIf Blaze Breed, the move is a Fire-type move\r\nIf Aqua Breed, the move is a Water-type move."
+  },
+  "Raging Fury": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Random Target",
+    "effect": ""
+  },
+  "Rain Dance": {
+    "type": "Water",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Rapid Spin": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Razor Shell": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 95,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Recover": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Recycle": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Reflect": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Ally",
+    "effect": ""
+  },
+  "Reflect Type": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Rest": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Reversal": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Rising Voltage": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Roar": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": -6,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Rock Blast": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Rock Polish": {
+    "type": "Rock",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Rock Slide": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Rock Tomb": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Rock Wrecker": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 150,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Role Play": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move changes the user's abiliy to that of the target Pok\u00e9mon. Doesn't work on Pok\u00e9mon with the Wonder Guard ability."
+  },
+  "Roost": {
+    "type": "Flying",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Round": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move increases in power when used by different Pok\u00e9mon on your side in a single turn. When Round is used by multiple Pok\u00e9mon, the Pok\u00e9mon will immediately use it, regardless of Speed or Priority. Each consecutive use of this move has the power doubled up until it hits the maximum of 240."
+  },
+  "Sacred Sword": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Safeguard": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Ally",
+    "effect": ""
+  },
+  "Salt Cure": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sand Tomb": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 35,
+    "accuracy": 85,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sandstorm": {
+    "type": "Rock",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Scald": {
+    "type": "Water",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Scale Shot": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 90,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Scary Face": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Scorching Sands": {
+    "type": "Ground",
+    "category": "Special",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Screech": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 85,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Seed Bomb": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Seismic Toss": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Self-Destruct": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 200,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Shadow Ball": {
+    "type": "Ghost",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Shadow Claw": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Shadow Punch": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 101,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Shadow Sneak": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Shed Tail": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Sheer Cold": {
+    "type": "Ice",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 30,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has its accuracy lowered when used by non-Ice-type Pok\u00e9mon;, and cannot damage Ice-type Pok\u00e9mon"
+  },
+  "Shell Side Arm": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "If Shell Side Arm becomes a Physical move, it will make Physical Contact as well.\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t20 %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Shell Side Arm as standard in Pok\u00e9mon Champions"
+  },
+  "Shell Smash": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Shelter": {
+    "type": "Steel",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Simple Beam": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Changes the target's ability to be Simple. This does not work on Pok\u00e9mon with the abilities Multitype, Stance Change, or Truant."
+  },
+  "Sing": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 55,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Skill Swap": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move will switch the users ability to the ability of the target Pok\u00e9mon if that Pok\u00e9mon does not have the Illusion, Wonder Guard, Stance Change, Multitype, RKS System, Zen Mode, Battle Bond, Comatose, Gulp Missile, DIsguise, Hunger Switch, Neutralizing Gas, Shields Down, Schooling, Power Construct, As One - Unnerve Chilling Neigh, As One - Unnerve Grim Neigh, Zero to Hero, Commander, Hadron Engine, Orichalcum Pulse, Protosynthesis & Quark Drive abilities"
+  },
+  "Skitter Smack": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sky Attack": {
+    "type": "Flying",
+    "category": "Physical",
+    "power": 140,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Slack Off": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Sleep Powder": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 75,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sleep Talk": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Sludge Bomb": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sludge Wave": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 95,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Smack Down": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "In addition to removing Ground-type immunities, this move can also affect Pok\u00e9mon that have flown up into the air using Fly or Bounce. Doing so cancels the move. It can hit Pok\u00e9mon using or affected by Sky Drop but doesn't cancel the move."
+  },
+  "Smart Strike": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 101,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Snap Trap": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 35,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Snarl": {
+    "type": "Dark",
+    "category": "Special",
+    "power": 55,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Snore": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Snowscape": {
+    "type": "Ice",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Soak": {
+    "type": "Water",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Solar Beam": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "If used during Sunshine, it does not need a turn to charge.If used during Rain, it requires an extra turn to charge and damage is halvedIf used during Snow or Sandstorm, damage is halved."
+  },
+  "Solar Blade": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 125,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "If used during Sunshine, it does not need a turn to charge.If used during Rain, it requires an extra turn to charge and damage is halvedIf used during Snow or Sandstorm, damage is halved."
+  },
+  "Sparkling Aria": {
+    "type": "Water",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Speed Swap": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Spicy Extract": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Spikes": {
+    "type": "Ground",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Enemy Side",
+    "effect": "The damage that is given through Spikes is determined by the amount of layers that you place:"
+  },
+  "Spiky Shield": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 4,
+    "target": "Self",
+    "effect": "This move if used in succession with other protection moves has its success rate cut with each successive use until the 7th successive use where it caps off."
+  },
+  "Spirit Shackle": {
+    "type": "Ghost",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Spit Up": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 1,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has four tiers of damage; 3 are stockpiled, 1 isn't. Unfortunately the one that isn't is that the attack doesn't do anything if you haven't stockpiled so you have to make sure to Stockpile first.If you use Spit Up after 1 Stockpile, the Base Power will be 100If you use Spit Up after 2 Stockpiles, the Base Power will be 200If you use Spit Up after 3 Stockpiles, the Base Power will be 300"
+  },
+  "Spite": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Stealth Rock": {
+    "type": "Rock",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Enemy Side",
+    "effect": "Stealth Rock's damaging methods are rather unique. Instead of doing a set amount of damage for the amount of layers given, it instead is based on the opponent's type. The attack is a Rock Type attack so the damage is based upon the opponent's Weakness to it. For a full chart, click here"
+  },
+  "Steel Beam": {
+    "type": "Steel",
+    "category": "Special",
+    "power": 140,
+    "accuracy": 95,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Steel Roller": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 130,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Steel Wing": {
+    "type": "Steel",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 90,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sticky Web": {
+    "type": "Bug",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Enemy Side",
+    "effect": ""
+  },
+  "Stockpile": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Stomping Tantrum": {
+    "type": "Ground",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Stone Axe": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 90,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Stone Edge": {
+    "type": "Rock",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 80,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Stored Power": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 20,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pok\u00e9mon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
+  },
+  "Storm Throw": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Strength Sap": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "String Shot": {
+    "type": "Bug",
+    "category": "Status",
+    "power": null,
+    "accuracy": 95,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Struggle Bug": {
+    "type": "Bug",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Stuff Cheeks": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Stun Spore": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 75,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Substitute": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move creates a Substitute on the field using 1/4 of its maximum Hit Points. This substitute will receive all damage from attacks until its Hit Points are depleted. There are several moves that hit beyond the substitute"
+  },
+  "Sucker Punch": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sunny Day": {
+    "type": "Fire",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Super Fang": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 1,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Supercell Slam": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 100,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Superpower": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Surf": {
+    "type": "Water",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Swagger": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 85,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Swallow": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move has four tiers of healing; 3 are stockpiled, 1 isn't. Unfortunately the one that isn't is that the attack doesn't do anything if you haven't stockpiled so you have to make sure to Stockpile first.If you use Swallow after 1 Stockpile, you will recover 1/4 of your Max HPIf you use Swallow after 2 Stockpiles, you will recover 1/2 of your Max HPIf you use Swallow after 3 Stockpiles, you will recover all of your Max HP"
+  },
+  "Sweet Kiss": {
+    "type": "Fairy",
+    "category": "Status",
+    "power": null,
+    "accuracy": 75,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Sweet Scent": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": ""
+  },
+  "Switcheroo": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Swords Dance": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Synthesis": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": "This move recovers its HP depending upon the weather. If no weather is in effect, it heals the user by 50% of their maximum Hit Points. If Sunny Day is in effect, this move heals the user by 66.66% of its maximum Hit Points and if Rain Dance, Hail or Sandstorm is in effect, this move heals the user by 25% of their maximum Hit Points"
+  },
+  "Syrup Bomb": {
+    "type": "Grass",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Tail Slap": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 25,
+    "accuracy": 85,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Tailwind": {
+    "type": "Flying",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 16,
+    "priority": 0,
+    "target": "Ally",
+    "effect": ""
+  },
+  "Taunt": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Tearful Look": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Teatime": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "All",
+    "effect": ""
+  },
+  "Teeter Dance": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "All Adjacent",
+    "effect": ""
+  },
+  "Temper Flare": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Terrain Pulse": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thief": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thrash": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Random Target",
+    "effect": ""
+  },
+  "Throat Chop": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thunder": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 110,
+    "accuracy": 70,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has different accuracies depending upon the weather. In Rain, it has an accuracy of 100%. In Sunshine, it has an accuracy of 50%. In all other weather states, it has an accuracy of 70%."
+  },
+  "Thunder Fang": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 95,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thunder Punch": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 75,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thunder Wave": {
+    "type": "Electric",
+    "category": "Status",
+    "power": null,
+    "accuracy": 90,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Thunderbolt": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Tickle": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Tidy Up": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Torch Song": {
+    "type": "Fire",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Torment": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Toxic": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Toxic Spikes": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Enemy Side",
+    "effect": "Toxic Spikes is the only Entry Hazard attack that does not afflict damage on the Pok\u00e9mon straight away. Instead, it inflicts them with the Poison Condition. It does not affect Pok\u00e9mon of the Flying Type, Steel Type, Poison Type or Pok\u00e9mon with the Levitate Ability"
+  },
+  "Toxic Thread": {
+    "type": "Poison",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Trailblaze": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Transform": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Transform can change many features of the Pok\u00e9mon temporarily. The features are as follows;Pok\u00e9mon SpeciesPok\u00e9mon CryAttack StatDefense StatSpeed StatSpecial Attack StatSpecial Defense StatStat ChangesEXP YieldPok\u00e9mon MovesAs such, this means that apart from its HitPoints and Level, Ditto/Mew is essentially the other Pok\u00e9mon.  Also, the EV training that you have put on Ditto becomes void for this battle. However, that said, when Critical Hits happen, it will still be based upon Ditto/Mew's stats."
+  },
+  "Tri Attack": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Trick": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Trick Room": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": -7,
+    "target": "Field",
+    "effect": ""
+  },
+  "Trick-or-Treat": {
+    "type": "Ghost",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Triple Arrows": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Triple Axel": {
+    "type": "Ice",
+    "category": "Physical",
+    "power": 20,
+    "accuracy": 90,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Trop Kick": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Twin Beam": {
+    "type": "Psychic",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "U-turn": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Upper Hand": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 3,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Uproar": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Random Target",
+    "effect": ""
+  },
+  "Vacuum Wave": {
+    "type": "Fighting",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Venoshock": {
+    "type": "Poison",
+    "category": "Special",
+    "power": 65,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Volt Switch": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Volt Tackle": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Water Pulse": {
+    "type": "Water",
+    "category": "Special",
+    "power": 60,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Water Shuriken": {
+    "type": "Water",
+    "category": "Special",
+    "power": 15,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 1,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Water Spout": {
+    "type": "Water",
+    "category": "Special",
+    "power": 150,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "All Adjacent Foes",
+    "effect": "Power wise, this attack has a Base Power of 150 but that completely changes all depending on the HP. This is calculated in the manner below:"
+  },
+  "Waterfall": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Wave Crash": {
+    "type": "Water",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Weather Ball": {
+    "type": "Normal",
+    "category": "Special",
+    "power": 50,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move changes type based on the weather. In Sun it's Fire-type, in Rain it's Water-type, in Hail it's Ice-type and in Sandstorms it's Rock-type. When Dynamaxed, the Max Move also changes type accordingly so in Sun it summons Max Flare, Rain it is Max Geyser, Snow it's Max Hailstorm and Sandstorm it's Max Rockfall."
+  },
+  "Whirlpool": {
+    "type": "Water",
+    "category": "Special",
+    "power": 35,
+    "accuracy": 85,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Whirlwind": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": -6,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Wide Guard": {
+    "type": "Rock",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 3,
+    "target": "Ally",
+    "effect": "Wide Guard protects against specific moves, specifically moves which have more than one target such as Surf & Earthquake. In addition to protecting the user, it protects all of the user's allies in battle for that turn."
+  },
+  "Wild Charge": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 90,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Will-O-Wisp": {
+    "type": "Fire",
+    "category": "Status",
+    "power": null,
+    "accuracy": 85,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Wish": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": ""
+  },
+  "Wonder Room": {
+    "type": "Psychic",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": ""
+  },
+  "Wood Hammer": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Worry Seed": {
+    "type": "Grass",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Wrap": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 15,
+    "accuracy": 90,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "X-Scissor": {
+    "type": "Bug",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Yawn": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Zap Cannon": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 120,
+    "accuracy": 50,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  },
+  "Zen Headbutt": {
+    "type": "Psychic",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 90,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": ""
+  }
+}
