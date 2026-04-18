@@ -47,14 +47,16 @@ Establish the team's core pair. For each Pokemon:
 4. Explain why these two work together (type synergy, role coverage, archetype fit)
 5. Note what role each plays in a bring-4 context -- these two will likely appear in most bring-4 groups. Example: "Garchomp is your primary attacker, Whimsicott is your speed control -- expect to bring both in most games."
 
-### 3. Build Out (slots 3-4)
+### 3. Build Out (slots 3-4) -- Complete the Core-4
 
-Identify gaps in the current team:
+The goal is to complete your default bring-4 group. Identify gaps in the current pair:
 1. **Type gaps** -- Read type-chart.json + roster types. Which types can the team not resist? Which types can't the team hit super-effectively?
 2. **Role gaps** -- Load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out?
 3. **Meta threats** -- Fetch Pikalytics. Which top-usage Pokemon threaten the current core?
 
-For each gap, suggest 2-3 Pokemon from the roster that address it. Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, note any pair synergies with existing team members -- load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
+For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, note any pair synergies with existing team members -- load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
+
+**After slot 4 is chosen, present a core-4 summary:** "Your default bring is [A, B, C, D]. This group has [roles covered: speed control, Fake Out, spread damage, etc.]. It struggles against [specific threats or archetypes the core-4 can't handle]." This summary frames slots 5-6 as solving those problems.
 
 ### 4. Final Slots (5-6)
 
