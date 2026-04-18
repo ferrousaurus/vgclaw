@@ -27,6 +27,7 @@ Conversational team builder for Pokemon Champions VGC. Guides intermediate playe
 - `reference/roles.md` -- VGC role definitions
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
+- `reference/synergies.md` -- pair synergy patterns (offensive combos, defensive pivots, mode pairs)
 
 ## Workflow
 
