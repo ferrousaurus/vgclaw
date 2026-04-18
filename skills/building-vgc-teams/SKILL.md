@@ -58,13 +58,16 @@ For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate cand
 
 **After slot 4 is chosen, present a core-4 summary:** "Your default bring is [A, B, C, D]. This group has [roles covered: speed control, Fake Out, spread damage, etc.]. It struggles against [specific threats or archetypes the core-4 can't handle]." This summary frames slots 5-6 as solving those problems.
 
-### 4. Final Slots (5-6)
+### 4. Alternate Mode Slots (5-6)
 
-Fill remaining holes:
-- Coverage gaps from the type analysis
-- Anti-meta picks that handle common threats
-- "Glue" Pokemon that support the team's game plan
-- Pair synergy -- does the new Pokemon form strong mode pairs or offensive combos with existing members? A Pokemon that fills a type gap AND creates a Fake Out + setup pair is better than one that only fills the type gap.
+Slots 5-6 enable alternate modes for matchups the core-4 struggles against. Reference the core-4 summary from step 3.
+
+For each slot, suggest 2-3 Pokemon framed as swap-ins:
+- **Name which core-4 member it replaces** and in what matchup. Example: "Swap Torkoal in for Whimsicott against Trick Room teams -- Torkoal gives you a Trick Room mode with Hatterene instead of a Tailwind mode."
+- **Describe the alternate mode it creates.** What is the game plan for the resulting group of 4? How does it differ from the core-4's plan?
+- **Pair synergy** -- does the new Pokemon form strong mode pairs or offensive combos with the remaining core members? A Pokemon that enables a coherent alternate mode is better than one that just fills a type gap.
+
+If the team only has one viable mode after both slots are filled, flag it: "Your team currently brings the same 4 every game. Consider [alternative Pokemon] for slot [N] to give you a [description] mode against [matchup]."
 
 ### 5. Set Refinement
 
