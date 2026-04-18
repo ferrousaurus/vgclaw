@@ -88,7 +88,7 @@ Cross-reference with Pikalytics common sets when available. The user customizes 
 
 ### 6. Team Analysis
 
-Run all four analysis layers. Present results clearly.
+Run all five analysis layers. Present results clearly.
 
 **Type Coverage Matrix:**
 
@@ -107,6 +107,24 @@ Do not list all 15 pairs. Present only the notable findings:
 *Anti-synergy flags:* Identify pairs that are actively bad together on the field. Shared weaknesses with no cross-coverage, redundant roles (two redirectors, two Fake Out users with nothing to enable), or conflicting strategies (Tailwind setter paired with a Trick Room setter and no plan to use both modes). Only flag pairs where the anti-synergy is meaningful -- two Pokemon sharing one weakness is normal, two Pokemon sharing three weaknesses with no cross-coverage is a flag.
 
 *Missing synergy gaps:* Check whether the team is missing synergy patterns that its archetype typically wants. Reference the team's archetype from `reference/archetypes.md` if one was chosen in step 1. Examples: a hyper offense team with no Fake Out + setup pair, a rain team with no spread move + immunity combo, a team with setup sweepers but no redirector or Fake Out user to enable them. Not every team needs every pattern -- flag gaps as observations, not failures.
+
+**Bring-4 Mode Analysis:**
+
+Identify and validate the team's bring-4 groups.
+
+*1. Identify modes.* Name the core-4 (the default bring group established in step 3) and any alternate modes enabled by slots 5-6. A "mode" is a group of 4 with a coherent game plan (fast offense, Trick Room, anti-weather, etc.). Alternate modes swap 1-2 members from the core-4. List each mode with its 4 members and one-line game plan.
+
+*2. Validate each mode.* For each mode, check:
+- Does this group of 4 have speed control?
+- Does it have a win condition (setup sweeper, spread damage, etc.)?
+- Are there critical type gaps (a type hitting 3+ of the 4 super-effectively with no resist among them)?
+- Does it have pair synergy (Fake Out + setup, redirect + sweeper, etc.)?
+
+Flag modes missing something critical. If a mode fails validation (e.g., no speed control and no way to deal damage before the opponent moves), say so directly and suggest a fix.
+
+*3. Map modes to matchups.* Using the Pikalytics meta threats, suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]"
+
+*4. Mode coverage gaps.* If a common meta archetype (from Pikalytics top-usage trends) has no good mode answer, flag it and suggest a fix: a move/item change on an existing member, or a slot 5-6 replacement that would create a viable mode for that matchup.
 
 **Threat List:**
 
