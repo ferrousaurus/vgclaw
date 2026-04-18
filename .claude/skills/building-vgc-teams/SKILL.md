@@ -9,16 +9,17 @@ Conversational team builder for Pokemon Champions VGC. Guides intermediate playe
 
 ## Gatekeeper Rule
 
-**NEVER suggest a Pokemon that is not in champions-roster.json.** Before suggesting any Pokemon, verify it exists in the roster. This applies regardless of what PokeAPI or Pikalytics data says. The roster is the single source of truth for Champions legality.
+**NEVER suggest a Pokemon that is not in champions-roster.json.** Before suggesting any Pokemon, verify it exists in the roster. This applies regardless of what Pikalytics data says. The roster is the single source of truth for Champions legality.
 
 ## Data Sources
 
 **Local (always read first):**
-- `champions-roster.json` -- legal Pokemon with types and base stats
+- `champions-roster.json` -- legal Pokemon with types, base stats, abilities, moves, and mega data
 - `type-chart.json` -- type effectiveness multipliers (2, 1, 0.5, 0). Missing entries = 1x.
+- `moves.json` -- move details (type, category, power, accuracy, priority, target, effect)
+- `abilities.json` -- ability effects
 
 **Runtime fetches:**
-- **PokeAPI** -- `https://pokeapi.co/api/v2/pokemon/{name}` for abilities, moves. Use lowercase hyphenated names (e.g., `mr-rime`, `kommo-o`). User is final authority on moveset accuracy -- PokeAPI reflects mainline games, not Champions-specific changes.
 - **Pikalytics** -- Fetch `https://www.pikalytics.com/champions` for current usage stats, top threats, common sets, and teammates. Parse what you can from the HTML. If the fetch fails, ask the user what they're seeing in the meta.
 
 **Reference (load when needed):**
@@ -38,7 +39,7 @@ Three entry points:
 
 Establish the team's core pair. For each Pokemon:
 1. Verify it's in champions-roster.json
-2. Fetch its data from PokeAPI (abilities, moves)
+2. Read its abilities and moves from the roster. Look up move details in moves.json and ability effects in abilities.json as needed.
 3. Suggest a competitive set (moves, ability, item) as a starting point
 4. Explain why these two work together (type synergy, role coverage, archetype fit)
 
@@ -67,7 +68,7 @@ For each of the 6 Pokemon, suggest a starting set:
 - Nature
 - EVs (suggest a simple spread like 252/252/4 as a baseline)
 
-Pull known competitive sets from PokeAPI move data + Pikalytics common sets. The user customizes from here.
+Build sets from the Pokemon's available moves and abilities in champions-roster.json. Look up move details (type, power, category) in moves.json. Cross-reference with Pikalytics common sets when available. The user customizes from here.
 
 ### 6. Team Analysis
 
@@ -122,4 +123,4 @@ Rules: Level 50, EVs total 508 max, no duplicate items, no duplicate Pokemon.
 - The user can jump around: swap a Pokemon, revisit an earlier slot, re-run analysis, or change direction at any time
 - Present 2-3 options when suggesting Pokemon, not a single "correct" answer
 - Explain trade-offs concisely -- the user understands VGC basics
-- When in doubt about Champions-specific data (modified movesets, availability of specific forms), ask the user rather than guessing
+- All move and ability data is Champions-accurate from Serebii. If the user reports a discrepancy, trust the user and note it for roster updates.
