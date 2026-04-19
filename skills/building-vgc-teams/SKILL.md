@@ -1,47 +1,57 @@
 ---
 name: building-vgc-teams
 description: Use when the user wants to build a competitive VGC team for Pokemon Champions, needs help choosing Pokemon, checking type coverage, or evaluating meta matchups
+dependencies:
+  required:
+    - checking-vgc-legality
+  optional:
+    - evaluating-vgc-viability
+    - evaluating-vgc-meta
 ---
 
 # Building VGC Teams
 
 Conversational team builder for Pokemon Champions VGC. Guides intermediate players through constructing a 6-Pokemon team, analyzing its strengths and weaknesses, and exporting in Showdown paste format.
 
-## Gatekeeper Rule
+## Dependency Check
 
-**NEVER suggest a Pokemon that is not in champions-roster.json.** Before suggesting any Pokemon, verify it exists in the roster. This applies regardless of what Pikalytics data says. The roster is the single source of truth for Champions legality.
+Before starting, verify that required skill directories exist.
+
+- **checking-vgc-legality (required):** If this skill's directory is missing, stop and tell the user: "This skill requires the checking-vgc-legality skill. Please install it before continuing." Do not proceed.
+- **evaluating-vgc-viability (optional):** If missing, continue without strategic reference data. Skip synergy scans, archetype references, and role checklists. Do not mention these features to the user.
+- **evaluating-vgc-meta (optional):** If missing, continue without meta context. Use generic, stat-based assessments (e.g., "above-average speed") instead of meta-relative ones (e.g., "faster than Garchomp, a top threat"). Skip threat lists and meta matchup mapping.
 
 ## Data Sources
 
-**Local (always read first):**
+### From checking-vgc-legality (REQUIRED -- stop if skill is missing)
 - `champions-roster.json` -- legal Pokemon with types, base stats, abilities, moves, and mega data
 - `type-chart.json` -- type effectiveness multipliers (2, 1, 0.5, 0). Missing entries = 1x.
 - `moves.json` -- move details (type, category, power, accuracy, priority, target, effect)
 - `abilities.json` -- ability effects
 - `items.json` -- held item details (category, effect)
 
-**Runtime fetches:**
-- **Pikalytics** -- Fetch `https://www.pikalytics.com/champions` for current usage stats, top threats, common sets, and teammates. Parse what you can from the HTML. If the fetch fails, ask the user what they're seeing in the meta.
-
-**Reference (load when needed):**
+### From evaluating-vgc-viability (optional -- degrade gracefully if missing)
 - `reference/roles.md` -- VGC role definitions
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
 - `reference/synergies.md` -- pair synergy patterns (offensive combos, defensive pivots, mode pairs)
+
+### From evaluating-vgc-meta (optional -- degrade gracefully if missing)
+- Pikalytics fetch for current usage stats, top threats, common sets, and teammates
 
 ## Workflow
 
 ### 1. Ask the user how to start
 
 Three entry points:
-- **"I want to build around X"** -- User names 1-2 Pokemon. Verify they're in the roster. Proceed to Foundation.
-- **"I want to play [archetype]"** -- Load archetypes.md, present the relevant core. Proceed to Foundation.
-- **"What's good right now?"** -- Fetch Pikalytics. Present top-usage Pokemon and common cores. Let the user pick a direction.
+- **"I want to build around X"** -- User names 1-2 Pokemon. Verify they're in the roster (from checking-vgc-legality). Proceed to Foundation.
+- **"I want to play [archetype]"** -- If evaluating-vgc-viability is available, load archetypes.md and present the relevant core. Otherwise, work with the user's description of the archetype. Proceed to Foundation.
+- **"What's good right now?"** -- If evaluating-vgc-meta is available, fetch Pikalytics and present top-usage Pokemon and common cores. Otherwise, ask the user what Pokemon or strategies they've been seeing. Let the user pick a direction.
 
 ### 2. Foundation (slots 1-2)
 
 Establish the team's core pair. For each Pokemon:
-1. Verify it's in champions-roster.json
+1. Verify it's in champions-roster.json (from checking-vgc-legality)
 2. Read its abilities and moves from the roster. Look up move details in moves.json and ability effects in abilities.json as needed.
 3. Suggest a competitive set (moves, ability, item) as a starting point
 4. Explain why these two work together (type synergy, role coverage, archetype fit)
@@ -50,11 +60,11 @@ Establish the team's core pair. For each Pokemon:
 ### 3. Build Out (slots 3-4) -- Complete the Core-4
 
 The goal is to complete your default bring-4 group. Identify gaps in the current pair:
-1. **Type gaps** -- Read type-chart.json + roster types. Which types can the team not resist? Which types can't the team hit super-effectively?
-2. **Role gaps** -- Load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out?
-3. **Meta threats** -- Fetch Pikalytics. Which top-usage Pokemon threaten the current core?
+1. **Type gaps** -- Read type-chart.json + roster types (from checking-vgc-legality). Which types can the team not resist? Which types can't the team hit super-effectively?
+2. **Role gaps** -- If evaluating-vgc-viability is available, load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out? If unavailable, assess role coverage based on the team's moves and abilities directly.
+3. **Meta threats** -- If evaluating-vgc-meta is available, fetch Pikalytics to identify which top-usage Pokemon threaten the current core. If unavailable, identify threats based on type matchups and common offensive types.
 
-For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, note any pair synergies with existing team members -- load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
+For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, if evaluating-vgc-viability is available, load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
 
 **After slot 4 is chosen, present a core-4 summary:** "Your default bring is [A, B, C, D]. This group has [roles covered: speed control, Fake Out, spread damage, etc.]. It struggles against [specific threats or archetypes the core-4 can't handle]." This summary frames slots 5-6 as solving those problems.
 
@@ -65,14 +75,14 @@ Slots 5-6 enable alternate modes for matchups the core-4 struggles against. Refe
 For each slot, suggest 2-3 Pokemon framed as swap-ins:
 - **Name which core-4 member it replaces** and in what matchup. Example: "Swap Torkoal in for Whimsicott against Trick Room teams -- Torkoal gives you a Trick Room mode with Hatterene instead of a Tailwind mode."
 - **Describe the alternate mode it creates.** What is the game plan for the resulting group of 4? How does it differ from the core-4's plan?
-- **Pair synergy** -- does the new Pokemon form strong mode pairs or offensive combos with the remaining core members? A Pokemon that enables a coherent alternate mode is better than one that just fills a type gap.
+- **Pair synergy** -- does the new Pokemon form strong mode pairs or offensive combos with the remaining core members? If evaluating-vgc-viability is available, reference synergy patterns from synergies.md. A Pokemon that enables a coherent alternate mode is better than one that just fills a type gap.
 
 If the team only has one viable mode after both slots are filled, flag it: "Your team currently brings the same 4 every game. Consider [alternative Pokemon] for slot [N] to give you a [description] mode against [matchup]."
 
 **Alternate Mega candidates:** If the core-4 includes a Mega Stone carrier (the primary Mega), at least one slot 5-6 candidate across both rounds should be Mega-eligible (has a `mega` field in champions-roster.json) with a Mega form that addresses the primary Mega's bad matchups. If none of the organic candidates are Mega-eligible, add one as an additional option (the list grows from 2-3 to 3-4 candidates for that slot). Prioritize candidates whose Mega form counter-types what counters the primary Mega. Note if the candidate also enables a different game plan as a secondary benefit.
 
 When presenting a Mega-eligible candidate:
-- Note it carries a Mega Stone and **replaces the primary Mega in the bring-4** — two Mega Stone carriers must never appear in the same bring-4 group.
+- Note it carries a Mega Stone and **replaces the primary Mega in the bring-4** -- two Mega Stone carriers must never appear in the same bring-4 group.
 - Explain what the Mega form addresses and which specific counters to the primary Mega it handles. Example: "Mega Scizor threatens the Fairy types that wall Mega Feraligatr's Dragonize."
 - If the user declines the alternate Mega for both slots, accept the decision and move on. The alternate Mega is always a recommendation, never forced.
 
@@ -85,27 +95,27 @@ For each of the 6 Pokemon, suggest a starting set:
 - Nature
 - EVs (suggest a simple spread like 252/252/4 as a baseline)
 
-Build sets from the Pokemon's available moves and abilities in champions-roster.json. Look up move details (type, power, category) in moves.json.
+Build sets from the Pokemon's available moves and abilities in champions-roster.json (from checking-vgc-legality). Look up move details (type, power, category) in moves.json.
 
-**Item selection:** Load `reference/items.md` for selection heuristics. For each Pokemon, suggest an item based on its role and the team's existing items. Verify the item exists in `items.json`. Enforce no duplicate items across the team. If a Pokemon is Mega-eligible and the team doesn't already have a Mega, consider whether the Mega Stone is worth the item slot.
+**Item selection:** If evaluating-vgc-viability is available, load `reference/items.md` for selection heuristics. For each Pokemon, suggest an item based on its role and the team's existing items. Verify the item exists in `items.json` (from checking-vgc-legality). Enforce no duplicate items across the team. If a Pokemon is Mega-eligible and the team doesn't already have a Mega, consider whether the Mega Stone is worth the item slot.
 
-Cross-reference with Pikalytics common sets when available. The user customizes from here.
+If evaluating-vgc-meta is available, cross-reference with Pikalytics common sets. The user customizes from here.
 
 **Mode-aware sets:** Consider which bring-4 groups each Pokemon participates in. Pokemon appearing in multiple modes should have versatile sets (e.g., balanced EV spreads, moves useful in both game plans). Pokemon appearing in only one mode can be more specialized (e.g., min-speed Torkoal for Trick Room mode only). Mention this trade-off when it's relevant to the set choice, not for every Pokemon.
 
 ### 6. Team Analysis
 
-Run all five analysis layers. Present results clearly.
+Run all applicable analysis layers. Present results clearly.
 
 **Type Coverage Matrix:**
 
-Defensive -- for each team member, list weaknesses and resistances using type-chart.json. Flag any type that hits 3+ team members super-effectively.
+Defensive -- for each team member, list weaknesses and resistances using type-chart.json (from checking-vgc-legality). Flag any type that hits 3+ team members super-effectively.
 
 Offensive -- for each team member's STAB types + main coverage moves, list what types the team hits super-effectively. Flag types the team has no super-effective coverage against.
 
-**Pair Synergy Scan:**
+**Pair Synergy Scan (requires evaluating-vgc-viability):**
 
-Load `reference/synergies.md`. For each of the 15 possible pairs on the team, check the pair against each synergy category (offensive combos, defensive pivot pairs, mode pairs) using the team's actual moves, abilities, and types from the data files.
+If evaluating-vgc-viability is available, load `reference/synergies.md`. For each of the 15 possible pairs on the team, check the pair against each synergy category (offensive combos, defensive pivot pairs, mode pairs) using the team's actual moves, abilities, and types from the data files (from checking-vgc-legality).
 
 Do not list all 15 pairs. Present only the notable findings:
 
@@ -113,7 +123,9 @@ Do not list all 15 pairs. Present only the notable findings:
 
 *Anti-synergy flags:* Identify pairs that are actively bad together on the field. Shared weaknesses with no cross-coverage, redundant roles (two redirectors, two Fake Out users with nothing to enable), or conflicting strategies (Tailwind setter paired with a Trick Room setter and no plan to use both modes). Only flag pairs where the anti-synergy is meaningful -- two Pokemon sharing one weakness is normal, two Pokemon sharing three weaknesses with no cross-coverage is a flag.
 
-*Missing synergy gaps:* Check whether the team is missing synergy patterns that its archetype typically wants. Reference the team's archetype from `reference/archetypes.md` if one was chosen in step 1. Examples: a hyper offense team with no Fake Out + setup pair, a rain team with no spread move + immunity combo, a team with setup sweepers but no redirector or Fake Out user to enable them. Not every team needs every pattern -- flag gaps as observations, not failures.
+*Missing synergy gaps:* Check whether the team is missing synergy patterns that its archetype typically wants. Reference the team's archetype from `reference/archetypes.md` (from evaluating-vgc-viability) if one was chosen in step 1. Examples: a hyper offense team with no Fake Out + setup pair, a rain team with no spread move + immunity combo, a team with setup sweepers but no redirector or Fake Out user to enable them. Not every team needs every pattern -- flag gaps as observations, not failures.
+
+If evaluating-vgc-viability is unavailable, skip the Pair Synergy Scan entirely.
 
 **Bring-4 Mode Analysis:**
 
@@ -129,20 +141,26 @@ Identify and validate the team's bring-4 groups.
 
 Flag modes missing something critical. If a mode fails validation (e.g., no speed control and no way to deal damage before the opponent moves), say so directly and suggest a fix. When validating an alternate-Mega mode, evaluate using the alternate Mega's Mega stats and ability from champions-roster.json (not its base form). The primary Mega is benched in this mode and irrelevant to validation.
 
-*3. Map modes to matchups.* Using the Pikalytics meta threats, suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]" Explicitly map alternate-Mega modes to the matchups that counter the primary Mega. Example: "Against Fairy-heavy teams: bring Alternate Mega mode -- swap Feraligatr for Mega Scizor. Scizor's Steel STAB threatens Fairies that wall Dragonize."
+*3. Map modes to matchups.* If evaluating-vgc-meta is available, use Pikalytics meta threats to suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]" Explicitly map alternate-Mega modes to the matchups that counter the primary Mega. Example: "Against Fairy-heavy teams: bring Alternate Mega mode -- swap Feraligatr for Mega Scizor. Scizor's Steel STAB threatens Fairies that wall Dragonize."
 
-*4. Mode coverage gaps.* If a common meta archetype (from Pikalytics top-usage trends) has no good mode answer, flag it and suggest a fix: a move/item change on an existing member, or a slot 5-6 replacement that would create a viable mode for that matchup. If the team has no alternate Mega and the primary Mega is countered by a common meta archetype, flag it specifically: "Your primary Mega [X] is countered by [archetype] and you have no alternate Mega mode. Consider adding [Mega-eligible Pokemon] in slot [N]."
+If evaluating-vgc-meta is unavailable, map modes to general type-based matchups instead of specific meta archetypes.
 
-**Threat List:**
+*4. Mode coverage gaps.* If evaluating-vgc-meta is available and a common meta archetype (from Pikalytics top-usage trends) has no good mode answer, flag it and suggest a fix: a move/item change on an existing member, or a slot 5-6 replacement that would create a viable mode for that matchup. If the team has no alternate Mega and the primary Mega is countered by a common meta archetype, flag it specifically: "Your primary Mega [X] is countered by [archetype] and you have no alternate Mega mode. Consider adding [Mega-eligible Pokemon] in slot [N]."
 
-Fetch Pikalytics top-usage Pokemon. For each high-usage threat:
+If evaluating-vgc-meta is unavailable, assess mode coverage gaps based on type matchups only.
+
+**Threat List (requires evaluating-vgc-meta):**
+
+If evaluating-vgc-meta is available, fetch Pikalytics top-usage Pokemon. For each high-usage threat:
 - Which team members handle it well?
 - Which team members lose to it?
 - If the team has no good answer, suggest counterplay (move change, item swap, or team member replacement)
 
-**Role Checklist:**
+If evaluating-vgc-meta is unavailable, skip the Threat List entirely.
 
-Load roles.md. Check which roles the team covers:
+**Role Checklist (requires evaluating-vgc-viability):**
+
+If evaluating-vgc-viability is available, load roles.md. Check which roles the team covers:
 - [ ] Speed control
 - [ ] Intimidate / Attack drops
 - [ ] Redirection
@@ -152,6 +170,8 @@ Load roles.md. Check which roles the team covers:
 - [ ] Weather/Terrain (if relevant to the archetype)
 
 Not every team needs every role. Flag gaps as information, not failures.
+
+If evaluating-vgc-viability is unavailable, skip the Role Checklist entirely.
 
 ### 7. Export
 
