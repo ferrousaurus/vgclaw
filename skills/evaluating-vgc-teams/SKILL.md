@@ -34,7 +34,10 @@ Before starting, verify that required skill directories exist.
 - `reference/roles.md` -- VGC role definitions
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
-- `reference/synergies.md` -- pair synergy patterns (offensive combos, defensive pivots, mode pairs)
+- `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
+- `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
+- `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
 
 ### From evaluating-vgc-meta (optional -- degrade gracefully if missing)
 - Pikalytics fetch for current usage stats, top threats, common sets, and teammates
@@ -94,6 +97,8 @@ Run a quick pass across all applicable analysis layers to identify the headline 
 > 4. Meta Threat Matchups *(requires evaluating-vgc-meta)*
 > 5. Role Checklist *(requires evaluating-vgc-viability)*
 > 6. Set Optimization
+> 7. Win Condition Assessment *(requires evaluating-vgc-viability)*
+> 8. Lead & Resilience Check *(requires evaluating-vgc-viability)*
 >
 > *"Which area do you want to dig into, or should I go through them in order?"*
 
@@ -237,6 +242,60 @@ Review each Pokemon's individual set for internal consistency and efficiency. Re
 - When suggesting changes, provide specific benchmarks: "84 Spe EVs lets Feraligatr outspeed base 130s after +1 Dragon Dance" or "196 HP / 60 Def survives Adamant Garchomp Earthquake"
 
 **Fixes:** Always specific and justified with benchmarks or matchup reasoning. Tier 1-4 fixes (move, item, ability, EV changes). Set optimization never escalates to a Pokemon swap -- that's handled by other layers.
+
+#### Layer 7: Win Condition Assessment (requires evaluating-vgc-viability)
+
+If evaluating-vgc-viability is unavailable, skip this layer entirely.
+
+Load `reference/win-conditions.md` (from evaluating-vgc-viability). Identify and evaluate the team's win conditions.
+
+**1. Identify win conditions.** For each win condition type in win-conditions.md, check whether the team has it:
+- Setup sweeper? Which Pokemon, which setup move, which enabler?
+- Spread pressure? Which pair, which spread moves?
+- Weather/terrain engine? Which setter + abuser?
+- Trick Room flip? Which setter + which slow attackers?
+- Attrition elements? Intimidate cycling, recovery, status?
+- Single-target burst? Fast attackers that can focus-fire?
+
+**2. Evaluate quality.** For each identified win condition, assess:
+- Dependency count: how many things need to go right?
+- Disruption resilience: what common counterplay shuts it down?
+- Turn count: how many turns until it's online?
+- Independence: how many team members can execute it?
+
+Flag win conditions that are high-dependency or vulnerable to common counterplay (Intimidate, Taunt, Fake Out).
+
+**3. Check sufficiency.** Does the team have at least 2 independent win conditions? Are they in different bring-4 modes? Do they share failure points? Reference archetype expectations from win-conditions.md — weather teams need a non-weather backup, Trick Room teams need a fast fallback, hyper offense teams need multiple independent threats.
+
+**Fixes:**
+- Win condition is fragile due to a fixable dependency (e.g., setup sweeper has no protection from Taunt) -> suggest a move or item change that reduces the dependency (Mental Herb on the setter, a Taunt blocker). Tier 1-2 fix.
+- Team has only one win condition -> suggest a Pokemon swap that adds a second independent path to winning. Identify 2-3 roster Pokemon that provide a different win condition type and explain which slot they'd replace and what the team gains/loses. Tier 5 fix.
+
+#### Layer 8: Lead & Resilience Check (requires evaluating-vgc-viability)
+
+If evaluating-vgc-viability is unavailable, skip this layer entirely.
+
+Load `reference/tempo.md` (from evaluating-vgc-viability). Evaluate lead pairs for each bring-4 mode identified in Layer 3 (Bring-4 Modes) and assess Plan B resilience.
+
+**1. Evaluate leads.** For each mode's natural lead pair, assess per tempo.md:
+- Complementary Turn 1 actions: do both Pokemon have useful, non-conflicting Turn 1 moves?
+- Threat projection: does the lead force the opponent into difficult choices?
+- Flexibility under disruption: what happens if the opponent blocks the primary Turn 1 plan?
+- Match the lead to a lead-pair pattern (Fake Out + Attacker/Setter, Dual Offense, Redirect + Setup, Speed Control + Attacker) and note strengths/weaknesses.
+
+Flag leads that are brittle (one line, no fallback) or passive (one Pokemon contributes nothing on Turn 1).
+
+**2. Assess Plan B resilience.** Run through tempo.md's disruption scenarios against the full team:
+- Lead Pokemon KO'd Turn 1: does an alternate mode survive without the lost Pokemon?
+- Speed control denied: is there backup speed control or naturally fast Pokemon?
+- Weather overwritten (if relevant): can the team function without weather?
+- Setup denied (if relevant): is there a non-setup win condition?
+
+Flag any scenario where the team has zero path to winning.
+
+**Fixes:**
+- Brittle lead pair -> suggest a move change that gives the lead fallback options (e.g., adding Protect to a Pokemon that currently has 4 attacks, or adding a secondary attack to a pure support lead). Tier 1 fix.
+- No alternate mode survives a specific common disruption -> suggest a slot 5-6 swap that adds resilience. Identify 2-3 roster Pokemon that provide a fallback for the scenario and explain the trade-offs. Tier 5 fix.
 
 ### 5. Fix Tracking & Export
 
