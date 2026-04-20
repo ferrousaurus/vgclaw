@@ -2,6 +2,18 @@
 
 A suite of skills for building, evaluating, and refining Pokemon Champions VGC teams. Choose your entry point based on what you need to do.
 
+## Installation
+
+Add the skills to your Agent environment:
+
+```bash
+npx skills add https://github.com/ferrousaurus/vgclaw --skill checking-vgc-legality
+npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-viability
+npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-meta
+npx skills add https://github.com/ferrousaurus/vgclaw --skill building-vgc-teams
+npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-teams
+```
+
 ## Quick Start
 
 ### I want to build a new VGC team
@@ -18,8 +30,6 @@ Use the **evaluating-vgc-teams** skill.
 - Suggests tiered fixes (move swaps first, Pokemon swaps last)
 - Exports a revised team with a change diff when you're done
 
----
-
 ## The Five Skills
 
 ### Entry Points
@@ -35,8 +45,6 @@ Conversational team builder for constructing competitive 6-Pokemon teams.
 5. Exports the final team in Showdown paste format
 
 **Best for:** Starting a team from scratch or pivoting to a new archetype
-
----
 
 #### **evaluating-vgc-teams**
 Team analyzer and optimizer for existing teams.
@@ -57,8 +65,6 @@ Team analyzer and optimizer for existing teams.
 
 **Best for:** Iterating on an existing team or preparing for competition
 
----
-
 ### Reference Data (Auto-Loaded as Needed)
 
 #### **checking-vgc-legality**
@@ -72,8 +78,6 @@ Team analyzer and optimizer for existing teams.
 - `type-chart.json` — Type effectiveness matchups (used to check coverage)
 
 **How it's used:** Both entry-point skills read from these files to validate Pokemon, suggest sets, and check type coverage. You'll never directly invoke this skill—it's used behind the scenes.
-
----
 
 #### **evaluating-vgc-viability**
 Optional dependency. Provides strategic reference guides.
@@ -90,8 +94,6 @@ Optional dependency. Provides strategic reference guides.
 - Pair synergy analysis (building-vgc-teams and evaluating-vgc-teams will skip this)
 
 The skills will still work, but with less strategic depth.
-
----
 
 #### **evaluating-vgc-meta**
 Optional dependency. Provides current Pokemon Champions meta data.
@@ -112,8 +114,6 @@ Optional dependency. Provides current Pokemon Champions meta data.
 
 The skills will still work, but without real-time meta context.
 
----
-
 ## Workflow Examples
 
 ### Example 1: Building a New Team
@@ -128,8 +128,6 @@ The skills will still work, but without real-time meta context.
 5. You can swap Pokemon, adjust moves/items, or request deeper analysis on any layer
 6. When done, export your team in Showdown paste format
 
----
-
 ### Example 2: Evaluating & Refining an Existing Team
 
 1. Invoke **evaluating-vgc-teams**
@@ -142,8 +140,6 @@ The skills will still work, but without real-time meta context.
 5. For each layer, the skill flags issues and suggests tiered fixes
 6. You accept or reject each fix
 7. Export the revised team with a change diff
-
----
 
 ## Tips & Conventions
 
@@ -176,8 +172,6 @@ Both skills reason about your "bring-4"—the 4 Pokemon you use in each game. Co
 
 When evaluating or building, the skills validate that each mode has speed control, a win condition, and reasonable type coverage.
 
----
-
 ## Dependency Requirements
 
 | Skill | Requires | Optional |
@@ -189,8 +183,6 @@ When evaluating or building, the skills validate that each mode has speed contro
 | **checking-vgc-legality** | None | Backbone data provider for all other skills |
 
 If `checking-vgc-legality` is missing, both entry-point skills will stop and ask you to install it. Optional dependencies degrade gracefully if missing.
-
----
 
 ## When to Use Each Skill
 
@@ -205,22 +197,6 @@ If `checking-vgc-legality` is missing, both entry-point skills will stop and ask
 | "I want role definitions" | **evaluating-vgc-viability** (reference directly) |
 | "I want to know current meta usage rates" | **evaluating-vgc-meta** (reference directly) |
 | "I want to check if a Pokemon is legal" | **checking-vgc-legality** (reference directly) |
-
----
-
-## Installation
-
-Add the skills to your Claude Code environment:
-
-```bash
-npx skills add https://github.com/ferrousaurus/vgclaw --skill checking-vgc-legality
-npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-viability
-npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-meta
-npx skills add https://github.com/ferrousaurus/vgclaw --skill building-vgc-teams
-npx skills add https://github.com/ferrousaurus/vgclaw --skill evaluating-vgc-teams
-```
-
----
 
 ## FAQs
 
@@ -241,8 +217,6 @@ A: Yes. When using **evaluating-vgc-teams**, you can accept some fix suggestions
 
 **Q: What's the difference between a "core-4" and a "bring-4"?**  
 A: Your **core-4** is your default 4 Pokemon (your main game plan). Your **bring-4** is whichever 4 you actually use in any given game. For many matchups, your bring-4 = your core-4. For others, you swap in alternate slots to form a different bring-4 with a different mode.
-
----
 
 ## Next Steps
 
