@@ -34,7 +34,10 @@ Before starting, verify that required skill directories exist.
 - `reference/roles.md` -- VGC role definitions
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
-- `reference/synergies.md` -- pair synergy patterns (offensive combos, defensive pivots, mode pairs)
+- `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
+- `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
+- `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
 
 ### From evaluating-vgc-meta (optional -- degrade gracefully if missing)
 - Pikalytics fetch for current usage stats, top threats, common sets, and teammates
@@ -62,7 +65,9 @@ Establish the team's core pair. For each Pokemon:
 The goal is to complete your default bring-4 group. Identify gaps in the current pair:
 1. **Type gaps** -- Read type-chart.json + roster types (from checking-vgc-legality). Which types can the team not resist? Which types can't the team hit super-effectively?
 2. **Role gaps** -- If evaluating-vgc-viability is available, load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out? If unavailable, assess role coverage based on the team's moves and abilities directly.
-3. **Meta threats** -- If evaluating-vgc-meta is available, fetch Pikalytics to identify which top-usage Pokemon threaten the current core. If unavailable, identify threats based on type matchups and common offensive types.
+3. **Speed tier fit** -- If evaluating-vgc-viability is available, load `reference/speed-tiers.md`. Does the candidate's speed tier fit the team's speed control plan? A mid-tier attacker is ideal for a Tailwind team; a Trick Room-tier attacker suits a TR team. Avoid adding Pokemon whose speed tier conflicts with the team's speed control mode (e.g., a blazing-tier Pokemon on a Trick Room team with no fast mode). If evaluating-vgc-viability is unavailable, assess speed fit by comparing the candidate's base Speed in the roster against the team's speed control options.
+4. **Win condition contribution** -- If evaluating-vgc-viability is available, load `reference/win-conditions.md`. Does the candidate contribute to an existing win condition (e.g., a spread attacker that adds to spread pressure) or enable a new one (e.g., a setup sweeper that gives the team a second path to winning)? Prefer candidates that strengthen existing win conditions or add independent ones over candidates that just fill a type gap. If evaluating-vgc-viability is unavailable, assess win condition contribution based on the candidate's offensive stats, setup moves, and how it interacts with existing team members.
+5. **Meta threats** -- If evaluating-vgc-meta is available, fetch Pikalytics to identify which top-usage Pokemon threaten the current core. If unavailable, identify threats based on type matchups and common offensive types.
 
 For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, if evaluating-vgc-viability is available, load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
 
@@ -172,6 +177,46 @@ If evaluating-vgc-viability is available, load roles.md. Check which roles the t
 Not every team needs every role. Flag gaps as information, not failures.
 
 If evaluating-vgc-viability is unavailable, skip the Role Checklist entirely.
+
+**Win Condition Assessment (requires evaluating-vgc-viability):**
+
+If evaluating-vgc-viability is available, load `reference/win-conditions.md`. Identify the team's win conditions and evaluate them.
+
+*1. Identify win conditions.* For each win condition type in win-conditions.md, check whether the team has it:
+- Setup sweeper? Which Pokemon, which setup move, which enabler?
+- Spread pressure? Which pair, which spread moves?
+- Weather/terrain engine? Which setter + abuser?
+- Trick Room flip? Which setter + which slow attackers?
+- Attrition elements? Intimidate cycling, recovery, status?
+- Single-target burst? Fast attackers that can focus-fire?
+
+*2. Evaluate quality.* For each identified win condition, assess dependency count, disruption resilience, turn count, and independence per win-conditions.md. Flag win conditions that are high-dependency or vulnerable to common counterplay.
+
+*3. Check sufficiency.* Does the team have at least 2 independent win conditions? Are they in different bring-4 modes? Do they share failure points? Reference archetype expectations from win-conditions.md.
+
+If the team has only one win condition, flag it: "This team has one path to winning — [description]. If [common disruption] shuts it down, there's no backup. Consider adding [type of win condition] through [specific suggestion]."
+
+If evaluating-vgc-viability is unavailable, skip the Win Condition Assessment entirely.
+
+**Lead & Resilience Check (requires evaluating-vgc-viability):**
+
+If evaluating-vgc-viability is available, load `reference/tempo.md`. Evaluate lead pairs and Plan B resilience for each bring-4 mode identified in the Bring-4 Mode Analysis above.
+
+*1. Evaluate leads.* For each mode's natural lead pair, assess:
+- Complementary Turn 1 actions (do both Pokemon have useful, non-conflicting Turn 1 moves?)
+- Threat projection (does the lead force the opponent into difficult choices?)
+- Flexibility under disruption (what happens if the opponent blocks the primary plan?)
+- Match the lead to a lead-pair pattern from tempo.md (Fake Out + Attacker/Setter, Dual Offense, Redirect + Setup, Speed Control + Attacker) and note strengths/weaknesses of that pattern.
+
+*2. Assess Plan B resilience.* Run through tempo.md's disruption scenarios:
+- Lead Pokemon KO'd Turn 1: does an alternate mode survive?
+- Speed control denied: is there a backup?
+- Weather overwritten (if relevant): can the team function without weather?
+- Setup denied (if relevant): is there a non-setup win condition?
+
+Flag any scenario where the team has zero path to winning. Suggest structural fixes (alternate mode Pokemon, backup speed control, non-setup attackers).
+
+If evaluating-vgc-viability is unavailable, skip the Lead & Resilience Check entirely.
 
 ### 7. Export
 
