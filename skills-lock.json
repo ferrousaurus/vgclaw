@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "building-vgc-teams": {
+      "source": "ferrousaurus/vgclaude",
+      "sourceType": "github",
+      "computedHash": "41e9162ef20b27f7cfd7881110c3e060e93841c63e9580a0674b5b36c9b4eb46"
+    },
+    "checking-vgc-legality": {
+      "source": "ferrousaurus/vgclaude",
+      "sourceType": "github",
+      "computedHash": "f27688b2deb2e15f1b109aeb833452563a6dce62f2725822cc6cb9cddfb6182d"
+    },
+    "evaluating-vgc-meta": {
+      "source": "ferrousaurus/vgclaude",
+      "sourceType": "github",
+      "computedHash": "0787c463d128f08922bfcebd505c9dfcacad9db4055f679b429752629dd34850"
+    },
+    "evaluating-vgc-teams": {
+      "source": "ferrousaurus/vgclaude",
+      "sourceType": "github",
+      "computedHash": "088aaff41bec7ccaa7af7dc086c712cd5a3de0bf3295d7d78b2258a7eaad2882"
+    },
+    "evaluating-vgc-viability": {
+      "source": "ferrousaurus/vgclaude",
+      "sourceType": "github",
+      "computedHash": "4cd92464b1974d860e3f7c6eaa00c637eba55a99badcec4de82274f141d4eb2f"
+    }
+  }
+}
