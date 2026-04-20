@@ -38,6 +38,7 @@ Before starting, verify that required skill directories exist.
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
+- `reference/stat-calculations.md` -- stat formulas, speed thresholds, damage calculation, bulk and offensive thresholds
 
 ### From evaluating-vgc-meta (optional -- degrade gracefully if missing)
 - Pikalytics fetch for current usage stats, top threats, common sets, and teammates
@@ -67,7 +68,8 @@ The goal is to complete your default bring-4 group. Identify gaps in the current
 2. **Role gaps** -- If evaluating-vgc-viability is available, load roles.md. Does the team have speed control? Intimidate? Redirection? Fake Out? If unavailable, assess role coverage based on the team's moves and abilities directly.
 3. **Speed tier fit** -- If evaluating-vgc-viability is available, load `reference/speed-tiers.md`. Does the candidate's speed tier fit the team's speed control plan? A mid-tier attacker is ideal for a Tailwind team; a Trick Room-tier attacker suits a TR team. Avoid adding Pokemon whose speed tier conflicts with the team's speed control mode (e.g., a blazing-tier Pokemon on a Trick Room team with no fast mode). If evaluating-vgc-viability is unavailable, assess speed fit by comparing the candidate's base Speed in the roster against the team's speed control options.
 4. **Win condition contribution** -- If evaluating-vgc-viability is available, load `reference/win-conditions.md`. Does the candidate contribute to an existing win condition (e.g., a spread attacker that adds to spread pressure) or enable a new one (e.g., a setup sweeper that gives the team a second path to winning)? Prefer candidates that strengthen existing win conditions or add independent ones over candidates that just fill a type gap. If evaluating-vgc-viability is unavailable, assess win condition contribution based on the candidate's offensive stats, setup moves, and how it interacts with existing team members.
-5. **Meta threats** -- If evaluating-vgc-meta is available, fetch Pikalytics to identify which top-usage Pokemon threaten the current core. If unavailable, identify threats based on type matchups and common offensive types.
+5. **Stat-based comparison** -- If evaluating-vgc-viability is available and two candidates are in the same speed tier or fill a similar role, load `reference/stat-calculations.md`. Use Speed Thresholds to determine exactly which threats each candidate outspeeds. Use Offensive Thresholds to compare what each candidate can KO at equivalent investment levels. This turns "both hit hard" into concrete matchup comparisons. If evaluating-vgc-viability is unavailable, compare base stats directly from the roster.
+6. **Meta threats** -- If evaluating-vgc-meta is available, fetch Pikalytics to identify which top-usage Pokemon threaten the current core. If unavailable, identify threats based on type matchups and common offensive types.
 
 For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, if evaluating-vgc-viability is available, load `reference/synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
 
@@ -98,7 +100,7 @@ For each of the 6 Pokemon, suggest a starting set:
 - Held item
 - 4 moves
 - Nature
-- EVs (suggest a simple spread like 252/252/4 as a baseline)
+- EVs: If evaluating-vgc-viability is available, load `reference/stat-calculations.md` and use the Benchmark-First EV Spread Procedure (Section 4). For each Pokemon: (1) identify 1-2 key attacks it must survive and calculate minimum HP/Def/SpD investment, (2) identify 1-2 key speed targets and calculate minimum Speed investment, (3) allocate remaining EVs to offense, (4) verify the resulting offensive stat still achieves needed KOs. If evaluating-vgc-viability is unavailable, suggest a simple spread like 252/252/4 as a baseline.
 
 Build sets from the Pokemon's available moves and abilities in champions-roster.json (from checking-vgc-legality). Look up move details (type, power, category) in moves.json.
 

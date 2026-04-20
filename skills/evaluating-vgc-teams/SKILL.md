@@ -38,6 +38,7 @@ Before starting, verify that required skill directories exist.
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
+- `reference/stat-calculations.md` -- stat formulas, speed thresholds, damage calculation, bulk and offensive thresholds
 
 ### From evaluating-vgc-meta (optional -- degrade gracefully if missing)
 - Pikalytics fetch for current usage stats, top threats, common sets, and teammates
@@ -239,7 +240,7 @@ Review each Pokemon's individual set for internal consistency and efficiency. Re
 **EVs/Nature:** Check for:
 - Nature that conflicts with the Pokemon's role (Adamant on a special attacker)
 - EV spread that doesn't serve the set (Speed investment on a Trick Room Pokemon, no HP investment on a tank)
-- When suggesting changes, provide specific benchmarks: "84 Spe EVs lets Feraligatr outspeed base 130s after +1 Dragon Dance" or "196 HP / 60 Def survives Adamant Garchomp Earthquake"
+- When suggesting changes, calculate exact benchmarks using `reference/stat-calculations.md` (if evaluating-vgc-viability is available). Use Speed Thresholds (Section 2) for speed benchmarks, Bulk Thresholds (Section 4) for survival benchmarks, and Offensive Thresholds (Section 5) for KO benchmarks. Example: "84 Spe EVs gives Feraligatr 109 Speed, outspeeding max Speed Adamant Excadrill (base 88 = 106 Speed) after +1 Dragon Dance (109 * 1.5 = 163 vs 106)" or "196 HP / 60 Def lets Feraligatr survive 252+ Atk Garchomp Earthquake (calculate damage via Section 3)." If evaluating-vgc-viability is unavailable, provide benchmarks based on general stat comparisons.
 
 **Fixes:** Always specific and justified with benchmarks or matchup reasoning. Tier 1-4 fixes (move, item, ability, EV changes). Set optimization never escalates to a Pokemon swap -- that's handled by other layers.
 

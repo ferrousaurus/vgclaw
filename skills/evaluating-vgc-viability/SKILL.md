@@ -16,3 +16,4 @@ Data provider for VGC strategic reference guides. This skill is not invoked dire
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
+- `reference/stat-calculations.md` -- stat formulas, speed thresholds, damage calculation, bulk and offensive thresholds
