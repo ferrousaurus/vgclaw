@@ -1,7 +1,7 @@
 const fs = require("fs")
 const path = require("path")
 
-const repoRoot = process.cwd()
+const repoRoot = path.resolve(__dirname, "..")
 const agents = [
   {
     name: "teambuilder",
