@@ -1,6 +1,6 @@
 ---
 name: evaluating-vgc-viability
-description: Provides strategic reference guides for Pokemon Champions VGC — role definitions, team archetypes, item heuristics, and pair synergy patterns. Optional dependency for team building and evaluation skills.
+description: Provides strategic reference guides for Pokemon Champions VGC — role definitions, team archetypes, item heuristics, pair synergy patterns, and team-structure heuristics. Optional dependency for team building and evaluation skills.
 ---
 
 # Evaluating VGC Viability

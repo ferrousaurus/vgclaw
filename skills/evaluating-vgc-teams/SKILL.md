@@ -169,8 +169,11 @@ Flag modes missing something critical. If a mode fails validation (e.g., no spee
 
 When validating an alternate-Mega mode, evaluate using the alternate Mega's Mega stats and ability from champions-roster.json (not its base form). The primary Mega is benched in this mode and irrelevant to validation.
 
-- If evaluating-vgc-viability is available, load `reference/team-structure.md` as a separate team-level structural check and assess whether the roster has a completed canonical type trio that materially supports the validated modes. If one exists, mention it briefly as bonus structural credit. Example: "The roster's Fire-Water-Grass trio gives this mode set stronger defensive pivot coverage than the pairs alone provide."
-- Do not award partial credit for incomplete trios and do not flag missing trios as a weakness.
+**Team Structure Check (bonus, requires evaluating-vgc-viability):** Run this as a separate team-level check, not as part of mode validation.
+
+If evaluating-vgc-viability is available, load `reference/team-structure.md` and assess whether the roster has a completed canonical type trio that materially supports the validated modes. If one exists, mention it briefly as bonus structural credit. Example: "The roster's Fire-Water-Grass trio gives this mode set stronger defensive pivot coverage than the pairs alone provide."
+
+Do not award partial credit for incomplete trios and do not flag missing trios as a weakness.
 
 **3. Map modes to matchups.** If evaluating-vgc-meta is available, use Pikalytics meta data to suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]"
 

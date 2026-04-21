@@ -92,7 +92,7 @@ Optional dependency. Provides strategic reference guides.
 **What happens if it's missing:** Both entry-point skills degrade gracefully. You'll lose:
 - Archetype-specific role checklists, synergy patterns, and team-structure heuristics
 - Strategic reference data for suggesting Pokemon
-- Pair synergy and type-trio analysis (building-vgc-teams and evaluating-vgc-teams will skip this)
+- Pair synergy checks and bonus team-structure credit for completed canonical type trios
 
 The skills will still work, but with less strategic depth.
 
