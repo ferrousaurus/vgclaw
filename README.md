@@ -79,7 +79,7 @@ Team analyzer and optimizer for existing teams.
 - `items.json` — Held item details
 - `type-chart.json` — Type effectiveness matchups (used to check coverage)
 
-**How it's used:** Both entry-point skills read from these files to validate Pokemon, suggest sets, and check type coverage. You'll never directly invoke this skill—it's used behind the scenes.
+**How it's used:** Both entry-point skills usually load this data behind the scenes to validate Pokemon, suggest sets, and check type coverage. It also acts as a reference provider when you want to inspect legality data directly.
 
 #### **evaluating-vgc-viability**
 Optional dependency. Provides strategic reference guides.
@@ -90,6 +90,10 @@ Optional dependency. Provides strategic reference guides.
 - `reference/items.md` — Item selection heuristics
 - `reference/synergies.md` — Pair synergy patterns (offensive combos, defensive pivots, mode pairs)
 - `reference/team-structure.md` — Team-level structural heuristics, including canonical type trio patterns
+- `reference/speed-tiers.md` — Speed tier framework and speed control heuristics
+- `reference/win-conditions.md` — Win condition types and sufficiency heuristics
+- `reference/tempo.md` — Lead-pair and resilience heuristics
+- `reference/stat-calculations.md` — Stat formulas and benchmark guidance
 
 **What happens if it's missing:** Both entry-point skills degrade gracefully. You'll lose:
 - Archetype-specific role checklists, synergy patterns, and team-structure heuristics
@@ -207,7 +211,7 @@ If `checking-vgc-legality` is missing, both entry-point skills will stop and ask
 A: Yes. Both entry-point skills work without `evaluating-vgc-viability` or `evaluating-vgc-meta`, but with reduced strategic depth. You'll get stat-based assessments instead of meta-relative ones, and some analysis layers will be skipped.
 
 **Q: Do I need to invoke the reference skills directly?**  
-A: No. They auto-load when needed. Just invoke **building-vgc-teams** or **evaluating-vgc-teams**, and they'll fetch reference data as required.
+A: Usually no. They auto-load when needed from **building-vgc-teams** or **evaluating-vgc-teams**, but they still act as reference providers if you want the source material directly.
 
 **Q: What happens if the Pikalytics fetch fails?**  
 A: If **evaluating-vgc-meta** can't fetch meta data, the skill will ask you what you're seeing in the current meta. It won't guess or fabricate usage stats.
@@ -225,4 +229,4 @@ A: Your **core-4** is your default 4 Pokemon (your main game plan). Your **bring
 
 - **Ready to build?** Invoke **building-vgc-teams** and choose your starting point.
 - **Ready to refine?** Invoke **evaluating-vgc-teams** and paste your team.
-- **Want to learn more?** Reference **evaluating-vgc-viability** for role, archetype, and synergy definitions.
+- **Want to learn more?** Use **evaluating-vgc-viability** as a reference provider for role, archetype, and synergy definitions.

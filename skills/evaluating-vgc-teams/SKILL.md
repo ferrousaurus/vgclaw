@@ -104,7 +104,7 @@ Run a quick pass across all applicable analysis layers to identify the headline 
 >
 > *"Which area do you want to dig into, or should I go through them in order?"*
 
-Only list drill-down areas whose dependencies are available. If evaluating-vgc-viability is unavailable, omit Pair Synergies and Role Checklist from the list. If evaluating-vgc-meta is unavailable, omit Meta Threat Matchups from the list.
+Only list drill-down areas whose dependencies are available. If evaluating-vgc-viability is unavailable, omit Pair Synergies, Role Checklist, Win Condition Assessment, and Lead & Resilience Check from the list. If evaluating-vgc-meta is unavailable, omit Meta Threat Matchups from the list.
 
 The summary requires reading data files (from checking-vgc-legality) and, if evaluating-vgc-meta is available, fetching Pikalytics to identify the top issues. If evaluating-vgc-meta is unavailable, base the summary on type matchups and stat analysis only. If the team has fewer than 6 Pokemon, note it here: "This team has N/6 slots filled."
 
