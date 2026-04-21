@@ -90,9 +90,9 @@ Optional dependency. Provides strategic reference guides.
 - `reference/team-structure.md` — Team-level structural heuristics, including canonical type trio patterns
 
 **What happens if it's missing:** Both entry-point skills degrade gracefully. You'll lose:
-- Archetype-specific role checklists and synergy patterns
+- Archetype-specific role checklists, synergy patterns, and team-structure heuristics
 - Strategic reference data for suggesting Pokemon
-- Pair synergy analysis (building-vgc-teams and evaluating-vgc-teams will skip this)
+- Pair synergy and type-trio analysis (building-vgc-teams and evaluating-vgc-teams will skip this)
 
 The skills will still work, but with less strategic depth.
 
