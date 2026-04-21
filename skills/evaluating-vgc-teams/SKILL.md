@@ -18,7 +18,7 @@ Evaluates existing Pokemon Champions VGC teams from Showdown paste format. Auto-
 Before starting, verify that required skill directories exist.
 
 - **checking-vgc-legality (required):** If this skill's directory is missing, stop and tell the user: "This skill requires the checking-vgc-legality skill. Please install it before continuing." Do not proceed.
-- **evaluating-vgc-viability (optional):** If missing, continue without strategic reference data. Skip synergy scans, archetype references, and role checklists. Do not mention these features to the user.
+- **evaluating-vgc-viability (optional):** If missing, continue without strategic reference data. Skip synergy scans, archetype references, role checklists, and team-structure/trio bonus reasoning. Do not mention these features to the user.
 - **evaluating-vgc-meta (optional):** If missing, continue without meta context. Use generic, stat-based assessments (e.g., "above-average speed") instead of meta-relative ones (e.g., "faster than Garchomp, a top threat"). Skip threat lists and meta matchup mapping.
 
 ## Data Sources

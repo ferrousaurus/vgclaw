@@ -53,13 +53,15 @@ Team analyzer and optimizer for existing teams.
 1. Parses your Showdown paste and validates legality
 2. Auto-detects your team's archetype (Rain, Trick Room, Hyper Offense, etc.)
 3. Provides a summary verdict with top strengths and issues
-4. Offers six drill-down analysis layers:
+4. Offers eight drill-down analysis layers:
    - Type Coverage (offensive/defensive gaps)
    - Pair Synergies (how well your Pokemon work together)
    - Bring-4 Modes (your different game plans and their matchups)
    - Meta Threat Matchups (how you handle current top threats)
    - Role Checklist (do you have speed control, Intimidate, Fake Out, etc.)
    - Set Optimization (individual Pokemon tuning)
+   - Win Condition Assessment (how clearly the team closes games)
+   - Lead & Resilience Check (how reliably your plans start and recover)
 5. Suggests tiered fixes: move changes first, then item/ability changes, then EV adjustments, then Pokemon swaps
 6. Exports a revised team with all accepted changes applied
 
