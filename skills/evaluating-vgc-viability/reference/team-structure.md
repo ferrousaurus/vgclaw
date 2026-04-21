@@ -60,6 +60,6 @@ The classic offensive pressure loop. These types tend to force different defensi
 
 ## Applying Trio Heuristics In Team Analysis
 
-When a completed, meaningful trio is present, mention it briefly as bonus structural credit in the team analysis. Example: "The team gains bonus structural credit from a defensive Fire-Water-Grass trio that smooths defensive pivots across its likely brings."
+When a completed canonical type trio is present, mention it briefly as bonus structural credit in the team analysis. Example: "The team gains bonus structural credit from a defensive Fire-Water-Grass trio that smooths defensive pivots across its likely brings."
 
 If no meaningful trio is present, say nothing. Teams do not need a type trio to be viable.
