@@ -9,7 +9,7 @@
     "checking-vgc-legality": {
       "source": "ferrousaurus/vgclaude",
       "sourceType": "github",
-      "computedHash": "f27688b2deb2e15f1b109aeb833452563a6dce62f2725822cc6cb9cddfb6182d"
+      "computedHash": "53dfb64abdd5352fdf26cccd87bdb9f1c2be81aae355a6e92136897dc2215228"
     },
     "evaluating-vgc-meta": {
       "source": "ferrousaurus/vgclaude",
