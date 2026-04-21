@@ -7,6 +7,7 @@ const agents = [
     name: "teambuilder",
     path: path.join(repoRoot, ".opencode/agents/teambuilder.md"),
     requiredSnippets: [
+      "description:",
       "mode: primary",
       "Pokemon Champions VGC doubles",
       "Bring 6 / Pick 4",
@@ -18,6 +19,7 @@ const agents = [
     name: "critic",
     path: path.join(repoRoot, ".opencode/agents/critic.md"),
     requiredSnippets: [
+      "description:",
       "mode: primary",
       "Pokemon Champions VGC doubles",
       "Bring 6 / Pick 4",
