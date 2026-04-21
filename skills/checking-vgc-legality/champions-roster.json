@@ -1155,7 +1155,6 @@
       "Play Rough",
       "Protect",
       "Psychic Fangs",
-      "Raging Fury",
       "Rest",
       "Reversal",
       "Roar",
@@ -2227,7 +2226,7 @@
     ]
   },
   {
-    "name": "Tauros-Paldea",
+    "name": "Tauros-Paldea-Combat",
     "types": [
       "Fighting"
     ],
