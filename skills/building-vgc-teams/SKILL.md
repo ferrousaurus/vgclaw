@@ -35,6 +35,7 @@ Before starting, verify that required skill directories exist.
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
 - `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/team-structure.md` -- team-level structural heuristics, including canonical type trio patterns
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
@@ -133,6 +134,16 @@ Do not list all 15 pairs. Present only the notable findings:
 *Missing synergy gaps:* Check whether the team is missing synergy patterns that its archetype typically wants. Reference the team's archetype from `reference/archetypes.md` (from evaluating-vgc-viability) if one was chosen in step 1. Examples: a hyper offense team with no Fake Out + setup pair, a rain team with no spread move + immunity combo, a team with setup sweepers but no redirector or Fake Out user to enable them. Not every team needs every pattern -- flag gaps as observations, not failures.
 
 If evaluating-vgc-viability is unavailable, skip the Pair Synergy Scan entirely.
+
+**Team Structure Check (requires evaluating-vgc-viability):**
+
+If evaluating-vgc-viability is available, load `reference/team-structure.md`. Check the team for completed canonical type trios that materially support its likely bring-4 patterns.
+
+Only mention meaningful completed trios as bonus structural credit. Examples: a defensive Fire-Water-Grass trio that smooths pivots across modes, or an offensive Dragon-Fairy-Steel trio that broadens pressure across defensive answers.
+
+Do not score near-misses, do not penalize teams for lacking a trio, and do not force trio analysis ahead of pair synergy, roles, or win conditions.
+
+If evaluating-vgc-viability is unavailable, skip the Team Structure Check entirely.
 
 **Bring-4 Mode Analysis:**
 
