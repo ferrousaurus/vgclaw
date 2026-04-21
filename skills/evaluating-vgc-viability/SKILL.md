@@ -13,6 +13,7 @@ Data provider for VGC strategic reference guides. This skill is not invoked dire
 - `reference/archetypes.md` -- common team archetypes (Rain, Sun, Sand, Snow, Trick Room, Hyper Offense, Goodstuffs)
 - `reference/items.md` -- item selection heuristics for Champions' item pool
 - `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/team-structure.md` -- team-level structural heuristics, including canonical type trio patterns
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics

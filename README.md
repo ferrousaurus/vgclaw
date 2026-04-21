@@ -87,6 +87,7 @@ Optional dependency. Provides strategic reference guides.
 - `reference/archetypes.md` — Common team archetypes (Rain, Sun, Sand, Snow, Trick Room, Hyper Offense, Goodstuffs)
 - `reference/items.md` — Item selection heuristics
 - `reference/synergies.md` — Pair synergy patterns (offensive combos, defensive pivots, mode pairs)
+- `reference/team-structure.md` — Team-level structural heuristics, including canonical type trio patterns
 
 **What happens if it's missing:** Both entry-point skills degrade gracefully. You'll lose:
 - Archetype-specific role checklists and synergy patterns
