@@ -18,7 +18,7 @@ Evaluates existing Pokemon Champions VGC teams from Showdown paste format. Auto-
 Before starting, verify that required skill directories exist.
 
 - **checking-vgc-legality (required):** If this skill's directory is missing, stop and tell the user: "This skill requires the checking-vgc-legality skill. Please install it before continuing." Do not proceed.
-- **evaluating-vgc-viability (optional):** If missing, continue without strategic reference data. Skip synergy scans, archetype references, and role checklists. Do not mention these features to the user.
+- **evaluating-vgc-viability (optional):** If missing, continue without strategic reference data. Skip synergy scans, archetype references, role checklists, and team-structure/trio bonus reasoning. Do not mention these features to the user.
 - **evaluating-vgc-meta (optional):** If missing, continue without meta context. Use generic, stat-based assessments (e.g., "above-average speed") instead of meta-relative ones (e.g., "faster than Garchomp, a top threat"). Skip threat lists and meta matchup mapping.
 
 ## Data Sources
@@ -35,6 +35,7 @@ Before starting, verify that required skill directories exist.
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
 - `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/team-structure.md` -- team-level structural heuristics, including canonical type trio patterns
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
@@ -103,7 +104,7 @@ Run a quick pass across all applicable analysis layers to identify the headline 
 >
 > *"Which area do you want to dig into, or should I go through them in order?"*
 
-Only list drill-down areas whose dependencies are available. If evaluating-vgc-viability is unavailable, omit Pair Synergies and Role Checklist from the list. If evaluating-vgc-meta is unavailable, omit Meta Threat Matchups from the list.
+Only list drill-down areas whose dependencies are available. If evaluating-vgc-viability is unavailable, omit Pair Synergies, Role Checklist, Win Condition Assessment, and Lead & Resilience Check from the list. If evaluating-vgc-meta is unavailable, omit Meta Threat Matchups from the list.
 
 The summary requires reading data files (from checking-vgc-legality) and, if evaluating-vgc-meta is available, fetching Pikalytics to identify the top issues. If evaluating-vgc-meta is unavailable, base the summary on type matchups and stat analysis only. If the team has fewer than 6 Pokemon, note it here: "This team has N/6 slots filled."
 
@@ -167,6 +168,12 @@ Two Mega Stone carriers must never appear in the same bring-4 group.
 Flag modes missing something critical. If a mode fails validation (e.g., no speed control and no way to deal damage before the opponent moves), say so directly and suggest a fix.
 
 When validating an alternate-Mega mode, evaluate using the alternate Mega's Mega stats and ability from champions-roster.json (not its base form). The primary Mega is benched in this mode and irrelevant to validation.
+
+**Team Structure Check (bonus, requires evaluating-vgc-viability):** Run this as a separate team-level check, not as part of mode validation.
+
+If evaluating-vgc-viability is available, load `reference/team-structure.md` and assess whether the roster has a completed canonical type trio that materially supports the validated modes. If one exists, mention it briefly as bonus structural credit. Example: "The roster's Fire-Water-Grass trio gives this mode set stronger defensive pivot coverage than the pairs alone provide."
+
+Do not award partial credit for incomplete trios and do not flag missing trios as a weakness.
 
 **3. Map modes to matchups.** If evaluating-vgc-meta is available, use Pikalytics meta data to suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]"
 
