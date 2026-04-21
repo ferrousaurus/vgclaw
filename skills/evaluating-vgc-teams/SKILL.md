@@ -35,6 +35,7 @@ Before starting, verify that required skill directories exist.
 - `reference/archetypes.md` -- common team archetypes
 - `reference/items.md` -- item selection heuristics
 - `reference/synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
+- `reference/team-structure.md` -- team-level structural heuristics, including canonical type trio patterns
 - `reference/speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
 - `reference/win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
 - `reference/tempo.md` -- lead pair evaluation and game-plan resilience heuristics
@@ -167,6 +168,9 @@ Two Mega Stone carriers must never appear in the same bring-4 group.
 Flag modes missing something critical. If a mode fails validation (e.g., no speed control and no way to deal damage before the opponent moves), say so directly and suggest a fix.
 
 When validating an alternate-Mega mode, evaluate using the alternate Mega's Mega stats and ability from champions-roster.json (not its base form). The primary Mega is benched in this mode and irrelevant to validation.
+
+- If evaluating-vgc-viability is available, load `reference/team-structure.md` after pair synergy review and check whether the roster has a completed canonical type trio that materially supports the validated modes. If one exists, mention it briefly as bonus structural credit. Example: "The roster's Fire-Water-Grass trio gives this mode set stronger defensive pivot coverage than the pairs alone provide."
+- Do not award partial credit for incomplete trios and do not flag missing trios as a weakness.
 
 **3. Map modes to matchups.** If evaluating-vgc-meta is available, use Pikalytics meta data to suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]"
 
