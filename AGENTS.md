@@ -1,15 +1,14 @@
 # VGC Skills Workspace
 
-This repository defines project-local OpenCode skills in `.agents/skills/*/SKILL.md`.
+This repository defines project-local OpenCode skills in `.opencode/skills/*/SKILL.md`.
 
-On startup, load and expose those skills from the project-local `.agents/skills` directory.
+On startup, load and expose those skills from the project-local `.opencode/skills` directory.
 
 Available skills in this repo:
 
-- `building-vgc-teams`
-- `checking-vgc-legality`
+- `checking-vgc-team-legality`
 - `evaluating-vgc-meta`
-- `evaluating-vgc-teams`
-- `evaluating-vgc-viability`
+- `evaluating-vgc-team-viability`
+- `sharing-vgc-team`
 
-Use these repo-local skills whenever the user request matches their descriptions. Prefer the local skill definitions in `.agents/skills` as the source of truth for VGC-specific behavior in this workspace.
+Use these repo-local skills whenever the user request matches their descriptions. Prefer the local skill definitions in `.opencode/skills` as the source of truth for VGC-specific behavior in this workspace.

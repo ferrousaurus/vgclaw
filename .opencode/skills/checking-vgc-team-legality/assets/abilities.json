@@ -1,0 +1,642 @@
+{
+  "Adaptability": {
+    "effect": "Powers up moves of the same type as the Pokémon.",
+    "stabModifier": 2.0
+  },
+  "Aerilate": {
+    "effect": "Normal-type moves become Flying-type moves. The power of those moves is boosted a little.",
+    "damageModifier": 1.2,
+    "damageCondition": "Normal-type moves changed to Flying-type"
+  },
+  "Aftermath": {
+    "effect": "Damages the attacker if it contacts the Pokémon with a finishing hit."
+  },
+  "Analytic": {
+    "effect": "Boosts move power when the Pokémon moves last.",
+    "damageModifier": 1.3,
+    "damageCondition": "when the Pokemon moves last"
+  },
+  "Anger Point": {
+    "effect": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat."
+  },
+  "Anticipation": {
+    "effect": "The Pokémon can sense an opposing Pokémon's dangerous moves."
+  },
+  "Armor Tail": {
+    "effect": "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies."
+  },
+  "Aroma Veil": {
+    "effect": "Protects itself and its allies from attacks that limit their move choices."
+  },
+  "Battle Bond": {
+    "effect": "Defeating an opposing Pokémon strengthens the Pokémon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.In Scarlet & Violet, changes to boost Attack, Speed and Special Attack when opponents are knocked out."
+  },
+  "Berserk": {
+    "effect": "Boosts the Pokémon's Sp. Atk stat when it takes a  hit that causes its HP to become half or less."
+  },
+  "Big Pecks": {
+    "effect": "Protects the Pokémon from Defense-lowering effects."
+  },
+  "Blaze": {
+    "effect": "Powers up Fire-type moves when the Pokémon's HP is low."
+  },
+  "Bulletproof": {
+    "effect": "Protects the Pokémon from some ball and bomb moves."
+  },
+  "Cheek Pouch": {
+    "effect": "Restores HP as well when the Pokémon eats a Berry."
+  },
+  "Chlorophyll": {
+    "effect": "Boosts the Pokémon's Speed stat in sunshine.",
+    "speedModifier": 2.0,
+    "damageCondition": "in Sun"
+  },
+  "Clear Body": {
+    "effect": "Prevents other Pokémon's moves or Abilities from lowering the Pokémon's stats."
+  },
+  "Cloud Nine": {
+    "effect": "Eliminates the effects of weather."
+  },
+  "Competitive": {
+    "effect": "Boosts the Sp. Atk stat sharply when a stat is lowered."
+  },
+  "Compoundeyes": {
+    "effect": "The Pokémon's compound eyes boost its accuracy."
+  },
+  "Contrary": {
+    "effect": "Makes stat changes have an opposite effect."
+  },
+  "Corrosion": {
+    "effect": "The Pokémon can poison the target even if it's a Steel or Poison type."
+  },
+  "Cud Chew": {
+    "effect": "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time."
+  },
+  "Curious Medicine": {
+    "effect": "When the Pokémon  is brought into battle, any stat alterations of allies are removed"
+  },
+  "Cursed Body": {
+    "effect": "May disable a move used on the Pokémon."
+  },
+  "Cute Charm": {
+    "effect": "Contact with the Pokémon may cause infatuation."
+  },
+  "Damp": {
+    "effect": "Prevents the use of explosive moves such as Self-Destruct by dampening its surroundings."
+  },
+  "Defiant": {
+    "effect": "Boosts the Pokémon's Attack stat sharply when its stats are lowered."
+  },
+  "Disguise": {
+    "effect": "Once per battle, the shroud that covers the Pokémon can protect it from an attack."
+  },
+  "Dragonize": {
+    "effect": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%.",
+    "damageModifier": 1.2,
+    "damageCondition": "Normal-type moves changed to Dragon-type"
+  },
+  "Drizzle": {
+    "effect": "The Pokémon makes it rain when it enters a battle."
+  },
+  "Drought": {
+    "effect": "Turns the sunlight harsh when the Pokémon enters a battle."
+  },
+  "Dry Skin": {
+    "effect": "Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, and increases the damage received from Fire-type moves.",
+    "damageModifier": 1.25,
+    "damageCondition": "Fire-type moves (takes more damage)"
+  },
+  "Early Bird": {
+    "effect": "The Pokémon awakens twice as fast as other Pokémon from sleep."
+  },
+  "Earth Eater": {
+    "effect": "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage."
+  },
+  "Electromorphosis": {
+    "effect": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses."
+  },
+  "Fairy Aura": {
+    "effect": "Powers up each Pokémon's Fairy-type moves."
+  },
+  "Filter": {
+    "effect": "Reduces the power of supereffective attacks taken.",
+    "damageModifier": 0.75,
+    "damageCondition": "when hit by a supereffective move"
+  },
+  "Flame Body": {
+    "effect": "Contact with the Pokémon may burn the attacker."
+  },
+  "Flash Fire": {
+    "effect": "Powers up the Pokémon's Fire-type moves if it's hit by one.",
+    "damageModifier": 1.5,
+    "damageCondition": "Fire-type moves when activated"
+  },
+  "Flower Veil": {
+    "effect": "Ally Grass-type Pokémon are protected from status conditions and the lowering of their stats."
+  },
+  "Forecast": {
+    "effect": "The Pokémon transforms with the weather to change its type to Water, Fire, or Ice."
+  },
+  "Friend Guard": {
+    "effect": "Reduces damage done to allies.",
+    "damageModifier": 0.75,
+    "damageCondition": "damage dealt to ally Pokemon"
+  },
+  "Frisk": {
+    "effect": "When it enters a battle, the Pokémon can check an opposing Pokémon's held item."
+  },
+  "Fur Coat": {
+    "effect": "Halves the damage from physical moves onto this Pokémon.",
+    "damageModifier": 0.5,
+    "damageCondition": "physical moves only"
+  },
+  "Gale Wings": {
+    "effect": "Gives priority to Flying-type moves when the  Pokémon's HP is full."
+  },
+  "Gluttony": {
+    "effect": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual."
+  },
+  "Gooey": {
+    "effect": "Contact with the Pokémon lowers the attacker's Speed stat."
+  },
+  "Guts": {
+    "effect": "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
+    "atkModifier": 1.5,
+    "damageCondition": "when the Pokemon has a status condition"
+  },
+  "Harvest": {
+    "effect": "May create another Berry after one is used."
+  },
+  "Healer": {
+    "effect": "Sometimes heals an ally's status condition."
+  },
+  "Heatproof": {
+    "effect": "The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.",
+    "damageModifier": 0.5,
+    "damageCondition": "Fire-type moves only"
+  },
+  "Heavy Metal": {
+    "effect": "Doubles the Pokémon's weight."
+  },
+  "Hospitality": {
+    "effect": "When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP."
+  },
+  "Huge Power": {
+    "effect": "Doubles the Pokémon's Attack stat.",
+    "atkModifier": 2.0
+  },
+  "Hunger Switch": {
+    "effect": "The Pokémon changes its form, alternating between its Full Belly Mode and Hangry Mode after the end of each turn."
+  },
+  "Hustle": {
+    "effect": "Boosts the Attack stat, but lowers accuracy.",
+    "atkModifier": 1.5
+  },
+  "Hydration": {
+    "effect": "Heals status conditions if it's raining."
+  },
+  "Hyper Cutter": {
+    "effect": "The Pokémon's proud of its powerful pincers. They prevent other Pokémon from lowering its Attack stat."
+  },
+  "Ice Body": {
+    "effect": "The Pokémon gradually regains HP in a Snowstorm."
+  },
+  "Illuminate": {
+    "effect": "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings."
+  },
+  "Illusion": {
+    "effect": "Comes out disguised as the Pokémon in the party's last spot."
+  },
+  "Immunity": {
+    "effect": "The immune system of the Pokémon prevents it from getting poisoned."
+  },
+  "Imposter": {
+    "effect": "The Pokémon transforms itself into the Pokémon it's facing."
+  },
+  "Infiltrator": {
+    "effect": "Passes through the opposing Pokémon's barrier, substitute, and the like and strikes."
+  },
+  "Innards Out": {
+    "effect": "Damages the attacker landing the finishing hit by the amount equal to its last HP."
+  },
+  "Inner Focus": {
+    "effect": "The Pokémon's intensely focused, and that protects the Pokémon from flinching."
+  },
+  "Insomnia": {
+    "effect": "The Pokémon is suffering from insomnia and cannot fall asleep."
+  },
+  "Intimidate": {
+    "effect": "The Pokémon intimidates opposing Pokémon upon entering battle, lowering their Attack stat.",
+    "atkModifier": 0.67,
+    "damageCondition": "applied to opponents on switch-in"
+  },
+  "Iron Fist": {
+    "effect": "Powers up punching moves.",
+    "damageModifier": 1.2,
+    "damageCondition": "punching moves only"
+  },
+  "Justified": {
+    "effect": "Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice."
+  },
+  "Keen Eye": {
+    "effect": "Keen eyes prevent other Pokémon from lowering this Pokémon's accuracy."
+  },
+  "Klutz": {
+    "effect": "The Pokémon can't use any held items."
+  },
+  "Leaf Guard": {
+    "effect": "Prevents status conditions in sunny weather."
+  },
+  "Levitate": {
+    "effect": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+  },
+  "Light Metal": {
+    "effect": "Halves the Pokémon's weight."
+  },
+  "Lightning Rod": {
+    "effect": "The Pokémon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk."
+  },
+  "Limber": {
+    "effect": "Its limber body protects the Pokémon from paralysis."
+  },
+  "Liquid Voice": {
+    "effect": "All sound-based moves become Water-type moves."
+  },
+  "Long Reach": {
+    "effect": "The Pokémon uses its moves without making contact with the target."
+  },
+  "Magic Bounce": {
+    "effect": "Reflects status moves, instead of getting hit by them."
+  },
+  "Magic Guard": {
+    "effect": "The Pokémon only takes damage from attacks."
+  },
+  "Magician": {
+    "effect": "The Pokémon steals the held item of a Pokémon it hits with a move."
+  },
+  "Magma Armor": {
+    "effect": "The Pokémon is covered with hot magma, which prevents the Pokémon from becoming frozen."
+  },
+  "Marvel Scale": {
+    "effect": "The Pokémon's marvelous scales boost the Defense stat if it has a status condition."
+  },
+  "Mega Launcher": {
+    "effect": "Powers up aura and pulse moves.",
+    "damageModifier": 1.5,
+    "damageCondition": "aura and pulse moves only"
+  },
+  "Mega Sol": {
+    "effect": "Even when the sunlight has not turned harsh, the Pokémon can use its moves as if the weather were harsh sunlight."
+  },
+  "Merciless": {
+    "effect": "The Pokémon's attacks become critical hits if the target is poisoned."
+  },
+  "Mimicry": {
+    "effect": "Changes the Pokémon's type depending on the terrain."
+  },
+  "Minus": {
+    "effect": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+  },
+  "Mirror Armor": {
+    "effect": "Bounces back only the stat-lowering effects that the Pokémon receives."
+  },
+  "Mold Breaker": {
+    "effect": "Moves can be used on the target regardless of its Abilities."
+  },
+  "Moody": {
+    "effect": "Raises one stat sharply and lowers another every turn."
+  },
+  "Motor Drive": {
+    "effect": "Boosts its Speed stat if hit by an Electric-type move, instead of taking damage."
+  },
+  "Moxie": {
+    "effect": "The Pokémon shows moxie, and that boosts the Attack stat after knocking out any Pokémon."
+  },
+  "Multiscale": {
+    "effect": "Reduces the amount of damage the Pokémon takes when its HP is full.",
+    "damageModifier": 0.5,
+    "damageCondition": "when defender is at full HP"
+  },
+  "Mummy": {
+    "effect": "Contact with the Pokémon changes the attacker's Ability to Mummy."
+  },
+  "Natural Cure": {
+    "effect": "All status conditions heal when the Pokémon switches out."
+  },
+  "No Guard": {
+    "effect": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+  },
+  "Oblivious": {
+    "effect": "The Pokémon is oblivious, and that keeps it from being infatuated or falling for taunts."
+  },
+  "Opportunist": {
+    "effect": "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself."
+  },
+  "Overcoat": {
+    "effect": "Protects the Pokémon from things like sand, hail, and powder."
+  },
+  "Overgrow": {
+    "effect": "Powers up Grass-type moves when the Pokémon's HP is low."
+  },
+  "Own Tempo": {
+    "effect": "This Pokémon has its own tempo, and that prevents it from becoming confused."
+  },
+  "Parental Bond": {
+    "effect": "Parent and child each attacks."
+  },
+  "Pickpocket": {
+    "effect": "Steals an item from an attacker that made direct contact."
+  },
+  "Pickup": {
+    "effect": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too."
+  },
+  "Piercing Drill": {
+    "effect": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing 1/4 of the damage that the move would otherwise deal. Everything aside from the target's protective effects is still triggered."
+  },
+  "Pixilate": {
+    "effect": "Normal-type moves become Fairy-type moves. The power of those moves is boosted a little.",
+    "damageModifier": 1.2,
+    "damageCondition": "Normal-type moves changed to Fairy-type"
+  },
+  "Plus": {
+    "effect": "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle."
+  },
+  "Poison Heal": {
+    "effect": "Restores HP if the Pokémon is poisoned, instead of losing HP."
+  },
+  "Poison Point": {
+    "effect": "Contact with the Pokémon may poison the attacker."
+  },
+  "Poison Touch": {
+    "effect": "May poison a target when the Pokémon makes contact."
+  },
+  "Prankster": {
+    "effect": "Gives priority to a status move."
+  },
+  "Pressure": {
+    "effect": "By putting pressure on the opposing Pokémon, it raises their PP usage."
+  },
+  "Protean": {
+    "effect": "Changes the Pokémon's type to the type of the move it's about to use."
+  },
+  "Pure Power": {
+    "effect": "Using its pure power, the Pokémon doubles its Attack stat.",
+    "atkModifier": 2.0
+  },
+  "Purifying Salt": {
+    "effect": "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
+    "damageModifier": 0.5,
+    "damageCondition": "Ghost-type moves only"
+  },
+  "Queenly Majesty": {
+    "effect": "Its majesty pressures the opposing Pokémon, making it unable to attack using priority moves."
+  },
+  "Quick Draw": {
+    "effect": "Enables the Pokémon to move first occasionally."
+  },
+  "Quick Feet": {
+    "effect": "Boosts the Speed stat if the Pokémon has a status condition."
+  },
+  "Rain Dish": {
+    "effect": "The Pokémon gradually regains HP in rain."
+  },
+  "Receiver": {
+    "effect": "The Pokémon copies the Ability of a defeated ally."
+  },
+  "Reckless": {
+    "effect": "Powers up moves that have recoil damage.",
+    "damageModifier": 1.2,
+    "damageCondition": "recoil moves only"
+  },
+  "Refrigerate": {
+    "effect": "Normal-type moves become Ice-type moves. The power of those moves is boosted a little.",
+    "damageModifier": 1.2,
+    "damageCondition": "Normal-type moves changed to Ice-type"
+  },
+  "Regenerator": {
+    "effect": "Restores a little HP when withdrawn from battle."
+  },
+  "Ripen": {
+    "effect": "Ripens Berries and doubles their effect."
+  },
+  "Rivalry": {
+    "effect": "Becomes competitive and deals more damage to Pokémon of the same gender, but deals less to Pokémon of the opposite gender."
+  },
+  "Rock Head": {
+    "effect": "Protects the Pokémon from recoil damage."
+  },
+  "Rough Skin": {
+    "effect": "This Pokémon inflicts damage with its rough skin to the attacker on contact."
+  },
+  "Sand Force": {
+    "effect": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.",
+    "damageModifier": 1.3,
+    "damageCondition": "Rock-, Ground-, and Steel-type moves in Sandstorm"
+  },
+  "Sand Rush": {
+    "effect": "Boosts the Pokémon's Speed stat in a sandstorm.",
+    "speedModifier": 2.0,
+    "damageCondition": "in Sandstorm"
+  },
+  "Sand Spit": {
+    "effect": "The Pokémon creates a sandstorm when it's hit by an attack."
+  },
+  "Sand Stream": {
+    "effect": "The Pokémon summons a sandstorm when it enters a battle."
+  },
+  "Sand Veil": {
+    "effect": "Boosts the Pokémon's evasion in a sandstorm."
+  },
+  "Sap Sipper": {
+    "effect": "Boosts the Attack stat if hit by a Grass-type move, instead of taking damage."
+  },
+  "Scrappy": {
+    "effect": "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves."
+  },
+  "Screen Cleaner": {
+    "effect": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon."
+  },
+  "Shadow Tag": {
+    "effect": "This Pokémon steps on the opposing Pokémon's shadow to prevent it from escaping."
+  },
+  "Sharpness": {
+    "effect": "Powers up slicing moves.",
+    "damageModifier": 1.5,
+    "damageCondition": "slicing moves only"
+  },
+  "Shed Skin": {
+    "effect": "The Pokémon may heal its own status conditions by shedding its skin."
+  },
+  "Sheer Force": {
+    "effect": "Removes additional effects to increase the power of moves when attacking.",
+    "damageModifier": 1.3,
+    "damageCondition": "moves with secondary effects (secondary effect is removed)"
+  },
+  "Shell Armor": {
+    "effect": "A hard shell protects the Pokémon from critical hits."
+  },
+  "Shield Dust": {
+    "effect": "This Pokémon's dust blocks the additional effects of attacks taken."
+  },
+  "Skill Link": {
+    "effect": "Maximizes the number of times multi-strike moves hit."
+  },
+  "Slush Rush": {
+    "effect": "Boosts the Pokémon's Speed stat in a Snowstorm.",
+    "speedModifier": 2.0,
+    "damageCondition": "in Snow"
+  },
+  "Sniper": {
+    "effect": "Powers up moves if they become critical hits when attacking."
+  },
+  "Snow Cloak": {
+    "effect": "Boosts evasion in a Snowstorm."
+  },
+  "Snow Warning": {
+    "effect": "The Pokémon summons a Snowstorm when it enters a battle."
+  },
+  "Solar Power": {
+    "effect": "Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn."
+  },
+  "Solid Rock": {
+    "effect": "Reduces the power of supereffective attacks taken.",
+    "damageModifier": 0.75,
+    "damageCondition": "when hit by a supereffective move"
+  },
+  "Soundproof": {
+    "effect": "Soundproofing of the Pokémon itself gives full  immunity to all sound-based moves."
+  },
+  "Speed Boost": {
+    "effect": "Its Speed stat is boosted every turn."
+  },
+  "Spicy Spray": {
+    "effect": "When the Pokémon takes damage from a move, it burns the attacker."
+  },
+  "Stall": {
+    "effect": "The Pokémon moves after all other Pokémon do."
+  },
+  "Stalwart": {
+    "effect": "Ignores the effects of opposing Pokémon's Abilities and moves that draw in moves."
+  },
+  "Stamina": {
+    "effect": "Boosts the Defense stat when hit by an attack."
+  },
+  "Stance Change": {
+    "effect": "The Pokémon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King's Shield."
+  },
+  "Static": {
+    "effect": "The Pokémon is charged with static electricity, so contact with it may cause paralysis."
+  },
+  "Steadfast": {
+    "effect": "The Pokémon's determination boosts the Speed stat each time the Pokémon flinches."
+  },
+  "Stench": {
+    "effect": "By releasing stench when attacking, this Pokémon may cause the target to flinch."
+  },
+  "Sticky Hold": {
+    "effect": "Items held by the Pokémon are stuck fast and cannot be removed by other Pokémon."
+  },
+  "Strong Jaw": {
+    "effect": "The Pokémon's strong jaw boosts the power of its biting moves.",
+    "damageModifier": 1.5,
+    "damageCondition": "biting moves only"
+  },
+  "Sturdy": {
+    "effect": "It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either."
+  },
+  "Super Luck": {
+    "effect": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted."
+  },
+  "Supersweet Syrup": {
+    "effect": "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon."
+  },
+  "Supreme Overlord": {
+    "effect": "When the Pokémon enters a battle, its Attack and Sp. Atk stats are boosted by 10% for each of the allies in its party that have already been defeated."
+  },
+  "Surge Surfer": {
+    "effect": "Doubles the Pokémon's Speed stat on Electric Terrain."
+  },
+  "Swarm": {
+    "effect": "Powers up Bug-type moves when the Pokémon's HP is low."
+  },
+  "Sweet Veil": {
+    "effect": "Prevents itself and ally Pokémon from falling asleep."
+  },
+  "Swift Swim": {
+    "effect": "Boosts the Pokémon's Speed stat in rain.",
+    "speedModifier": 2.0,
+    "damageCondition": "in Rain"
+  },
+  "Symbiosis": {
+    "effect": "The Pokémon passes its item to an ally that has used up an item."
+  },
+  "Synchronize": {
+    "effect": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon."
+  },
+  "Tangled Feet": {
+    "effect": "Raises evasion if the Pokémon is confused."
+  },
+  "Technician": {
+    "effect": "Powers up the Pokémon's weaker moves.",
+    "damageModifier": 1.5,
+    "damageCondition": "moves with base power 60 or less"
+  },
+  "Telepathy": {
+    "effect": "Anticipates an ally's attack and dodges it."
+  },
+  "Thick Fat": {
+    "effect": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+    "damageModifier": 0.5,
+    "damageCondition": "Fire-type and Ice-type moves only"
+  },
+  "Torrent": {
+    "effect": "Powers up Water-type moves when the Pokémon's HP is low."
+  },
+  "Tough Claws": {
+    "effect": "Powers up moves that make direct contact.",
+    "damageModifier": 1.3,
+    "damageCondition": "contact moves only"
+  },
+  "Toxic Debris": {
+    "effect": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves."
+  },
+  "Trace": {
+    "effect": "When it enters a battle, the Pokémon copies an opposing Pokémon's Ability."
+  },
+  "Unaware": {
+    "effect": "When attacking, the Pokémon ignores the target Pokémon's stat changes."
+  },
+  "Unburden": {
+    "effect": "Boosts the Speed stat if the Pokémon's held item is  used or lost."
+  },
+  "Unnerve": {
+    "effect": "Unnerves opposing Pokémon and makes them unable to eat Berries."
+  },
+  "Unseen Fist": {
+    "effect": "The Pokémon can deal damage with moves that make physical contact, even if the target is protected. This damage is reduced to 25%"
+  },
+  "Vital Spirit": {
+    "effect": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+  },
+  "Volt Absorb": {
+    "effect": "Restores HP if hit by an Electric-type move, instead of taking damage."
+  },
+  "Wandering Spirit": {
+    "effect": "The Pokémon exchanges Abilities with a Pokémon that hits it with a move that makes direct contact."
+  },
+  "Water Absorb": {
+    "effect": "Restores HP if hit by a Water-type move, instead of taking damage."
+  },
+  "Water Bubble": {
+    "effect": "Lowers the power of Fire-type moves done to the Pokémon and prevents the Pokémon from getting a burn."
+  },
+  "Weak Armor": {
+    "effect": "Physical attacks to the Pokémon lower its Defense stat but sharply raise its Speed stat."
+  },
+  "White Smoke": {
+    "effect": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats."
+  },
+  "Zero to Hero": {
+    "effect": "The Pokémon transforms into its Hero Form when it switches out."
+  }
+}
