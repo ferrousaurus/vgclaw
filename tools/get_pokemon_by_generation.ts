@@ -2,12 +2,13 @@ import z from "zod";
 import { Dex } from "@pkmn/dex";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 
-export default function registerGetItemsByGeneration(server: McpServer) {
+export default function registerGetPokemonByGeneration(server: McpServer) {
   server.registerTool(
-    "get-items-by-generation",
+    "get-pokemon-by-generation",
     {
-      title: "Get Items by Generation",
-      description: "Get a list of available Items for a given generation (1-9)",
+      title: "Get Pokemon by Generation",
+      description:
+        "Get a list of available Pokemon for a given generation (1-9)",
       inputSchema: {
         generation: z
           .number()
@@ -18,13 +19,13 @@ export default function registerGetItemsByGeneration(server: McpServer) {
     },
     ({ generation }: { generation: number }) => {
       const genDex = Dex.forGen(generation as any);
-      const availableItems = genDex.items
+      const availablePokemon = genDex.species
         .all()
-        .filter((i) => !i.isNonstandard)
-        .map((i) => i.name);
+        .filter((p) => !p.isNonstandard)
+        .map((p) => p.name);
 
       return {
-        content: [{ type: "text", text: JSON.stringify(availableItems) }],
+        content: [{ type: "text", text: JSON.stringify(availablePokemon) }],
       };
     },
   );

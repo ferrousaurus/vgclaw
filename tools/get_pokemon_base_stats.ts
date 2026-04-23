@@ -1,7 +1,6 @@
 import z from "zod";
 import { Dex } from "@pkmn/dex";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { GenerationNum } from "@pkmn/types";
 
 export default function registerGetPokemonBaseStats(server: McpServer) {
   server.registerTool(
@@ -19,7 +18,7 @@ export default function registerGetPokemonBaseStats(server: McpServer) {
       },
     },
     ({ name, generation }: { name: string; generation: number }) => {
-      const genDex = Dex.forGen(generation as GenerationNum);
+      const genDex = Dex.forGen(generation as any);
       const species = genDex.species.get(name);
 
       if (!species || species.gen > generation) {
