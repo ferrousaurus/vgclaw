@@ -13,16 +13,9 @@
     "plan": {
       "disable": true,
     },
-    "general": {
-      "disable": true,
-    },
-    "explore": {
-      "disable": true,
-    },
     "wolfey": {
       "mode": "primary",
       "color": "error",
-      "model": "opencode-go/kimi-k2.6",
       "prompt": "",
       "permission": {
         "edit": {
@@ -31,7 +24,7 @@
         },
         "write": {
           "*": "deny",
-          "teams/": "allow",
+          "teams/": "ask",
         },
       },
     },

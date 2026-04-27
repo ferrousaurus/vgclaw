@@ -1,10 +1,21 @@
 # Stat Calculations
 
-Mathematical formulas for precise stat analysis in Pokemon Champions VGC. Use these calculations when the qualitative heuristics in speed-tiers.md, win-conditions.md, or tempo.md cannot provide a precise enough answer.
+> **Champions Rules Reminder**
+> - All IVs are fixed to 31. Never reference 0 IVs or IV manipulation.
+> - Stat Points (SPs) replace EVs: 1 SP = 8 EVs, max 32 per stat, 66 total.
+> - Damage is deterministic — no random rolls.
+> - Level 50 for all VGC calculations.
+> - Item pool is limited: no Choice Band, Choice Specs, Life Orb, Assault Vest, Safety Goggles, etc.
+
+> **When to read this file:** This reference is invoked primarily by the **Stat Efficiency** dimension in `SKILL.md`. Commonly read alongside `speed-tiers.md` (for speed benchmarks and tier boundaries) and `items.md` (for item modifiers like Choice Scarf and type-boosting items).
+
+Mathematical formulas for precise stat analysis in Pokemon Champions VGC. Use these calculations when the qualitative heuristics in `speed-tiers.md`, `win-conditions.md`, or `tempo.md` cannot provide a precise enough answer.
 
 **When to use math:** Suggesting specific SP (Stat Point) spreads, comparing two candidates in the same speed tier, answering "can X survive Y?", or determining exact investment thresholds. Present results as thresholds and survival determinations, not raw damage numbers. Default to heuristic reasoning; use math to sharpen decisions.
 
 **Data sources:** All base stats come from `assets/pokemon.json`. Move details from `assets/moves.json`. Type effectiveness from `assets/type-chart.json`. Item multipliers from `assets/items.json` (numeric fields: `damageModifier`, `speedModifier`, `hpRestore`). Ability multipliers from `assets/abilities.json` (numeric fields: `damageModifier`, `atkModifier`, `stabModifier`, `speedModifier`).
+
+**SP terminology:** This document uses SPs (Stat Points), not EVs. 1 SP = 8 EVs. Max 32 SPs per stat, 66 total. All IVs are fixed to 31 in Pokemon Champions.
 
 ---
 
@@ -96,14 +107,14 @@ When a Pokemon's stat is raised or lowered in battle (by moves like Swords Dance
 
 ### Worked Example: Feraligatr's Attack Stat
 
-Feraligatr: base Atk = 105 (via `assets/pokemon.json`). Adamant nature (+Atk). 32 Atk SPs. 
+Feraligatr: base Atk = 105 (via `assets/pokemon.json`). Adamant nature (+Atk). 32 Atk SPs.
 
 ```
 stat  = 105 + 32 + 20 = 157
 final = floor(157 * 1.1) = floor(172.7) = 172
 ```
 
-Adamant 252 Atk Feraligatr has **172 Atk** at Level 50.
+Adamant 32 Atk SPs Feraligatr has **172 Atk** at Level 50.
 
 After +1 from Dragon Dance: `floor(172 * 1.5)` = **258 Atk**.
 After +2 from Swords Dance: `floor(172 * 2.0)` = **344 Atk**.
@@ -119,7 +130,7 @@ Use these procedures to determine exact speed benchmarks — how many SPs to out
 Apply the non-HP stat formula from Section 1 with the Pokemon's base Speed.
 
 **Example:** Max Speed Jolly Garchomp.
-- Base Spe = 102, Jolly nature (1.1x), 32 SPs, 
+- Base Spe = 102, Jolly nature (1.1x), 32 SPs
 
 ```
 stat  = 102 + 32 + 20 = 154
@@ -178,9 +189,9 @@ Speed modifiers multiply the final Speed stat. Apply them in this order:
 
 **Stacking:** Modifiers multiply together. A +1 Speed Pokemon under Tailwind has `stat * 1.5 * 2.0 = stat * 3.0x` effective speed.
 
-**Trick Room:** Under Trick Room, the Pokemon with the **lower** Speed stat moves first. There is no multiplier — Trick Room inverts the comparison. For Trick Room Pokemon, use a Speed-lowering nature (Brave for physical, Quiet for special) and 0 Speed SPs / IVs are always 31 to minimize Speed.
+**Trick Room:** Under Trick Room, the Pokemon with the **lower** Speed stat moves first. There is no multiplier — Trick Room inverts the comparison. For Trick Room Pokemon, use a Speed-lowering nature (Brave for physical, Quiet for special) and **0 Speed SPs**. All IVs are fixed to 31 — you cannot lower them. Minimum Speed is achieved exclusively through 0 Speed SPs and a hindering nature.
 
-**Minimum Speed calculation:** 0 SPs, 0 IVs, Speed-hindering nature:
+**Minimum Speed calculation:** 0 Speed SPs, Speed-hindering nature:
 ```
 stat  = base + 0 + 20 = base + 20
 final = floor((base + 20) * 0.9)
@@ -196,7 +207,7 @@ To generate a speed comparison for a team:
 4. List which threats each team member outspeeds and which outspeed it
 5. Note how Tailwind/Trick Room/Choice Scarf changes each matchup
 
-**Cross-ref to speed-tiers.md:** The qualitative tiers (Blazing/Fast/Mid/Slow/TR) remain the primary reasoning framework. Use these calculations when the heuristic says "a few extra SPs might let you cross into the next tier" and you need to determine exactly how many SPs.
+**Cross-ref:** `speed-tiers.md` > Speed Tiers — the qualitative tiers (Blazing/Fast/Mid/Slow/TR) remain the primary reasoning framework. Use these calculations when the heuristic says "a few extra SPs might let you cross into the next tier" and you need to determine exactly how many SPs.
 
 ---
 
@@ -274,6 +285,8 @@ For a dual-type defender, multiply both effectiveness values. Example: Fairy-typ
 
 Look up the attacker's held item via `assets/items.json`. If the item has a `damageModifier` field, apply it. Check `damageCondition` to verify the condition is met (e.g., "physical moves only" for a Physical move, "Fire-type moves only" for a Fire-type move).
 
+**Champions item pool note:** There is no Choice Band, Choice Specs, Life Orb, or Assault Vest in Champions. The highest consistent damage modifier is **1.2x** from type-boosting items (Charcoal, Mystic Water, etc.). Offensive benchmarks should be recalibrated accordingly.
+
 For **resistance berries** on the defender: look up the defender's held item. Resistance berries have `damageModifier: 0.5` with `damageCondition: "when hit by a supereffective [Type]-type move"`. Apply by multiplying damage by 0.5 if the move is super-effective and matches the berry's type. The berry is consumed after use (one-time effect).
 
 If the item has no `damageModifier` field, the modifier is 1.0x.
@@ -308,7 +321,7 @@ Since damage is deterministic, KO checks are binary:
 
 ### Worked Example: Feraligatr Liquidation vs. Incineroar
 
-**Setup:** 252+ Atk (Adamant) Feraligatr using Liquidation vs. 252 HP / 0 Def Incineroar.
+**Setup:** Adamant 32 Atk SPs Feraligatr using Liquidation vs. 32 HP SPs / 0 Def SPs Incineroar.
 
 **Step 1 — Attack stat:**
 Feraligatr Atk = 172 (calculated in Section 1 worked example).
@@ -324,7 +337,6 @@ Def = floor((90 + 0 + 20) * 1.0) = 110
 Liquidation: Water, Physical, 85 power.
 ```
 baseDamage = floor(floor(22 * 85 * 172 / 110) / 50 + 2)
-           = floor(floor(22 * 85 * 172 / 110) / 50 + 2)
            = floor(floor(321,640 / 110) / 50 + 2)
            = floor(floor(2924) / 50 + 2)
            = floor(2924 / 50 + 2)
@@ -406,20 +418,30 @@ For 2HKO survival:
 
 ### Benchmark-First SP Spread Procedure
 
-When suggesting EV spreads for entry-point skills, replace generic 252/252/4 with:
+When suggesting SP spreads for entry-point skills, replace generic max-two-stats spreads with:
 
-1. **Identify 1-2 key attacks** the Pokemon must survive (from meta context if available, or from type matchups — what commonly threatens this Pokemon?)
+1. **Identify 1-2 key attacks** the Pokemon must survive (from meta context if available, or from type matchups)
 2. **Calculate minimum defensive investment** for each benchmark using the survive-a-hit procedure
 3. **Identify 1-2 key speed targets** (Section 2: Speed Thresholds)
 4. **Calculate minimum speed investment** to hit each target
-5. **Allocate remaining EVs** to the primary offensive stat
-6. **Verify offensive benchmarks** (Section 5: Offensive Thresholds) — does the remaining offensive SPs still achieve the needed KOs?
+5. **Allocate remaining SPs** to the primary offensive stat
+6. **Verify offensive benchmarks** (Section 5: Offensive Thresholds) — do the remaining offensive SPs still achieve the needed KOs?
 
 If the benchmarks require more than 66 total SPs, prioritize: survival > speed > offense. A Pokemon that dies before attacking contributes nothing.
 
+### Acceptable Benchmark Trade-Offs
+
+Not every Pokemon should maximize two stats. Intentional trade-offs are valid when they serve a higher-priority game plan:
+
+- **Mixed attackers:** A Pokemon splitting SPs between Atk and SpA (e.g., a Water/Fire-type using both Liquidation and Flamethrower) may miss a pure physical survival benchmark but gains the ability to threaten both defensive profiles. This is a valid trade-off if the team needs the coverage.
+- **Speed-for-survival:** A Pokemon may sacrifice a survival benchmark to hit a speed tier that enables a sweep (e.g., outspeeding a common scarfer after a Dragon Dance). If the speed tier converts losses into wins, the trade-off is justified.
+- **Offense-for-bulk:** A bulky support Pokemon may invest 0 in offense and instead hit defensive benchmarks that let it pivot repeatedly. Do not flag low offensive investment as "wasted stats" on pure supports.
+
+**Heuristic:** A trade-off is valid if the agent can articulate *what higher-priority benchmark it enables*. A trade-off is a flaw if it fails to hit any benchmark and leaves the Pokemon mediocre at everything.
+
 ### Worked Example: Feraligatr surviving Gardevoir's Dazzling Gleam
 
-**Question:** How many HP/SpD SPs does Adamant Feraligatr need to survive 252 SpA Gardevoir's Dazzling Gleam?
+**Question:** How many HP/SpD SPs does Adamant Feraligatr need to survive Modest 32 SpA SPs Gardevoir's Dazzling Gleam?
 
 **Setup:** Gardevoir: base SpA 125. Modest nature, 32 SpA SPs.
 ```
@@ -431,8 +453,11 @@ Gardevoir SpA = 194.
 
 **Damage vs. 0 HP / 0 SpD Feraligatr:**
 
-Feraligatr HP (0 SPs): `floor((2*85+31+0)*50/100)+60` = `floor(201*0.5)+60` = `100+60` = 160.
-Feraligatr SpD (0 SPs, Adamant = neutral SpD): `floor((2*83+31+0)*50/100)+5` = `floor(197*0.5)+5` = `98+5` = 103.
+Feraligatr base HP = 85, base SpD = 83.
+```
+HP (0 SPs)  = 85 + 0 + 75 = 160
+SpD (0 SPs, Adamant = neutral SpD) = floor((83 + 0 + 20) * 1.0) = 103
+```
 
 Dazzling Gleam: Fairy, Special, 80 power, All Adjacent Foes (spread).
 
@@ -481,6 +506,8 @@ With 32 HP SPs: HP = `85 + 32 + 75` = 192. 120 vs 192 = survives (62.5%). More c
 
 Use these procedures to determine the minimum offensive investment needed to guarantee a KO.
 
+**Important Champions context:** The highest consistent damage-boosting item is a **type-boosting item (1.2x)**. There is no Life Orb, Choice Band, or Choice Specs. Recalibrate all "needed KOs" against this ceiling unless the Pokemon holds a type-boosting item or has a boosting ability.
+
 ### OHKO Threshold Procedure
 
 1. Choose the target: identify the defender, their likely defensive investment
@@ -503,7 +530,11 @@ Then:
 atkStat >= ceil((requiredBaseDamage - 2) * 50 * defStat / (22 * power))
 ```
 
-Convert the required atkStat to EVs using the inverse of the stat formula from Section 1.
+Convert the required atkStat to SPs using the inverse of the stat formula from Section 1:
+```
+baseStatNeeded = ceil(requiredAtkStat / natureMultiplier)
+SPs = baseStatNeeded - base - 20
+```
 
 ### 2HKO Threshold Procedure
 
@@ -521,7 +552,7 @@ Calculate offensive thresholds assuming the attacker has boosted:
 - **After Quiver Dance (+1 SpA, +1 SpD, +1 Spe):** Multiply SpA by 1.5x. The +1 SpD also improves bulk thresholds
 - **After Calm Mind (+1 SpA, +1 SpD):** Multiply SpA by 1.5x
 
-**Key insight:** Post-boost thresholds tell you whether a Pokemon can invest **less** in offense because it plans to boost. If Adamant 252 Atk Feraligatr OHKOs a target after +1 Dragon Dance, try reducing Atk SPs until it just barely OHKOs — the freed SPs go to bulk or speed.
+**Key insight:** Post-boost thresholds tell you whether a Pokemon can invest **less** in offense because it plans to boost. If Adamant 32 Atk SPs Feraligatr OHKOs a target after +1 Dragon Dance, try reducing Atk SPs until it just barely OHKOs — the freed SPs go to bulk or speed.
 
 ### Comparing Candidates
 
@@ -536,9 +567,9 @@ This turns subjective "hits hard" assessments into concrete matchup comparisons.
 
 ### Worked Example: Feraligatr KOing Incineroar after Dragon Dance
 
-**Question:** How much Atk investment does Adamant Feraligatr need to OHKO 252 HP / 0 Def Incineroar with Liquidation after +1 Dragon Dance?
+**Question:** How many Atk SPs does Adamant Feraligatr need to OHKO 32 HP SPs / 0 Def SPs Incineroar with Liquidation after +1 Dragon Dance?
 
-From the Section 3 worked example, we know 252+ Atk Feraligatr does 180 damage vs. 202 HP Incineroar without any boost. That's a 2HKO.
+From the Section 3 worked example, we know Adamant 32 Atk SPs Feraligatr does 180 damage vs. 202 HP Incineroar without any boost. That's a 2HKO.
 
 After +1 Dragon Dance, Atk = floor(172 * 1.5) = 258.
 
@@ -554,7 +585,7 @@ baseDamage = floor(floor(22 * 85 * 258 / 110) / 50 + 2)
 
 Modifiers: STAB 1.5x → floor(89 * 1.5) = 133. SE 2.0x → floor(133 * 2.0) = 266.
 
-266 vs 202 HP = **OHKOs after +1 Dragon Dance with 252+ Atk.**
+266 vs 202 HP = **OHKOs after +1 Dragon Dance with 32 Atk SPs.**
 
 Can we reduce Atk? We need final damage >= 202. Working backwards:
 - Need `floor(floor(baseDamage * 1.5) * 2.0) >= 202`
@@ -596,4 +627,4 @@ baseDamage = floor(floor(22 * 85 * 205 / 110) / 50 + 2)
 
 STAB: floor(71 * 1.5) = 106. SE: floor(106 * 2.0) = 212. 212 >= 202 = **OHKOs.**
 
-**Conclusion:** Adamant Feraligatr with **0 Atk SPs** OHKOs 252 HP / 0 Def Incineroar with Liquidation after +1 Dragon Dance. This frees 32 SPs for bulk and speed investment.
+**Conclusion:** Adamant Feraligatr with **0 Atk SPs** OHKOs 32 HP SPs / 0 Def SPs Incineroar with Liquidation after +1 Dragon Dance. This frees 32 SPs for bulk and speed investment.

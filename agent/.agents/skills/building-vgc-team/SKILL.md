@@ -5,7 +5,19 @@ description: Use when the user wants to build a competitive VGC team for Pokemon
 
 # Build a VGC Team
 
-Conversationally build a team for Pokemon Champions VGC. Guide me, an intermediate player, through constructing a 6-Pokemon team, analyzing its strengths and weaknesses, and exporting in Showdown paste format.
+Help the user build a Pokemon Champions VGC team one decision at a time.
+
+This skill is advisory only. It helps the user choose the next step; it does not build the team for them.
+
+## Decision Authority
+
+- The user makes all roster, replacement, move, item, ability, nature, and SP decisions.
+- The agent may analyze, rank, and explain options, but must never choose one on the user's behalf.
+- Each response should advance only one decision.
+- Never infer approval. A choice is confirmed only when the user explicitly selects it.
+- Never auto-complete missing slots.
+- Never produce a full 6-Pokemon roster unless all 6 members were explicitly chosen by the user through the step-by-step process.
+- Never use a user-provided core as permission to decide the rest of the team.
 
 ## Data Sources
 
@@ -35,257 +47,172 @@ Located under `.agents/skills/evaluating-vgc-team-viability/references/`:
 ### Meta Data
 - Fetch `https://www.pikalytics.com/champions` via `webfetch` for current usage stats, top threats, common sets, and teammates
 
+### Mega Stone Interpretation
+- Multiple Mega Stones on the roster of 6 are neutral in bring-4 play.
+- Do not reject a draft solely for carrying two Mega Stones.
+- Penalize only if a validated bring-4 would need both Mega Stone holders together, or if one Mega holder fails to justify its slot outside the other Mega's mode.
+
+## Default Response Shape
+
+Use this structure unless the user explicitly asks for a different format:
+
+1. Current confirmed team state
+2. The single biggest current team-building decision
+3. Option A
+4. Option B
+5. Option C if useful
+6. Trade-offs
+7. Direct question asking which direction the user wants
+
+Stop after that decision point. Do not continue to later slots or later set decisions in the same response.
+
 ## Workflow
 
-### 1. Ask the user how to start
+### 1. Start From the User's Chosen Entry Point
 
-Three entry points:
-- **"I want to build around X"** -- User names 1-2 Pokemon. Verify they're in the roster via `assets/pokemon.json`. Proceed to Foundation.
-- **"I want to play [archetype]"** -- Read `archetypes.md` and present the relevant core. Otherwise, work with the user's description of the archetype. Proceed to Foundation.
-- **"What's good right now?"** -- Fetch Pikalytics via `webfetch` and present top-usage Pokemon and common cores. Let the user pick a direction.
+Three valid entry points:
+- `I want to build around X` -- The user names 1-2 Pokemon. Verify they exist in `assets/pokemon.json`, then analyze what the next decision should be.
+- `I want to play [archetype]` -- Read `archetypes.md`, identify the archetype's requirements, and present the next decision the user should make.
+- `What's good right now?` -- Fetch Pikalytics and present current high-level directions, then ask the user which direction they want to explore.
 
-### 2. Foundation (slots 1-2)
+At this stage, do not project a full team. Only identify the next decision.
 
-Establish the team's core pair. For each Pokemon:
-1. Verify it's legal via `assets/pokemon.json`
-2. Read its abilities and moves via `assets/pokemon.json`. Look up move details via `assets/moves.json` and ability effects via `assets/abilities.json` as needed.
-3. Suggest a competitive set (moves, ability, item) as a starting point
-4. Explain why these two work together (type synergy, role coverage, archetype fit)
-5. Note what role each plays in a bring-4 context -- these two will likely appear in most bring-4 groups. Example: "Garchomp is your primary attacker, Whimsicott is your speed control -- expect to bring both in most games."
+### 2. Confirm the Current Team State
 
-### 3. Build Out (slots 3-4) -- Complete the Core-4
+At the start of each turn, restate the currently confirmed state:
+- confirmed Pokemon
+- any confirmed set directions
+- any unresolved open questions
+- how many slots remain open
 
-The goal is to complete your default bring-4 group. Identify gaps in the current pair:
-1. **Type gaps** -- Read `assets/type-chart.json` + roster types (via `assets/pokemon.json`). Which types can the team not resist? Which types can't the team hit super-effectively?
-2. **Role gaps** -- Read `roles.md`. Does the team have speed control? Intimidate? Redirection? Fake Out?
-3. **Speed tier fit** -- Read `speed-tiers.md`. Does the candidate's speed tier fit the team's speed control plan? A mid-tier attacker is ideal for a Tailwind team; a Trick Room-tier attacker suits a TR team. Avoid adding Pokemon whose speed tier conflicts with the team's speed control mode (e.g., a blazing-tier Pokemon on a Trick Room team with no fast mode).
-4. **Win condition contribution** -- Read `win-conditions.md`. Does the candidate contribute to an existing win condition (e.g., a spread attacker that adds to spread pressure) or enable a new one (e.g., a setup sweeper that gives the team a second path to winning)? Prefer candidates that strengthen existing win conditions or add independent ones over candidates that just fill a type gap.
-5. **Stat-based comparison** -- Read `stat-calculations.md`. Use Speed Thresholds to determine exactly which threats each candidate outspeeds. Use Offensive Thresholds to compare what each candidate can KO at equivalent investment levels. This turns "both hit hard" into concrete matchup comparisons.
-6. **Meta threats** -- Fetch Pikalytics to identify which top-usage Pokemon threaten the current core.
+Treat the current state as authoritative. Do not assume a previously suggested option was chosen unless the user explicitly said so.
 
-For each gap, suggest 2-3 Pokemon from the roster that address it. Evaluate candidates as "which Pokemon makes the strongest group of 4 with your existing core pair?" Prefer Pokemon that fill multiple gaps. Present trade-offs. When suggesting, read `synergies.md` and call out offensive combos (e.g., "Garchomp gives you Earthquake + your Corviknight is immune to it"), defensive pivot pairs, or mode pairs that the new Pokemon enables.
+### 3. Identify the Single Next Decision
 
-**After slot 4 is chosen, present a core-4 summary:** "Your default bring is [A, B, C, D]. This group has [roles covered: speed control, Fake Out, spread damage, etc.]. It struggles against [specific threats or archetypes the core-4 can't handle]." This summary frames slots 5-6 as solving those problems.
+For the current confirmed state, determine the single highest-value next decision.
 
-### 4. Alternate Mode Slots (5-6)
+Examples:
+- Confirm whether one of the core Pokemon should be offensive or supportive.
+- Choose the next roster slot.
+- Choose whether the team wants speed control, Fake Out support, redirection, a second damage profile, or a backup mode next.
+- Refine a confirmed Pokemon's role before adding another member.
 
-Slots 5-6 enable alternate modes for matchups the core-4 struggles against. Reference the core-4 summary from step 3.
+Only surface one decision at a time.
 
-For each slot, suggest 2-3 Pokemon framed as swap-ins:
-- **Name which core-4 member it replaces** and in what matchup. Example: "Swap Torkoal in for Whimsicott against Trick Room teams -- Torkoal gives you a Trick Room mode with Hatterene instead of a Tailwind mode."
-- **Describe the alternate mode it creates.** What is the game plan for the resulting group of 4? How does it differ from the core-4's plan?
-- **Pair synergy** -- does the new Pokemon form strong mode pairs or offensive combos with the remaining core members? Reference synergy patterns from `synergies.md`. A Pokemon that enables a coherent alternate mode is better than one that just fills a type gap.
+### 4. Present 2-3 Legal Options for That Decision
 
-If the team only has one viable mode after both slots are filled, flag it: "Your team currently brings the same 4 every game. Consider [alternative Pokemon] for slot [N] to give you a [description] mode against [matchup]."
+For the selected next decision:
+- Present 2-3 legal options.
+- Explain why each option fits the confirmed team state.
+- Explain what each option gains and what it gives up.
+- Ask the user which direction they want.
 
-### 5. Set Refinement
+Do not propose multiple future slots at once.
 
-For each of the 6 Pokemon, suggest a starting set:
-- Ability
-- Held item
-- 4 moves
-- Nature
-- SPs: Read `stat-calculations.md` and use the Benchmark-First SP Spread Procedure (Section 4). For each Pokemon: (1) identify 1-2 key attacks it must survive and calculate minimum HP/Def/SpD investment, (2) identify 1-2 key speed targets and calculate minimum Speed investment, (3) allocate remaining SPs to offense, (4) verify the resulting offensive stat still achieves needed KOs.
+### 5. Slot-by-Slot Team Building Rules
 
-Build sets from the Pokemon's available moves and abilities via `assets/pokemon.json`. Look up move details (type, power, category) via `assets/moves.json`. Before suggesting the sets, you MUST verify that the team is legal by checking it with `check-vgc-team-legality`.
+When the next decision is an open roster slot:
+- Recommend candidates for the next open slot only.
+- Evaluate candidates using current type gaps, role gaps, speed profile, win conditions, and meta matchups.
+- Frame the question as `Which slot-[N] candidate do you want to try next?`
+- After the user chooses, stop and reassess before discussing the following slot.
 
-**Item selection:** Read `items.md` for selection heuristics. For each Pokemon, suggest an item based on its role and the team's existing items. Verify the item exists via `assets/items.json`. Enforce no duplicate items across the team. If a Pokemon is Mega-eligible and the team doesn't already have a Mega, consider whether the Mega Stone is worth the item slot.
+Never bundle slots together. Do not build slots 3-4 or 5-6 in one pass.
 
-Cross-reference with Pikalytics common sets. The user customizes from here.
+### 6. Set-Direction Rules
 
-**Mode-aware sets:** Consider which bring-4 groups each Pokemon participates in. Pokemon appearing in multiple modes should have versatile sets (e.g., balanced SP spreads, moves useful in both game plans). Pokemon appearing in only one mode can be more specialized (e.g., min-speed Torkoal for Trick Room mode only). Mention this trade-off when it's relevant to the set choice, not for every Pokemon.
+When the next decision is how to use a confirmed Pokemon:
+- Present role or set directions before presenting a fully locked set.
+- Examples: offensive attacker, supportive utility, bulky pivot, dedicated speed control, setup sweeper.
+- Explain how each direction changes the team's remaining needs.
 
-### 6. Team Analysis
+Only after the user chooses a direction should you discuss concrete move, item, nature, ability, or SP options for that Pokemon.
 
-Run all applicable analysis layers. Present results clearly.
+### 7. Current-State Analysis
 
-**Type Coverage Matrix:**
+Analyze only the confirmed roster and confirmed set directions.
 
-Defensive -- for each team member, list weaknesses and resistances using `assets/type-chart.json`. Flag any type that hits 3+ team members super-effectively.
+Examples:
+- With 1-2 confirmed Pokemon: analyze core synergy, archetype fit, biggest missing role, and likely pressure points.
+- With 3 confirmed Pokemon: analyze what slot 4 needs to solve.
+- With 4 confirmed Pokemon: identify which matchups or alternate modes still need support.
+- With 5 confirmed Pokemon: identify the single most valuable final slot role.
+- With 6 confirmed Pokemon: proceed to full-team refinement, but still one decision at a time.
 
-Offensive -- for each team member's STAB types + main coverage moves, list what types the team hits super-effectively. Flag types the team has no super-effective coverage against.
+Do not simulate a finished team before the user has chosen all 6 members.
 
-**Pair Synergy Scan:**
+### 8. Full-Team Refinement After Six Confirmed Members
 
-Read `synergies.md`. For each of the 15 possible pairs on the team, check the pair against each synergy category (offensive combos, defensive pivot pairs, mode pairs) using the team's actual moves, abilities, and types via the deterministic tools.
+Once all 6 Pokemon are explicitly chosen by the user, continue to guide the team one decision at a time.
 
-Do not list all 15 pairs. Present only the notable findings:
+Allowed next-decision categories:
+- choose which confirmed Pokemon to refine next
+- choose between set directions for a confirmed Pokemon
+- choose between move options for a confirmed Pokemon
+- choose between item options for a confirmed Pokemon
+- choose between SP / nature benchmark plans for a confirmed Pokemon
+- choose which matchup hole to address first
 
-*Top synergy pairs (2-3 best):* Identify the pairs with the strongest synergies. For each, name the pair, state the synergy category, and explain what they do together. Example: "Sableye + Feraligatr (Mode Pair: Fake Out + Dragon Dance setup. Sableye also has Helping Hand to boost Feraligatr's attacks after it's set up.)"
+Even at 6/6, do not rewrite the whole team in one response.
 
-*Anti-synergy flags:* Identify pairs that are actively bad together on the field. Shared weaknesses with no cross-coverage, redundant roles (two redirectors, two Fake Out users with nothing to enable), or conflicting strategies (Tailwind setter paired with a Trick Room setter and no plan to use both modes). Only flag pairs where the anti-synergy is meaningful -- two Pokemon sharing one weakness is normal, two Pokemon sharing three weaknesses with no cross-coverage is a flag.
+### 9. Legality Checks
 
-*Missing synergy gaps:* Check whether the team is missing synergy patterns that its archetype typically wants. Reference the team's archetype from `archetypes.md` if one was chosen in step 1. Examples: a hyper offense team with no Fake Out + setup pair, a rain team with no spread move + immunity combo, a team with setup sweepers but no redirector or Fake Out user to enable them. Not every team needs every pattern -- flag gaps as observations, not failures.
+Use `check-vgc-team-legality` when the current confirmed state is detailed enough for a meaningful legality pass.
 
-**Bring-4 Mode Analysis:**
+Rules:
+- Legality checks may be partial.
+- If a team is incomplete, report legality only for the currently confirmed state.
+- Do not invent missing details in order to run a legality check.
 
-Identify and validate the team's bring-4 groups.
+### 10. Export
 
-*1. Identify modes.* Name the core-4 (the default bring group established in step 3) and any alternate modes enabled by slots 5-6. A "mode" is a group of 4 with a coherent game plan (fast offense, Trick Room, anti-weather, etc.). Alternate modes swap 1-2 members from the core-4. List each mode with its 4 members and one-line game plan. If the team has two Mega Stone carriers, identify any mode that swaps the primary Mega out for the alternate Mega. Name it explicitly as a Mega-swap mode. Example: "Alternate Mega mode: swap Feraligatr for Scizor. Mega evolve Scizor. Game plan: Steel-type offensive pressure against Fairy-heavy teams." Two Mega Stone carriers must never appear in the same bring-4 group.
+Only export when the user explicitly asks for the current draft in Showdown format.
 
-*2. Validate each mode.* For each mode, check:
-- Does this group of 4 have speed control?
-- Does it have a win condition (setup sweeper, spread damage, etc.)?
-- Are there critical type gaps (a type hitting 3+ of the 4 super-effectively with no resist among them)?
-- Does it have pair synergy (Fake Out + setup, redirect + sweeper, etc.)?
+If exporting:
+- Export only the currently confirmed state.
+- Preserve open slots or unresolved set details.
+- Use `share-vgc-team` whenever outputting a full or partial team in Showdown format.
+- Never synthesize unchosen members, moves, items, or SP spreads to make the export look complete.
 
-Flag modes missing something critical. If a mode fails validation (e.g., no speed control and no way to deal damage before the opponent moves), say so directly and suggest a fix. When validating an alternate-Mega mode, evaluate using the alternate Mega's Mega stats and ability from `assets/pokemon.json` (not its base form). The primary Mega is benched in this mode and irrelevant to validation.
+### 11. Save
 
-*3. Map modes to matchups.* Use Pikalytics meta threats to suggest which mode to bring against common archetypes. Format as: "Against [archetype/threat]: bring [mode name] -- swap [Pokemon] in for [Pokemon]. [One sentence explaining why.]" Explicitly map alternate-Mega modes to the matchups that counter the primary Mega. Example: "Against Fairy-heavy teams: bring Alternate Mega mode -- swap Feraligatr for Mega Scizor. Scizor's Steel STAB threatens Fairies that wall Dragonize."
+Only save to `teams/XXX-NAME-STRAT.md` when the user explicitly asks to save the current draft.
 
-*4. Mode coverage gaps.* If a common meta archetype (from Pikalytics top-usage trends) has no good mode answer, flag it and suggest a fix: a move/item change on an existing member, or a slot 5-6 replacement that would create a viable mode for that matchup. If the team has no alternate Mega and the primary Mega is countered by a common meta archetype, flag it specifically: "Your primary Mega [X] is countered by [archetype] and you have no alternate Mega mode. Consider adding [Mega-eligible Pokemon] in slot [N]."
+If the saved team is incomplete:
+- save it as incomplete
+- note which decisions are still open
+- do not auto-complete the roster or sets
 
-**Threat List:**
+## Evaluation Guidance for Next-Slot Recommendations
 
-Fetch Pikalytics top-usage Pokemon. For each high-usage threat:
-- Which team members handle it well?
-- Which team members lose to it?
-- If the team has no good answer, suggest counterplay (move change, item swap, or team member replacement)
+When recommending the next open slot, use the confirmed state to evaluate:
+- **Type gaps** -- Which threats the current core resists poorly or cannot hit effectively
+- **Role gaps** -- Speed control, Intimidate, redirection, Fake Out, setup, spread damage, weather/terrain if relevant
+- **Speed tier fit** -- Whether the candidate matches the team's current speed plan
+- **Win condition contribution** -- Whether the candidate strengthens an existing path to winning or creates a distinct backup path
+- **Stat-based comparison** -- Use `stat-calculations.md` when exact benchmarks materially differentiate options
+- **Meta threats** -- Use Pikalytics to identify what currently pressures the confirmed core
 
-**Role Checklist:**
-
-Read `roles.md`. Check which roles the team covers:
-- [ ] Speed control
-- [ ] Intimidate / Attack drops
-- [ ] Redirection
-- [ ] Fake Out
-- [ ] Setup
-- [ ] Spread damage
-- [ ] Weather/Terrain (if relevant to the archetype)
-
-Not every team needs every role. Flag gaps as information, not failures.
-
-**Win Condition Assessment:**
-
-Read `win-conditions.md`. Identify the team's win conditions and evaluate them.
-
-*1. Identify win conditions.* For each win condition type in win-conditions.md, check whether the team has it:
-- Setup sweeper? Which Pokemon, which setup move, which enabler?
-- Spread pressure? Which pair, which spread moves?
-- Weather/terrain engine? Which setter + abuser?
-- Trick Room flip? Which setter + which slow attackers?
-- Attrition elements? Intimidate cycling, recovery, status?
-- Single-target burst? Fast attackers that can focus-fire?
-
-*2. Evaluate quality.* For each identified win condition, assess dependency count, disruption resilience, turn count, and independence per win-conditions.md. Flag win conditions that are high-dependency or vulnerable to common counterplay.
-
-*3. Check sufficiency.* Does the team have at least 2 independent win conditions? Are they in different bring-4 modes? Do they share failure points? Reference archetype expectations from win-conditions.md.
-
-If the team has only one win condition, flag it: "This team has one path to winning — [description]. If [common disruption] shuts it down, there's no backup. Consider adding [type of win condition] through [specific suggestion]."
-
-**Lead & Resilience Check:**
-
-Read `tempo.md`. Evaluate lead pairs and Plan B resilience for each bring-4 mode identified in the Bring-4 Mode Analysis above.
-
-*1. Evaluate leads.* For each mode's natural lead pair, assess:
-- Complementary Turn 1 actions (do both Pokemon have useful, non-conflicting Turn 1 moves?)
-- Threat projection (does the lead force the opponent into difficult choices?)
-- Flexibility under disruption (what happens if the opponent blocks the primary plan?)
-- Match the lead to a lead-pair pattern from tempo.md (Fake Out + Attacker/Setter, Dual Offense, Redirect + Setup, Speed Control + Attacker) and note strengths/weaknesses of that pattern.
-
-*2. Assess Plan B resilience.* Run through tempo.md's disruption scenarios:
-- Lead Pokemon KO'd Turn 1: does an alternate mode survive?
-- Speed control denied: is there a backup?
-- Weather overwritten (if relevant): can the team function without weather?
-- Setup denied (if relevant): is there a non-setup win condition?
-
-Flag any scenario where the team has zero path to winning. Suggest structural fixes (alternate mode Pokemon, backup speed control, non-setup attackers).
-
-### 7. Export
-
-Output the team using the `share-vgc-team` tool.
+Present the result as options for the next slot, not as a draft of the remaining team.
 
 ## Conversation Style
 
-- The user can jump around: swap a Pokemon, revisit an earlier slot, re-run analysis, or change direction at any time
-- Present 2-3 options when suggesting Pokemon, not a single "correct" answer
-- Explain trade-offs concisely -- the user understands VGC basics
-- All move and ability data is Champions-accurate from Serebii. If the user reports a discrepancy, trust the user and note it for roster updates.
+- The user can revisit earlier decisions at any time.
+- Present 2-3 options when suggesting Pokemon or set directions, not one answer.
+- Explain trade-offs concisely.
+- End each response with a direct user-choice question.
+- All move and ability data is Champions-accurate from the roster. If the user reports a discrepancy, trust the user and note it for roster updates.
 
-## After Build
+## Examples
 
-After building the team, persist the team and a summary of its playstyle, to `teams/XXX-NAME-STRAT.md`. In that template, XXX is the next index within the directory, NAME is the slug of the Pokemon the team is built around, and STRAT is an extremely short description of the playstyle. Some examples of potential file names are:
-- 001-mega-feraligatr-hyper-offense.md
-- 002-archaludon-rain.md
-- 003-mega-charizard-y-sun.md
+Bad:
+`You want Aegislash and Alolan Ninetales, so here is the rest of the team: Incineroar, Farigiraf, Sinistcha, and Garchomp.`
 
-The format of that file should be:
+Good:
+`With Aegislash and Alolan Ninetales confirmed, the biggest next decision is what slot 3 should solve. Here are three legal candidates that support that core in different ways. Which one do you want to explore?`
 
-```markdown
-# [Name of team]
+Bad:
+`Here is your full draft.`
 
-## Roster
-
-````txt
-[output of the `share-vgc-team` tool]
-````
-
-## Playing this Team
-
-### Primary Mode
-[4 team members in mode]
-Game Plan: [summary of game plan]
-
-### Conditional Mode 1
-[4 team members in mode]
-Use When: [description of when to use this mode over the primary mode]
-Game Plan: [summary of game plan]
-
-[any other Conditional modes]
-
-## Analysis
-
-### Strengths
-[list of strengths of the team]
-
-### Weaknesses
-[list of weaknesses of the team]
-
-### Roles
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Speed control
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Intimidate / Attack drops
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Redirection
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Fake Out
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Setup
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Spread damage
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-
-#### Weather/Terrain
-
-[If the role exists, note that it is covered here]
-
-[If the role does not exist, provide reasons why this may be acceptable. If unacceptable, provide suggestions on how to address this gap.]
-```
+Good:
+`Right now you have 3 confirmed members and one unresolved Aegislash set direction. Do you want to lock Aegislash's role first, or pick a slot-4 candidate next?`
