@@ -4,15 +4,15 @@ A comprehensive suite of Opencode agents, commands, and skills specifically desi
 
 ## Overview
 
-This repository provides project-local OpenCode skills configured in `.opencode/skills/`. When you launch Opencode in this workspace, it automatically loads these specialized skills to assist you with Pokémon VGC team building.
+This repository provides project-local OpenCode skills configured in `agent/.agents/skills/`. When you launch Opencode inside the `agent/` directory, it automatically loads these specialized skills to assist you with Pokémon VGC team building.
 
 ## Available Skills
 
-- **`checking-vgc-legality`**: Provides authoritative game data for Pokemon Champions VGC. Includes legal rosters, moves, abilities, items, and a type chart. This is a required dependency for team building and evaluation skills.
-- **`evaluating-vgc-meta`**: Pulls and provides current Pokemon Champions VGC meta data via Pikalytics, including usage stats, top threats, common sets, and popular teammates.
-- **`evaluating-vgc-team-viability`**: Offers strategic reference guides for Pokemon Champions VGC. Covers role definitions, team archetypes, item heuristics, and pair synergy patterns.
-- **`sharing-vgc-team`**: Provides standards and instructions on how to effectively read, write, and share teams for Pokemon Champions VGC.
+- **Deterministic Data**: The workspace provides authoritative game data for Pokemon Champions VGC via static JSON files in `agent/assets/`. Includes legal rosters (`pokemon.json`), moves (`moves.json`), abilities (`abilities.json`), items (`items.json`), and a type chart (`type-chart.json`). Use the `referencing-valid-vgc-data` skill to guide verification.
+- **`evaluating-vgc-team-viability`**: Offers strategic reference guides under `agent/.agents/skills/evaluating-vgc-team-viability/references/` for Pokemon Champions VGC. Covers role definitions, team archetypes, item heuristics, and pair synergy patterns.
 
 ## Usage
 
-Simply open this repository in your terminal and launch Opencode. The agents will automatically pick up the instructions from `AGENTS.md` and load the local skills to help you build, analyze, and format your VGC teams. Ask Opencode to evaluate a team, check the current meta, or ensure your team is legal for tournament play!
+Open the `agent/` directory in your terminal and launch Opencode. The agents will automatically pick up the instructions from `AGENTS.md` and load the local skills to help you build, analyze, and format your VGC teams. Ask Opencode to evaluate a team, check the current meta, or ensure your team is legal for tournament play!
+
+Opening the repository root puts you in maintenance mode for editing source files, not for running the agent.

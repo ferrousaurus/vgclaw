@@ -1,0 +1,39 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "pokemon-data": {
+      "type": "local",
+      "command": ["bun", "run", "../src/mcp.ts"],
+    },
+  },
+  "agent": {
+    "build": {
+      "disable": true,
+    },
+    "plan": {
+      "disable": true,
+    },
+    "general": {
+      "disable": true,
+    },
+    "explore": {
+      "disable": true,
+    },
+    "wolfey": {
+      "mode": "primary",
+      "color": "error",
+      "model": "opencode-go/kimi-k2.6",
+      "prompt": "",
+      "permission": {
+        "edit": {
+          "*": "deny",
+          "teams/": "allow",
+        },
+        "write": {
+          "*": "deny",
+          "teams/": "allow",
+        },
+      },
+    },
+  },
+}
