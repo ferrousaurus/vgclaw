@@ -20,11 +20,11 @@
       "permission": {
         "edit": {
           "*": "deny",
-          "teams/": "allow",
+          "teams/*": "allow",
         },
         "write": {
           "*": "deny",
-          "teams/": "ask",
+          "teams/*": "ask",
         },
       },
     },

@@ -176,12 +176,9 @@ If exporting:
 
 ### 11. Save
 
-Only save to `teams/XXX-NAME-STRAT.md` when the user explicitly asks to save the current draft.
+*CRITICAL*: Store and routinely update the roster in `teams/XXX-NAME.md`, using the `share-vgc-team` tool. `XXX` should be the next index in the `teams/` directory `NAME` should be a five-word description of the starting point, such as "feraligatr", "aegislash-and-ninetails", or "rain".
 
-If the saved team is incomplete:
-- save it as incomplete
-- note which decisions are still open
-- do not auto-complete the roster or sets
+If the saved team is incomplete, you may save it as an incomplete team.
 
 ## Evaluation Guidance for Next-Slot Recommendations
 

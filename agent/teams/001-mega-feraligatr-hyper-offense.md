@@ -1,50 +1,34 @@
 ```txt
-Sableye (M) @ Focus Sash
+Sableye @ Focus Sash
 Ability: Prankster
-Level: 50
-EVs: 252 HP / 4 Def / 252 SpD
+SPs: 31 HP / 31 SpD
 Careful Nature
 - Helping Hand
 - Taunt
 - Quash
 - Fake Out
 
-Volcarona (F) @ Charti Berry
+Volcarona @ Charti Berry
 Ability: Flame Body
-Level: 50
-EVs: 252 HP / 4 Def / 252 Spe
+SPs: 31 HP / 31 Spe
 Timid Nature
 - Protect
 - Heat Wave
 - Rage Powder
 - Tailwind
 
-Sinistcha @ Sitrus Berry
-Ability: Hospitality
-Level: 50
-EVs: 252 HP / 156 Def / 100 SpD
-Sassy Nature
-IVs: 0 Spe
-- Matcha Gotcha
-- Rage Powder
-- Strength Sap
-- Trick Room
-
-Kingambit (M) @ Black Glasses
-Ability: Defiant
-Level: 50
-EVs: 252 HP / 252 Atk / 4 SpD
-Brave Nature
-IVs: 0 Spe
-- Protect
+Corviknight @ Leftovers
+Ability: Mirror Armor
+SPs: 31 HP / 4 Def / 31 SpD
+Careful Nature
 - Iron Head
-- Kowtow Cleave
-- Sucker Punch
+- Roost
+- Tailwind
+- Protect
 
-Feraligatr (M) @ Feraligatrite
+Feraligatr @ Feraligatrite
 Ability: Sheer Force
-Level: 50
-EVs: 252 HP / 132 Atk / 124 Spe
+SPs: 31 HP / 16 Atk / 15 Spe
 Adamant Nature
 - Protect
 - Liquidation
@@ -53,11 +37,19 @@ Adamant Nature
 
 Gardevoir @ Gardevoirite
 Ability: Trace
-Level: 50
-EVs: 4 HP / 252 SpA / 252 Spe
+SPs: 31 SpA / 31 Spe
 Timid Nature
 - Protect
 - Psychic
 - Thunderbolt
 - Hyper Voice
+
+Arcanine @ Sitrus Berry
+Ability: Intimidate
+SPs: 22 HP / 20 SpA / 4 SpD / 20 Spe
+Modest Nature
+- Protect
+- Heat Wave
+- Snarl
+- Will-O-Wisp
 ```
