@@ -157,9 +157,93 @@
     "damageModifier": 1.2,
     "damageCondition": "Psychic-type moves only"
   },
-  "White Herb": {
+"White Herb": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. It will restore any lowered stat in battle—but only once."
+    "effect": "It will restore any lowered stat in battle—but only once."
+  },
+  "Big Root": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. This root boosts the amount of HP the holder restores to itself when it uses HP-stealing moves.",
+    "hpRestore": 1.3,
+    "hpRestoreType": "drain-boost"
+  },
+  "Damp Rock": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder changes the weather to rain, the rain will persist for longer than usual.",
+    "weatherExtend": "Rain",
+    "weatherTurns": 8
+  },
+  "Expert Belt": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. It's a well-worn belt that slightly boosts the power of the holder's supereffective moves.",
+    "damageModifier": 1.2,
+    "damageCondition": "supereffective moves only"
+  },
+  "Heat Rock": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder changes the weather to harsh sunlight, the sunlight will persist for longer than usual.",
+    "weatherExtend": "Sun",
+    "weatherTurns": 8
+  },
+  "Icy Rock": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder changes the weather to snow, the snow will persist for longer than usual.",
+    "weatherExtend": "Snow",
+    "weatherTurns": 8
+  },
+  "Iron Ball": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. It lowers the holder's Speed stat and makes the holder vulnerable to Ground-type moves even if it is a Flying type or is levitating."
+  },
+  "Life Orb": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. It boosts the power of the holder's moves, but the holder also loses a small amount of HP upon landing an attack.",
+    "damageModifier": 1.3,
+    "damageCondition": "all moves",
+    "recoilDamage": 0.1
+  },
+  "Light Clay": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder uses protective moves like Light Screen or Reflect, their effects will last longer than usual.",
+    "screenExtend": true,
+    "screenTurns": 8
+  },
+  "Metronome": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. It boosts the power of a move that's used repeatedly. Once the chain is broken, the move's power returns to normal."
+  },
+  "Muscle Band": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of the holder's physical moves.",
+    "damageModifier": 1.1,
+    "damageCondition": "physical moves only"
+  },
+  "Shed Shell": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. Hard and sturdy, this discarded carapace enables the holder to switch out of battle without fail."
+  },
+  "Smooth Rock": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder changes the weather to a sandstorm, the storm will persist for longer than usual.",
+    "weatherExtend": "Sandstorm",
+    "weatherTurns": 8
+  },
+  "Wide Lens": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. It's a magnifying lens that slightly boosts the accuracy of the holder's moves.",
+    "accuracyModifier": 1.1
+  },
+  "Wise Glasses": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of the holder's special moves.",
+    "damageModifier": 1.1,
+    "damageCondition": "special moves only"
+  },
+  "Zoom Lens": {
+    "category": "Hold Item",
+    "effect": "An item to be held by a Pokémon. When the holder acts after its target, its move will be more accurate than usual.",
+    "accuracyModifier": 1.2,
+    "accuracyCondition": "when moving after target"
   },
   "Abomasite": {
     "category": "Mega Stone",
@@ -396,6 +480,70 @@
   "Victreebelite": {
     "category": "Mega Stone",
     "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle."
+  },
+  "Barbaracite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Barbaracle holding this stone will be able to Mega Evolve during battle."
+  },
+  "Blazikenite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Blaziken holding this stone will be able to Mega Evolve during battle."
+  },
+  "Dragalgite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Dragalge holding this stone will be able to Mega Evolve during battle."
+  },
+  "Eelektrossite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. An Eelektross holding this stone will be able to Mega Evolve during battle."
+  },
+  "Falinksite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Falinks holding this stone will be able to Mega Evolve during battle."
+  },
+  "Malamarite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Malamar holding this stone will be able to Mega Evolve during battle."
+  },
+  "Mawilite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Mawile holding this stone will be able to Mega Evolve during battle."
+  },
+  "Metagrossite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Metagross holding this stone will be able to Mega Evolve during battle."
+  },
+  "Pyroarite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Pyroar holding this stone will be able to Mega Evolve during battle."
+  },
+  "Raichunite X": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu X during battle."
+  },
+  "Raichunite Y": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu Y during battle."
+  },
+  "Sceptilite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Sceptile holding this stone will be able to Mega Evolve during battle."
+  },
+  "Scolipite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Scolipede holding this stone will be able to Mega Evolve during battle."
+  },
+  "Scraftinite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Scrafty holding this stone will be able to Mega Evolve during battle."
+  },
+  "Staraptite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Staraptor holding this stone will be able to Mega Evolve during battle."
+  },
+  "Swampertite": {
+    "category": "Mega Stone",
+    "effect": "One of a variety of mysterious Mega Stones. A Swampert holding this stone will be able to Mega Evolve during battle."
   },
   "Aspear Berry": {
     "category": "Berry",

@@ -638,5 +638,34 @@
   },
   "Zero to Hero": {
     "effect": "The Pokémon transforms into its Hero Form when it switches out."
+  },
+  "Battle Armor": {
+    "effect": "Protects the Pokémon from critical hits."
+  },
+  "Effect Spore": {
+    "effect": "Contact with the Pokémon may inflict poison, sleep, or paralysis."
+  },
+  "Electric Surge": {
+    "effect": "Turns the ground into Electric Terrain when the Pokémon enters a battle."
+  },
+  "Eelevate": {
+    "effect": "The Pokémon floats off the ground, making it immune to Ground-type moves, Spikes, Toxic Spikes, and Sticky Web. When the Pokémon knocks out a target, the stat with the highest value is raised by 1 stage."
+  },
+  "Fire Mane": {
+    "effect": "Boosts the power of the holder's Fire-type moves by 50%."
+  },
+  "Fluffy": {
+    "effect": "Halves the damage taken from moves that make direct contact, but doubles the damage taken from Fire-type moves.",
+    "damageModifier": 0.5,
+    "damageCondition": "contact moves only"
+  },
+  "Forewarn": {
+    "effect": "When it enters a battle, it can tell what move an opponent will use next."
+  },
+  "Good as Gold": {
+    "effect": "The Pokémon's great golden body makes it immune to status moves."
+  },
+  "Suction Cups": {
+    "effect": "This Pokémon anchors itself firmly in place, preventing it from being forced out by other Pokémon."
   }
 }
