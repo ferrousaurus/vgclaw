@@ -11,20 +11,12 @@
       "disable": true,
     },
     "plan": {
-      "disable": true,
-    },
-    "wolfey": {
-      "mode": "primary",
-      "color": "error",
-      "prompt": "",
       "permission": {
-        "edit": {
-          "*": "deny",
-          "teams/*": "allow",
+        "bash": {
+          "jq *": "allow",
         },
-        "write": {
-          "*": "deny",
-          "teams/*": "ask",
+        "edit": {
+          "teams/**.md": "allow",
         },
       },
     },

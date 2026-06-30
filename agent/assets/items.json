@@ -3,697 +3,1258 @@
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This belt helps with focus and boosts the power of the holder's Fighting-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Fighting-type moves only"
+    "damageCondition": "Fighting-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Black Glasses": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a pair of shady- looking glasses that boost the power of the holder's Dark-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Dark-type moves only"
+    "damageCondition": "Dark-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Bright Powder": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves."
+    "effect": "An item to be held by a Pokémon. This glittery powder casts a tricky glare that lowers the accuracy of opposing Pokémon's moves.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Charcoal": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a combustible fuel that boosts the power of the holder's Fire-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Fire-type moves only"
+    "damageCondition": "Fire-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Choice Scarf": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This curious scarf boosts the holder's Speed stat but only allows the use of a single move.",
-    "speedModifier": 1.5
+    "speedModifier": 1.5,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Dragon Fang": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This hard, sharp fang boosts the power of the holder's Dragon-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Dragon-type moves only"
+    "damageCondition": "Dragon-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Fairy Feather": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Fairy-type moves only"
+    "damageCondition": "Fairy-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Focus Band": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP."
+    "effect": "An item to be held by a Pokémon. When the holder is hit with a move that should knock it out, it may be able to endure with 1 HP.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Focus Sash": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once."
+    "effect": "An item to be held by a Pokémon. If the holder has full HP and it is hit with a move that should knock it out, it will endure with 1 HP—but only once.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hard Stone": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a durable stone that boosts the power of the holder's Rock-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Rock-type moves only"
+    "damageCondition": "Rock-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "King's Rock": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack."
+    "effect": "An item to be held by a Pokémon. It may cause the target to flinch whenever the holder successfully inflicts damage on them with an attack.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Leftovers": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It slowly but steadily restores the holder's HP.",
     "hpRestore": 0.0625,
-    "hpRestoreType": "per-turn"
+    "hpRestoreType": "per-turn",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Light Ball": {
     "category": "Hold Item",
     "effect": "An item to be held by Pikachu. It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats.",
-    "atkModifier": 2.0,
-    "spaModifier": 2.0,
-    "damageCondition": "Pikachu only"
+    "atkModifier": 2,
+    "spaModifier": 2,
+    "damageCondition": "Pikachu only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Magnet": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a powerful magnet that boosts the power of the holder's Electric-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Electric-type moves only"
+    "damageCondition": "Electric-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mental Herb": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. The holder will be able to shake off move-binding effects to move freely— but only once."
+    "effect": "An item to be held by a Pokémon. The holder will be able to shake off move-binding effects to move freely— but only once.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Metal Coat": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a special metallic coating that boosts the power of the holder's Steel-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Steel-type moves only"
+    "damageCondition": "Steel-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Miracle Seed": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a seed imbued with life force that boosts the power of the holder's Grass-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Grass-type moves only"
+    "damageCondition": "Grass-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mystic Water": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This teardrop-shaped gem boosts the power of the holder's Water-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Water-type moves only"
+    "damageCondition": "Water-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Never-Melt Ice": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a heat-repelling piece of ice that boosts the power of the holder's Ice- type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Ice-type moves only"
+    "damageCondition": "Ice-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Poison Barb": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This small poisonous barb boosts the power of the holder's Poison-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Poison-type moves only"
+    "damageCondition": "Poison-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Quick Claw": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. This light, sharp claw lets the holder occasionally unleash a move faster than it usually would."
+    "effect": "An item to be held by a Pokémon. This light, sharp claw lets the holder occasionally unleash a move faster than it usually would.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Scope Lens": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio."
+    "effect": "An item to be held by a Pokémon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sharp Beak": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a long, sharp beak that boosts the power of the holder's Flying-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Flying-type moves only"
+    "damageCondition": "Flying-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Shell Bell": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. The holder restores a little HP to itself every time it inflicts damage with an attack."
+    "effect": "An item to be held by a Pokémon. The holder restores a little HP to itself every time it inflicts damage with an attack.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Silk Scarf": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a sumptuous scarf that boosts the power of the holder's Normal-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Normal-type moves only"
+    "damageCondition": "Normal-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Silver Powder": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a shiny silver powder that boosts the power of the holder's Bug-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Bug-type moves only"
+    "damageCondition": "Bug-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Soft Sand": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This loose, silky sand boosts the power of the holder's Ground-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Ground-type moves only"
+    "damageCondition": "Ground-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Spell Tag": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a sinister, eerie tag that boosts the power of the holder's Ghost-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Ghost-type moves only"
+    "damageCondition": "Ghost-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Twisted Spoon": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This spoon is imbued with telekinetic energy and boosts the power of the holder's Psychic-type moves.",
     "damageModifier": 1.2,
-    "damageCondition": "Psychic-type moves only"
+    "damageCondition": "Psychic-type moves only",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
-"White Herb": {
+  "White Herb": {
     "category": "Hold Item",
-    "effect": "It will restore any lowered stat in battle—but only once."
+    "effect": "It will restore any lowered stat in battle—but only once.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Big Root": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This root boosts the amount of HP the holder restores to itself when it uses HP-stealing moves.",
     "hpRestore": 1.3,
-    "hpRestoreType": "drain-boost"
+    "hpRestoreType": "drain-boost",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Damp Rock": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder changes the weather to rain, the rain will persist for longer than usual.",
     "weatherExtend": "Rain",
-    "weatherTurns": 8
+    "weatherTurns": 8,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Expert Belt": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a well-worn belt that slightly boosts the power of the holder's supereffective moves.",
     "damageModifier": 1.2,
-    "damageCondition": "supereffective moves only"
+    "damageCondition": "supereffective moves only",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Heat Rock": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder changes the weather to harsh sunlight, the sunlight will persist for longer than usual.",
     "weatherExtend": "Sun",
-    "weatherTurns": 8
+    "weatherTurns": 8,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Icy Rock": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder changes the weather to snow, the snow will persist for longer than usual.",
     "weatherExtend": "Snow",
-    "weatherTurns": 8
+    "weatherTurns": 8,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Iron Ball": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. It lowers the holder's Speed stat and makes the holder vulnerable to Ground-type moves even if it is a Flying type or is levitating."
+    "effect": "An item to be held by a Pokémon. It lowers the holder's Speed stat and makes the holder vulnerable to Ground-type moves even if it is a Flying type or is levitating.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Life Orb": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It boosts the power of the holder's moves, but the holder also loses a small amount of HP upon landing an attack.",
     "damageModifier": 1.3,
     "damageCondition": "all moves",
-    "recoilDamage": 0.1
+    "recoilDamage": 0.1,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Light Clay": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder uses protective moves like Light Screen or Reflect, their effects will last longer than usual.",
     "screenExtend": true,
-    "screenTurns": 8
+    "screenTurns": 8,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Metronome": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. It boosts the power of a move that's used repeatedly. Once the chain is broken, the move's power returns to normal."
+    "effect": "An item to be held by a Pokémon. It boosts the power of a move that's used repeatedly. Once the chain is broken, the move's power returns to normal.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Muscle Band": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This headband exudes strength, slightly boosting the power of the holder's physical moves.",
     "damageModifier": 1.1,
-    "damageCondition": "physical moves only"
+    "damageCondition": "physical moves only",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Shed Shell": {
     "category": "Hold Item",
-    "effect": "An item to be held by a Pokémon. Hard and sturdy, this discarded carapace enables the holder to switch out of battle without fail."
+    "effect": "An item to be held by a Pokémon. Hard and sturdy, this discarded carapace enables the holder to switch out of battle without fail.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Smooth Rock": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder changes the weather to a sandstorm, the storm will persist for longer than usual.",
     "weatherExtend": "Sandstorm",
-    "weatherTurns": 8
+    "weatherTurns": 8,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Wide Lens": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. It's a magnifying lens that slightly boosts the accuracy of the holder's moves.",
-    "accuracyModifier": 1.1
+    "accuracyModifier": 1.1,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Wise Glasses": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. This thick pair of glasses slightly boosts the power of the holder's special moves.",
     "damageModifier": 1.1,
-    "damageCondition": "special moves only"
+    "damageCondition": "special moves only",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Zoom Lens": {
     "category": "Hold Item",
     "effect": "An item to be held by a Pokémon. When the holder acts after its target, its move will be more accurate than usual.",
     "accuracyModifier": 1.2,
-    "accuracyCondition": "when moving after target"
+    "accuracyCondition": "when moving after target",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Abomasite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Abomasnow holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Abomasnow holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Absolite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Absol holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Absol holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aerodactylite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Aerodactyl holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Aerodactyl holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aggronite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Aggron holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Aggron holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Alakazite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Alakazam holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Alakazam holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Altarianite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Altaria holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Altaria holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ampharosite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Ampharos holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Ampharos holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Audinite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Audino holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Audino holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Banettite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Banette holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Banette holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Beedrillite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Beedrill holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Beedrill holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Blastoisinite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Blastoise holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Blastoise holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Cameruptite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Camerupt holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Camerupt holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chandelurite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Charizardite X": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Charizardite Y": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Charizard holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chesnaughtite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chimechite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Clefablite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Crabominite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Delphoxite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Dragoninite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Drampanite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Emboarite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Excadrite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Feraligatrite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Floettite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Froslassite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Galladite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Gallade holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Gallade holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Garchompite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Garchomp holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Garchomp holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gardevoirite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Gardevoir holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Gardevoir holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gengarite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Gengar holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Gengar holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Glalitite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Glalie holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Glalie holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Glimmoranite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Golurkite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Greninjite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gyaradosite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Gyarados holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Gyarados holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hawluchanite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Heracronite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Heracross holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Heracross holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Houndoominite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Houndoom holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Houndoom holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kangaskhanite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Kangaskhan holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Kangaskhan holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lopunnite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Lopunny holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Lopunny holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lucarionite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Lucario holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Lucario holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Manectite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Manectric holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Manectric holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Medichamite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Medicham holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Medicham holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Meganiumite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Meowsticite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pidgeotite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Pidgeot holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Pidgeot holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pinsirite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Pinsir holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Pinsir holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sablenite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Sableye holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Sableye holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Scizorite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Scizor holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Scizor holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Scovillainite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sharpedonite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Sharpedo holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Sharpedo holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Skarmorite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Slowbronite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however."
+    "effect": "One of a variety of mysterious Mega Stones. A Slowbro holding this stone will be able to Mega Evolve during battle. It won't work for a Galarian Slowbro, however.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Starminite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Steelixite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Steelix holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Steelix holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tyranitarite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Tyranitar holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Tyranitar holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Venusaurite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Venusaur holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Venusaur holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Victreebelite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Barbaracite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Barbaracle holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Barbaracle holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Blazikenite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Blaziken holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Blaziken holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Dragalgite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Dragalge holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Dragalge holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Eelektrossite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. An Eelektross holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. An Eelektross holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Falinksite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Falinks holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Falinks holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Malamarite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Malamar holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Malamar holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Mawilite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Mawile holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Mawile holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Metagrossite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Metagross holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Metagross holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Pyroarite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Pyroar holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Pyroar holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Raichunite X": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu X during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu X during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Raichunite Y": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu Y during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Raichu holding this stone will be able to Mega Evolve into Mega Raichu Y during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Sceptilite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Sceptile holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Sceptile holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Scolipite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Scolipede holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Scolipede holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Scraftinite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Scrafty holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Scrafty holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Staraptite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Staraptor holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Staraptor holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Swampertite": {
     "category": "Mega Stone",
-    "effect": "One of a variety of mysterious Mega Stones. A Swampert holding this stone will be able to Mega Evolve during battle."
+    "effect": "One of a variety of mysterious Mega Stones. A Swampert holding this stone will be able to Mega Evolve during battle.",
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Aspear Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to thaw itself after being frozen."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to thaw itself after being frozen.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Babiri Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Steel-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Steel-type move"
+    "damageCondition": "when hit by a supereffective Steel-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Charti Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Rock-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Rock-type move"
+    "damageCondition": "when hit by a supereffective Rock-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Cheri Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to free itself from paralysis."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to free itself from paralysis.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chesto Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to shake off its drowsiness."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to shake off its drowsiness.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chilan Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a Normal-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a Normal-type move"
+    "damageCondition": "when hit by a Normal-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chople Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Fighting-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Fighting-type move"
+    "damageCondition": "when hit by a supereffective Fighting-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Coba Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Flying-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Flying-type move"
+    "damageCondition": "when hit by a supereffective Flying-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Colbur Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Dark-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Dark-type move"
+    "damageCondition": "when hit by a supereffective Dark-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Haban Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Dragon-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Dragon-type move"
+    "damageCondition": "when hit by a supereffective Dragon-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kasib Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Ghost-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Ghost-type move"
+    "damageCondition": "when hit by a supereffective Ghost-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kebia Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Poison-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Poison-type move"
+    "damageCondition": "when hit by a supereffective Poison-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Leppa Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 PP to a move."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 PP to a move.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lum Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of any status condition it may have."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of any status condition it may have.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Occa Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Fire-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Fire-type move"
+    "damageCondition": "when hit by a supereffective Fire-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Oran Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holds one of these Berries, it will be able to restore 10 HP to itself.",
     "hpRestore": 10,
-    "hpRestoreType": "flat"
+    "hpRestoreType": "flat",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Passho Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Water-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Water-type move"
+    "damageCondition": "when hit by a supereffective Water-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Payapa Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Psychic-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Psychic-type move"
+    "damageCondition": "when hit by a supereffective Psychic-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pecha Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to lift the effects of being poisoned from itself.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Persim Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of confusion."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of confusion.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Rawst Berry": {
     "category": "Berry",
-    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of a burn."
+    "effect": "If a Pokémon holds one of these Berries, it will be able to cure itself of a burn.",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Rindo Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Grass-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Grass-type move"
+    "damageCondition": "when hit by a supereffective Grass-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Roseli Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Fairy-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Fairy-type move"
+    "damageCondition": "when hit by a supereffective Fairy-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Shuca Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Ground-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Ground-type move"
+    "damageCondition": "when hit by a supereffective Ground-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sitrus Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holds one of these Berries, it will be able to restore a small amount of HP to itself.",
-    "hpRestore": 0.25
+    "hpRestore": 0.25,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tanga Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Bug-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Bug-type move"
+    "damageCondition": "when hit by a supereffective Bug-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Wacan Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Electric-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Electric-type move"
+    "damageCondition": "when hit by a supereffective Electric-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Yache Berry": {
     "category": "Berry",
     "effect": "If a Pokémon holding this Berry is hit with a supereffective Ice-type move, the power of that move will be weakened.",
     "damageModifier": 0.5,
-    "damageCondition": "when hit by a supereffective Ice-type move"
+    "damageCondition": "when hit by a supereffective Ice-type move",
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   }
 }

@@ -90,10 +90,18 @@
           "spa": 122,
           "spd": 120,
           "spe": 80
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 3
+    "pokedexNumber": 3,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Charizard": {
     "types": [
@@ -201,7 +209,11 @@
           "spa": 130,
           "spd": 85,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       },
       {
         "name": "Mega Charizard Y",
@@ -217,10 +229,18 @@
           "spa": 159,
           "spd": 115,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 6
+    "pokedexNumber": 6,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Blastoise": {
     "types": [
@@ -327,10 +347,18 @@
           "spa": 135,
           "spd": 115,
           "spe": 78
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 9
+    "pokedexNumber": 9,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Beedrill": {
     "types": [
@@ -419,10 +447,18 @@
           "spa": 15,
           "spd": 80,
           "spe": 145
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 15
+    "pokedexNumber": 15,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pidgeot": {
     "types": [
@@ -490,10 +526,18 @@
           "spa": 135,
           "spd": 80,
           "spe": 121
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 18
+    "pokedexNumber": 18,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Arbok": {
     "types": [
@@ -584,7 +628,11 @@
       "Venoshock",
       "Wrap"
     ],
-    "pokedexNumber": 24
+    "pokedexNumber": 24,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pikachu": {
     "types": [
@@ -664,7 +712,11 @@
       "Wish",
       "Zap Cannon"
     ],
-    "pokedexNumber": 25
+    "pokedexNumber": 25,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Raichu": {
     "types": [
@@ -764,7 +816,10 @@
           "spa": 90,
           "spd": 95,
           "spe": 110
-        }
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
       },
       {
         "name": "Mega Raichu Y",
@@ -779,10 +834,17 @@
           "spa": 160,
           "spd": 80,
           "spe": 130
-        }
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 26
+    "pokedexNumber": 26,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Raichu-Alola": {
     "types": [
@@ -878,7 +940,11 @@
       "Wish",
       "Zap Cannon"
     ],
-    "pokedexNumber": 26
+    "pokedexNumber": 26,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Clefable": {
     "types": [
@@ -1004,10 +1070,18 @@
           "spa": 135,
           "spd": 110,
           "spe": 70
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 36
+    "pokedexNumber": 36,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ninetales": {
     "types": [
@@ -1094,7 +1168,11 @@
       "Will-O-Wisp",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 38
+    "pokedexNumber": 38,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ninetales-Alola": {
     "types": [
@@ -1184,7 +1262,11 @@
       "Wonder Room",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 38
+    "pokedexNumber": 38,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Arcanine": {
     "types": [
@@ -1261,7 +1343,11 @@
       "Wild Charge",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 59
+    "pokedexNumber": 59,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Arcanine-Hisui": {
     "types": [
@@ -1350,7 +1436,11 @@
       "Wild Charge",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 59
+    "pokedexNumber": 59,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Alakazam": {
     "types": [
@@ -1445,10 +1535,18 @@
           "spa": 175,
           "spd": 105,
           "spe": 150
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 65
+    "pokedexNumber": 65,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Machamp": {
     "types": [
@@ -1535,7 +1633,11 @@
       "Tickle",
       "Wide Guard"
     ],
-    "pokedexNumber": 68
+    "pokedexNumber": 68,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Victreebel": {
     "types": [
@@ -1629,10 +1731,18 @@
           "spa": 135,
           "spd": 95,
           "spe": 70
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 71
+    "pokedexNumber": 71,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Slowbro": {
     "types": [
@@ -1747,10 +1857,18 @@
           "spa": 100,
           "spd": 70,
           "spe": 30
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 80
+    "pokedexNumber": 80,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Slowbro-Galar": {
     "types": [
@@ -1867,7 +1985,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 80
+    "pokedexNumber": 80,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gengar": {
     "types": [
@@ -1978,10 +2100,18 @@
           "spa": 170,
           "spd": 95,
           "spe": 130
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 94
+    "pokedexNumber": 94,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kangaskhan": {
     "types": [
@@ -2083,10 +2213,18 @@
           "spa": 60,
           "spd": 100,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 115
+    "pokedexNumber": 115,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Starmie": {
     "types": [
@@ -2185,10 +2323,18 @@
           "spa": 130,
           "spd": 105,
           "spe": 120
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 121
+    "pokedexNumber": 121,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pinsir": {
     "types": [
@@ -2277,10 +2423,18 @@
           "spa": 65,
           "spd": 90,
           "spe": 105
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 127
+    "pokedexNumber": 127,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tauros": {
     "types": [
@@ -2358,7 +2512,11 @@
       "Wild Charge",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 128
+    "pokedexNumber": 128,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tauros-Paldea-Combat": {
     "types": [
@@ -2439,7 +2597,11 @@
       "Wild Charge",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 128
+    "pokedexNumber": 128,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tauros-Paldea-Blaze": {
     "types": [
@@ -2527,7 +2689,11 @@
       "Will-O-Wisp",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 128
+    "pokedexNumber": 128,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tauros-Paldea-Aqua": {
     "types": [
@@ -2615,7 +2781,11 @@
       "Wild Charge",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 128
+    "pokedexNumber": 128,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gyarados": {
     "types": [
@@ -2718,10 +2888,18 @@
           "spa": 70,
           "spd": 130,
           "spe": 81
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 130
+    "pokedexNumber": 130,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ditto": {
     "types": [
@@ -2742,7 +2920,11 @@
     "moves": [
       "Transform"
     ],
-    "pokedexNumber": 132
+    "pokedexNumber": 132,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Vaporeon": {
     "types": [
@@ -2821,7 +3003,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 134
+    "pokedexNumber": 134,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Jolteon": {
     "types": [
@@ -2900,7 +3086,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 135
+    "pokedexNumber": 135,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Flareon": {
     "types": [
@@ -2977,7 +3167,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 136
+    "pokedexNumber": 136,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aerodactyl": {
     "types": [
@@ -3072,10 +3266,18 @@
           "spa": 70,
           "spd": 95,
           "spe": 150
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 142
+    "pokedexNumber": 142,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Snorlax": {
     "types": [
@@ -3179,7 +3381,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 143
+    "pokedexNumber": 143,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Dragonite": {
     "types": [
@@ -3298,10 +3504,18 @@
           "spa": 145,
           "spd": 125,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 149
+    "pokedexNumber": 149,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Meganium": {
     "types": [
@@ -3397,10 +3611,18 @@
           "spa": 143,
           "spd": 115,
           "spe": 80
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 154
+    "pokedexNumber": 154,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Typhlosion": {
     "types": [
@@ -3492,7 +3714,11 @@
       "Poltergeist",
       "Spite"
     ],
-    "pokedexNumber": 157
+    "pokedexNumber": 157,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Feraligatr": {
     "types": [
@@ -3609,10 +3835,18 @@
           "spa": 89,
           "spd": 93,
           "spe": 78
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 160
+    "pokedexNumber": 160,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ariados": {
     "types": [
@@ -3698,7 +3932,11 @@
       "Venoshock",
       "X-Scissor"
     ],
-    "pokedexNumber": 168
+    "pokedexNumber": 168,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ampharos": {
     "types": [
@@ -3800,10 +4038,18 @@
           "spa": 165,
           "spd": 110,
           "spe": 45
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 181
+    "pokedexNumber": 181,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Azumarill": {
     "types": [
@@ -3891,7 +4137,11 @@
       "Waterfall",
       "Whirlpool"
     ],
-    "pokedexNumber": 184
+    "pokedexNumber": 184,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Politoed": {
     "types": [
@@ -3969,7 +4219,11 @@
       "Weather Ball",
       "Whirlpool"
     ],
-    "pokedexNumber": 186
+    "pokedexNumber": 186,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Espeon": {
     "types": [
@@ -4056,7 +4310,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 196
+    "pokedexNumber": 196,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Umbreon": {
     "types": [
@@ -4143,7 +4401,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 197
+    "pokedexNumber": 197,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Slowking": {
     "types": [
@@ -4266,7 +4528,11 @@
       "Toxic Spikes",
       "Venoshock"
     ],
-    "pokedexNumber": 199
+    "pokedexNumber": 199,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Forretress": {
     "types": [
@@ -4356,7 +4622,11 @@
       "Volt Switch",
       "Zap Cannon"
     ],
-    "pokedexNumber": 205
+    "pokedexNumber": 205,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Steelix": {
     "types": [
@@ -4459,10 +4729,18 @@
           "spa": 55,
           "spd": 95,
           "spe": 30
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 208
+    "pokedexNumber": 208,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Scizor": {
     "types": [
@@ -4563,10 +4841,18 @@
           "spa": 65,
           "spd": 100,
           "spe": 75
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 212
+    "pokedexNumber": 212,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Heracross": {
     "types": [
@@ -4669,10 +4955,18 @@
           "spa": 40,
           "spd": 105,
           "spe": 75
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 214
+    "pokedexNumber": 214,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Skarmory": {
     "types": [
@@ -4760,10 +5054,18 @@
           "spa": 40,
           "spd": 100,
           "spe": 110
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 227
+    "pokedexNumber": 227,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Houndoom": {
     "types": [
@@ -4867,10 +5169,18 @@
           "spa": 140,
           "spd": 90,
           "spe": 115
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 229
+    "pokedexNumber": 229,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tyranitar": {
     "types": [
@@ -4998,10 +5308,18 @@
           "spa": 95,
           "spd": 120,
           "spe": 71
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 248
+    "pokedexNumber": 248,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pelipper": {
     "types": [
@@ -5076,7 +5394,11 @@
       "Whirlpool",
       "Wide Guard"
     ],
-    "pokedexNumber": 279
+    "pokedexNumber": 279,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gardevoir": {
     "types": [
@@ -5193,10 +5515,18 @@
           "spa": 165,
           "spd": 135,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 282
+    "pokedexNumber": 282,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sableye": {
     "types": [
@@ -5321,10 +5651,18 @@
           "spa": 85,
           "spd": 115,
           "spe": 20
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 302
+    "pokedexNumber": 302,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aggron": {
     "types": [
@@ -5443,10 +5781,18 @@
           "spa": 60,
           "spd": 80,
           "spe": 50
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 306
+    "pokedexNumber": 306,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Medicham": {
     "types": [
@@ -5559,10 +5905,18 @@
           "spa": 80,
           "spd": 85,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 308
+    "pokedexNumber": 308,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Manectric": {
     "types": [
@@ -5646,10 +6000,18 @@
           "spa": 135,
           "spd": 80,
           "spe": 135
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 310
+    "pokedexNumber": 310,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sharpedo": {
     "types": [
@@ -5742,10 +6104,18 @@
           "spa": 110,
           "spd": 65,
           "spe": 105
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 319
+    "pokedexNumber": 319,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Camerupt": {
     "types": [
@@ -5849,10 +6219,18 @@
           "spa": 145,
           "spd": 105,
           "spe": 20
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 323
+    "pokedexNumber": 323,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Torkoal": {
     "types": [
@@ -5930,7 +6308,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 324
+    "pokedexNumber": 324,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Altaria": {
     "types": [
@@ -6031,10 +6413,18 @@
           "spa": 110,
           "spd": 105,
           "spe": 80
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 334
+    "pokedexNumber": 334,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Milotic": {
     "types": [
@@ -6116,7 +6506,11 @@
       "Whirlpool",
       "Wrap"
     ],
-    "pokedexNumber": 350
+    "pokedexNumber": 350,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Castform": {
     "types": [
@@ -6172,7 +6566,11 @@
       "Thunderbolt",
       "Weather Ball"
     ],
-    "pokedexNumber": 351
+    "pokedexNumber": 351,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Banette": {
     "types": [
@@ -6273,10 +6671,18 @@
           "spa": 93,
           "spd": 83,
           "spe": 75
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 354
+    "pokedexNumber": 354,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chimecho": {
     "types": [
@@ -6374,10 +6780,18 @@
           "spa": 135,
           "spd": 120,
           "spe": 65
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 358
+    "pokedexNumber": 358,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Absol": {
     "types": [
@@ -6483,10 +6897,18 @@
           "spa": 115,
           "spd": 60,
           "spe": 115
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 359
+    "pokedexNumber": 359,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Glalie": {
     "types": [
@@ -6575,10 +6997,18 @@
           "spa": 120,
           "spd": 80,
           "spe": 100
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 362
+    "pokedexNumber": 362,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Torterra": {
     "types": [
@@ -6671,7 +7101,11 @@
       "Worry Seed",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 389
+    "pokedexNumber": 389,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Infernape": {
     "types": [
@@ -6780,7 +7214,11 @@
       "Will-O-Wisp",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 392
+    "pokedexNumber": 392,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Empoleon": {
     "types": [
@@ -6875,7 +7313,11 @@
       "Whirlpool",
       "Yawn"
     ],
-    "pokedexNumber": 395
+    "pokedexNumber": 395,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Luxray": {
     "types": [
@@ -6949,7 +7391,11 @@
       "Volt Switch",
       "Wild Charge"
     ],
-    "pokedexNumber": 405
+    "pokedexNumber": 405,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Roserade": {
     "types": [
@@ -7022,7 +7468,11 @@
       "Weather Ball",
       "Worry Seed"
     ],
-    "pokedexNumber": 407
+    "pokedexNumber": 407,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Rampardos": {
     "types": [
@@ -7116,7 +7566,11 @@
       "Whirlwind",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 409
+    "pokedexNumber": 409,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Bastiodon": {
     "types": [
@@ -7205,7 +7659,11 @@
       "Trailblaze",
       "Wide Guard"
     ],
-    "pokedexNumber": 411
+    "pokedexNumber": 411,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lopunny": {
     "types": [
@@ -7317,10 +7775,18 @@
           "spa": 54,
           "spd": 96,
           "spe": 135
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 428
+    "pokedexNumber": 428,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Spiritomb": {
     "types": [
@@ -7395,7 +7861,11 @@
       "Will-O-Wisp",
       "Wonder Room"
     ],
-    "pokedexNumber": 442
+    "pokedexNumber": 442,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Garchomp": {
     "types": [
@@ -7489,10 +7959,18 @@
           "spa": 120,
           "spd": 95,
           "spe": 92
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 445
+    "pokedexNumber": 445,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lucario": {
     "types": [
@@ -7612,10 +8090,18 @@
           "spa": 140,
           "spd": 70,
           "spe": 112
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 448
+    "pokedexNumber": 448,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hippowdon": {
     "types": [
@@ -7686,7 +8172,11 @@
       "Whirlwind",
       "Yawn"
     ],
-    "pokedexNumber": 450
+    "pokedexNumber": 450,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Toxicroak": {
     "types": [
@@ -7789,7 +8279,11 @@
       "Venoshock",
       "X-Scissor"
     ],
-    "pokedexNumber": 454
+    "pokedexNumber": 454,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Abomasnow": {
     "types": [
@@ -7890,10 +8384,18 @@
           "spa": 132,
           "spd": 105,
           "spe": 30
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 460
+    "pokedexNumber": 460,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Weavile": {
     "types": [
@@ -7986,7 +8488,11 @@
       "Water Pulse",
       "X-Scissor"
     ],
-    "pokedexNumber": 461
+    "pokedexNumber": 461,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Rhyperior": {
     "types": [
@@ -8099,7 +8605,11 @@
       "Thunderbolt",
       "Uproar"
     ],
-    "pokedexNumber": 464
+    "pokedexNumber": 464,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Leafeon": {
     "types": [
@@ -8177,7 +8687,11 @@
       "X-Scissor",
       "Yawn"
     ],
-    "pokedexNumber": 470
+    "pokedexNumber": 470,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Glaceon": {
     "types": [
@@ -8255,7 +8769,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 471
+    "pokedexNumber": 471,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gliscor": {
     "types": [
@@ -8351,7 +8869,11 @@
       "Venoshock",
       "X-Scissor"
     ],
-    "pokedexNumber": 472
+    "pokedexNumber": 472,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mamoswine": {
     "types": [
@@ -8436,7 +8958,11 @@
       "Throat Chop",
       "Trailblaze"
     ],
-    "pokedexNumber": 473
+    "pokedexNumber": 473,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gallade": {
     "types": [
@@ -8578,10 +9104,18 @@
           "spa": 65,
           "spd": 115,
           "spe": 110
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 475
+    "pokedexNumber": 475,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Froslass": {
     "types": [
@@ -8685,10 +9219,18 @@
           "spa": 140,
           "spd": 100,
           "spe": 120
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 478
+    "pokedexNumber": 478,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Rotom": {
     "types": [
@@ -8755,7 +9297,11 @@
       "Air Slash",
       "Leaf Storm"
     ],
-    "pokedexNumber": 479
+    "pokedexNumber": 479,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Serperior": {
     "types": [
@@ -8828,7 +9374,11 @@
       "Trailblaze",
       "Wrap"
     ],
-    "pokedexNumber": 497
+    "pokedexNumber": 497,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Emboar": {
     "types": [
@@ -8943,10 +9493,18 @@
           "spa": 110,
           "spd": 110,
           "spe": 75
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 500
+    "pokedexNumber": 500,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Samurott": {
     "types": [
@@ -9034,7 +9592,11 @@
       "Sucker Punch",
       "Throat Chop"
     ],
-    "pokedexNumber": 503
+    "pokedexNumber": 503,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Watchog": {
     "types": [
@@ -9107,7 +9669,11 @@
       "Trailblaze",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 505
+    "pokedexNumber": 505,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Liepard": {
     "types": [
@@ -9188,7 +9754,11 @@
       "U-turn",
       "Yawn"
     ],
-    "pokedexNumber": 510
+    "pokedexNumber": 510,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Simisage": {
     "types": [
@@ -9258,7 +9828,11 @@
       "Trailblaze",
       "Uproar"
     ],
-    "pokedexNumber": 512
+    "pokedexNumber": 512,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Simisear": {
     "types": [
@@ -9333,7 +9907,11 @@
       "Will-O-Wisp",
       "Yawn"
     ],
-    "pokedexNumber": 514
+    "pokedexNumber": 514,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Simipour": {
     "types": [
@@ -9405,7 +9983,11 @@
       "Uproar",
       "Waterfall"
     ],
-    "pokedexNumber": 516
+    "pokedexNumber": 516,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Excadrill": {
     "types": [
@@ -9495,10 +10077,18 @@
           "spa": 65,
           "spd": 65,
           "spe": 103
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 530
+    "pokedexNumber": 530,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Audino": {
     "types": [
@@ -9603,10 +10193,18 @@
           "spa": 80,
           "spd": 126,
           "spe": 50
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 531
+    "pokedexNumber": 531,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Conkeldurr": {
     "types": [
@@ -9688,7 +10286,11 @@
       "Upper Hand",
       "Wide Guard"
     ],
-    "pokedexNumber": 534
+    "pokedexNumber": 534,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Whimsicott": {
     "types": [
@@ -9760,7 +10362,11 @@
       "U-turn",
       "Worry Seed"
     ],
-    "pokedexNumber": 547
+    "pokedexNumber": 547,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Krookodile": {
     "types": [
@@ -9865,7 +10471,11 @@
       "Torment",
       "Uproar"
     ],
-    "pokedexNumber": 553
+    "pokedexNumber": 553,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Cofagrigus": {
     "types": [
@@ -9938,7 +10548,11 @@
       "Wonder Room",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 563
+    "pokedexNumber": 563,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Garbodor": {
     "types": [
@@ -10012,7 +10626,11 @@
       "Toxic Spikes",
       "Venoshock"
     ],
-    "pokedexNumber": 569
+    "pokedexNumber": 569,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Zoroark": {
     "types": [
@@ -10111,7 +10729,11 @@
       "Snowscape",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 571
+    "pokedexNumber": 571,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Reuniclus": {
     "types": [
@@ -10198,7 +10820,11 @@
       "Wonder Room",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 579
+    "pokedexNumber": 579,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Vanilluxe": {
     "types": [
@@ -10260,7 +10886,11 @@
       "Uproar",
       "Weather Ball"
     ],
-    "pokedexNumber": 584
+    "pokedexNumber": 584,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Emolga": {
     "types": [
@@ -10327,7 +10957,11 @@
       "Volt Switch",
       "Wild Charge"
     ],
-    "pokedexNumber": 587
+    "pokedexNumber": 587,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chandelure": {
     "types": [
@@ -10418,10 +11052,18 @@
           "spa": 175,
           "spd": 110,
           "spe": 90
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 609
+    "pokedexNumber": 609,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Beartic": {
     "types": [
@@ -10517,7 +11159,11 @@
       "X-Scissor",
       "Yawn"
     ],
-    "pokedexNumber": 614
+    "pokedexNumber": 614,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Stunfisk": {
     "types": [
@@ -10599,7 +11245,11 @@
       "Steel Beam",
       "Terrain Pulse"
     ],
-    "pokedexNumber": 618
+    "pokedexNumber": 618,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Golurk": {
     "types": [
@@ -10714,10 +11364,18 @@
           "spa": 70,
           "spd": 105,
           "spe": 55
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 623
+    "pokedexNumber": 623,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hydreigon": {
     "types": [
@@ -10815,7 +11473,11 @@
       "Uproar",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 635
+    "pokedexNumber": 635,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Volcarona": {
     "types": [
@@ -10893,7 +11555,11 @@
       "Will-O-Wisp",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 637
+    "pokedexNumber": 637,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Chesnaught": {
     "types": [
@@ -11016,10 +11682,18 @@
           "spa": 74,
           "spd": 115,
           "spe": 44
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 652
+    "pokedexNumber": 652,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Delphox": {
     "types": [
@@ -11127,10 +11801,18 @@
           "spa": 159,
           "spd": 125,
           "spe": 134
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 655
+    "pokedexNumber": 655,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Greninja": {
     "types": [
@@ -11231,10 +11913,18 @@
           "spa": 133,
           "spd": 81,
           "spe": 142
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 658
+    "pokedexNumber": 658,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Diggersby": {
     "types": [
@@ -11314,7 +12004,11 @@
       "Uproar",
       "Wild Charge"
     ],
-    "pokedexNumber": 660
+    "pokedexNumber": 660,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Talonflame": {
     "types": [
@@ -11385,7 +12079,11 @@
       "Whirlwind",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 663
+    "pokedexNumber": 663,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Vivillon": {
     "types": [
@@ -11450,7 +12148,11 @@
       "Weather Ball",
       "Whirlwind"
     ],
-    "pokedexNumber": 666
+    "pokedexNumber": 666,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Floette": {
     "types": [
@@ -11525,10 +12227,18 @@
           "spa": 155,
           "spd": 148,
           "spe": 102
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 670
+    "pokedexNumber": 670,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Florges": {
     "types": [
@@ -11594,7 +12304,11 @@
       "Trick",
       "Wish"
     ],
-    "pokedexNumber": 671
+    "pokedexNumber": 671,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Pangoro": {
     "types": [
@@ -11696,7 +12410,11 @@
       "X-Scissor",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 675
+    "pokedexNumber": 675,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Furfrou": {
     "types": [
@@ -11755,7 +12473,11 @@
       "Wild Charge",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 676
+    "pokedexNumber": 676,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Meowstic": {
     "types": [
@@ -11852,10 +12574,18 @@
           "spa": 143,
           "spd": 101,
           "spe": 124
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 678
+    "pokedexNumber": 678,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aegislash": {
     "types": [
@@ -11920,7 +12650,11 @@
       "Wide Guard",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 681
+    "pokedexNumber": 681,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aromatisse": {
     "types": [
@@ -11988,7 +12722,11 @@
       "Trick Room",
       "Wish"
     ],
-    "pokedexNumber": 683
+    "pokedexNumber": 683,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Slurpuff": {
     "types": [
@@ -12050,7 +12788,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 685
+    "pokedexNumber": 685,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Clawitzer": {
     "types": [
@@ -12121,7 +12863,11 @@
       "Waterfall",
       "Weather Ball"
     ],
-    "pokedexNumber": 693
+    "pokedexNumber": 693,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Heliolisk": {
     "types": [
@@ -12206,7 +12952,11 @@
       "Weather Ball",
       "Wild Charge"
     ],
-    "pokedexNumber": 695
+    "pokedexNumber": 695,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tyrantrum": {
     "types": [
@@ -12291,7 +13041,11 @@
       "Thunder Fang",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 697
+    "pokedexNumber": 697,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Aurorus": {
     "types": [
@@ -12368,7 +13122,11 @@
       "Weather Ball",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 699
+    "pokedexNumber": 699,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sylveon": {
     "types": [
@@ -12443,7 +13201,11 @@
       "Wish",
       "Yawn"
     ],
-    "pokedexNumber": 700
+    "pokedexNumber": 700,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hawlucha": {
     "types": [
@@ -12554,10 +13316,18 @@
           "spa": 74,
           "spd": 93,
           "spe": 118
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 701
+    "pokedexNumber": 701,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Dedenne": {
     "types": [
@@ -12629,7 +13399,11 @@
       "Volt Switch",
       "Wild Charge"
     ],
-    "pokedexNumber": 702
+    "pokedexNumber": 702,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Goodra": {
     "types": [
@@ -12728,7 +13502,11 @@
       "Shelter",
       "Steel Beam"
     ],
-    "pokedexNumber": 706
+    "pokedexNumber": 706,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Klefki": {
     "types": [
@@ -12793,7 +13571,11 @@
       "Torment",
       "Trick Room"
     ],
-    "pokedexNumber": 707
+    "pokedexNumber": 707,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Trevenant": {
     "types": [
@@ -12888,7 +13670,11 @@
       "Wood Hammer",
       "X-Scissor"
     ],
-    "pokedexNumber": 709
+    "pokedexNumber": 709,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Gourgeist": {
     "types": [
@@ -12970,7 +13756,11 @@
       "Will-O-Wisp",
       "Worry Seed"
     ],
-    "pokedexNumber": 711
+    "pokedexNumber": 711,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Avalugg": {
     "types": [
@@ -13049,7 +13839,11 @@
       "Sandstorm",
       "Stealth Rock"
     ],
-    "pokedexNumber": 713
+    "pokedexNumber": 713,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Noivern": {
     "types": [
@@ -13135,7 +13929,11 @@
       "Wild Charge",
       "X-Scissor"
     ],
-    "pokedexNumber": 715
+    "pokedexNumber": 715,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Decidueye": {
     "types": [
@@ -13236,7 +14034,11 @@
       "Triple Arrows",
       "Upper Hand"
     ],
-    "pokedexNumber": 724
+    "pokedexNumber": 724,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Incineroar": {
     "types": [
@@ -13334,7 +14136,11 @@
       "Trailblaze",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 727
+    "pokedexNumber": 727,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Primarina": {
     "types": [
@@ -13418,7 +14224,11 @@
       "Whirlpool",
       "Wonder Room"
     ],
-    "pokedexNumber": 730
+    "pokedexNumber": 730,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Toucannon": {
     "types": [
@@ -13493,7 +14303,11 @@
       "U-turn",
       "Uproar"
     ],
-    "pokedexNumber": 733
+    "pokedexNumber": 733,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Crabominable": {
     "types": [
@@ -13593,10 +14407,18 @@
           "spa": 62,
           "spd": 107,
           "spe": 33
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 740
+    "pokedexNumber": 740,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Lycanroc": {
     "types": [
@@ -13697,7 +14519,11 @@
       "Crush Claw",
       "Focus Energy"
     ],
-    "pokedexNumber": 745
+    "pokedexNumber": 745,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Toxapex": {
     "types": [
@@ -13770,7 +14596,11 @@
       "Water Pulse",
       "Wide Guard"
     ],
-    "pokedexNumber": 748
+    "pokedexNumber": 748,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mudsdale": {
     "types": [
@@ -13836,7 +14666,11 @@
       "Sunny Day",
       "Superpower"
     ],
-    "pokedexNumber": 750
+    "pokedexNumber": 750,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Araquanid": {
     "types": [
@@ -13908,7 +14742,11 @@
       "Wonder Room",
       "X-Scissor"
     ],
-    "pokedexNumber": 752
+    "pokedexNumber": 752,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Salazzle": {
     "types": [
@@ -13999,7 +14837,11 @@
       "Venoshock",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 758
+    "pokedexNumber": 758,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tsareena": {
     "types": [
@@ -14074,7 +14916,11 @@
       "U-turn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 763
+    "pokedexNumber": 763,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Oranguru": {
     "types": [
@@ -14160,7 +15006,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 765
+    "pokedexNumber": 765,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Passimian": {
     "types": [
@@ -14246,7 +15096,11 @@
       "Uproar",
       "Vacuum Wave"
     ],
-    "pokedexNumber": 766
+    "pokedexNumber": 766,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mimikyu": {
     "types": [
@@ -14326,7 +15180,11 @@
       "Wood Hammer",
       "X-Scissor"
     ],
-    "pokedexNumber": 778
+    "pokedexNumber": 778,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Drampa": {
     "types": [
@@ -14429,10 +15287,18 @@
           "spa": 160,
           "spd": 116,
           "spe": 36
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 780
+    "pokedexNumber": 780,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kommo-o": {
     "types": [
@@ -14532,7 +15398,11 @@
       "Vacuum Wave",
       "X-Scissor"
     ],
-    "pokedexNumber": 784
+    "pokedexNumber": 784,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Corviknight": {
     "types": [
@@ -14609,7 +15479,11 @@
       "Thief",
       "U-turn"
     ],
-    "pokedexNumber": 823
+    "pokedexNumber": 823,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Flapple": {
     "types": [
@@ -14675,7 +15549,11 @@
       "Trailblaze",
       "U-turn"
     ],
-    "pokedexNumber": 841
+    "pokedexNumber": 841,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Appletun": {
     "types": [
@@ -14748,7 +15626,11 @@
       "Trailblaze",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 842
+    "pokedexNumber": 842,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sandaconda": {
     "types": [
@@ -14817,7 +15699,11 @@
       "Wrap",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 844
+    "pokedexNumber": 844,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Polteageist": {
     "types": [
@@ -14883,7 +15769,11 @@
       "Will-O-Wisp",
       "Wonder Room"
     ],
-    "pokedexNumber": 855
+    "pokedexNumber": 855,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hatterene": {
     "types": [
@@ -14964,7 +15854,11 @@
       "Trick Room",
       "Wonder Room"
     ],
-    "pokedexNumber": 858
+    "pokedexNumber": 858,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Mr. Rime": {
     "types": [
@@ -15079,7 +15973,11 @@
       "Wonder Room",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 866
+    "pokedexNumber": 866,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Runerigus": {
     "types": [
@@ -15168,7 +16066,11 @@
       "Wonder Room",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 867
+    "pokedexNumber": 867,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Alcremie": {
     "types": [
@@ -15237,7 +16139,11 @@
       "Tri Attack",
       "Wonder Room"
     ],
-    "pokedexNumber": 869
+    "pokedexNumber": 869,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Morpeko": {
     "types": [
@@ -15322,7 +16228,11 @@
       "Volt Switch",
       "Wild Charge"
     ],
-    "pokedexNumber": 877
+    "pokedexNumber": 877,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Dragapult": {
     "types": [
@@ -15407,7 +16317,11 @@
       "U-turn",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 887
+    "pokedexNumber": 887,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Wyrdeer": {
     "types": [
@@ -15490,7 +16404,11 @@
       "Wild Charge",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 899
+    "pokedexNumber": 899,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kleavor": {
     "types": [
@@ -15568,7 +16486,11 @@
       "Vacuum Wave",
       "X-Scissor"
     ],
-    "pokedexNumber": 900
+    "pokedexNumber": 900,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Basculegion": {
     "types": [
@@ -15639,7 +16561,11 @@
       "Whirlpool",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 902
+    "pokedexNumber": 902,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sneasler": {
     "types": [
@@ -15722,7 +16648,11 @@
       "Venoshock",
       "X-Scissor"
     ],
-    "pokedexNumber": 903
+    "pokedexNumber": 903,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Meowscarada": {
     "types": [
@@ -15808,7 +16738,11 @@
       "U-turn",
       "Worry Seed"
     ],
-    "pokedexNumber": 908
+    "pokedexNumber": 908,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Skeledirge": {
     "types": [
@@ -15885,7 +16819,11 @@
       "Yawn",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 911
+    "pokedexNumber": 911,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Quaquaval": {
     "types": [
@@ -15965,7 +16903,11 @@
       "Wave Crash",
       "Whirlpool"
     ],
-    "pokedexNumber": 914
+    "pokedexNumber": 914,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Maushold": {
     "types": [
@@ -16036,7 +16978,11 @@
       "U-turn",
       "Water Pulse"
     ],
-    "pokedexNumber": 925
+    "pokedexNumber": 925,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Garganacl": {
     "types": [
@@ -16111,7 +17057,11 @@
       "Wide Guard",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 934
+    "pokedexNumber": 934,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Armarouge": {
     "types": [
@@ -16187,7 +17137,11 @@
       "Wide Guard",
       "Will-O-Wisp"
     ],
-    "pokedexNumber": 936
+    "pokedexNumber": 936,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Ceruledge": {
     "types": [
@@ -16263,7 +17217,11 @@
       "Will-O-Wisp",
       "X-Scissor"
     ],
-    "pokedexNumber": 937
+    "pokedexNumber": 937,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Bellibolt": {
     "types": [
@@ -16323,7 +17281,11 @@
       "Wild Charge",
       "Zap Cannon"
     ],
-    "pokedexNumber": 939
+    "pokedexNumber": 939,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Scovillain": {
     "types": [
@@ -16408,10 +17370,18 @@
           "spa": 138,
           "spd": 85,
           "spe": 75
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 952
+    "pokedexNumber": 952,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Espathra": {
     "types": [
@@ -16489,7 +17459,11 @@
       "Uproar",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 956
+    "pokedexNumber": 956,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Tinkaton": {
     "types": [
@@ -16558,7 +17532,11 @@
       "Thunder Wave",
       "Wood Hammer"
     ],
-    "pokedexNumber": 959
+    "pokedexNumber": 959,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Palafin": {
     "types": [
@@ -16635,7 +17613,11 @@
       "Whirlpool",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 964
+    "pokedexNumber": 964,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Orthworm": {
     "types": [
@@ -16695,7 +17677,11 @@
       "Substitute",
       "Wrap"
     ],
-    "pokedexNumber": 968
+    "pokedexNumber": 968,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Glimmora": {
     "types": [
@@ -16777,10 +17763,18 @@
           "spa": 150,
           "spd": 96,
           "spe": 101
-        }
+        },
+        "regulations": [
+          "Regulation M-A",
+          "Regulation M-B"
+        ]
       }
     ],
-    "pokedexNumber": 970
+    "pokedexNumber": 970,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Farigiraf": {
     "types": [
@@ -16872,7 +17866,11 @@
       "Wish",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 981
+    "pokedexNumber": 981,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Kingambit": {
     "types": [
@@ -16946,7 +17944,11 @@
       "X-Scissor",
       "Zen Headbutt"
     ],
-    "pokedexNumber": 983
+    "pokedexNumber": 983,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Sinistcha": {
     "types": [
@@ -17002,7 +18004,11 @@
       "Trick Room",
       "Uproar"
     ],
-    "pokedexNumber": 1013
+    "pokedexNumber": 1013,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Archaludon": {
     "types": [
@@ -17075,7 +18081,11 @@
       "Thunder Wave",
       "Thunderbolt"
     ],
-    "pokedexNumber": 1018
+    "pokedexNumber": 1018,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Hydrapple": {
     "types": [
@@ -17148,174 +18158,2211 @@
       "Uproar",
       "Yawn"
     ],
-    "pokedexNumber": 1019
+    "pokedexNumber": 1019,
+    "regulations": [
+      "Regulation M-A",
+      "Regulation M-B"
+    ]
   },
   "Vileplume": {
-    "types": ["Grass", "Poison"],
-    "baseStats": {"hp": 75, "atk": 80, "def": 85, "spa": 110, "spd": 90, "spe": 50},
-    "abilities": ["Chlorophyll", "Effect Spore"],
-    "moves": ["Acid Spray", "After You", "Attract", "Body Slam", "Bullet Seed", "Charm", "Corrosive Gas", "Dazzling Gleam", "Endure", "Energy Ball", "Facade", "Flail", "Fling", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Grassy Terrain", "Growth", "Helping Hand", "Hyper Beam", "Ingrain", "Leaf Storm", "Leech Seed", "Moonblast", "Moonlight", "Petal Blizzard", "Petal Dance", "Poison Powder", "Pollen Puff", "Protect", "Rest", "Round", "Seed Bomb", "Sleep Powder", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Solar Beam", "Solar Blade", "Strength Sap", "Stun Spore", "Substitute", "Sunny Day", "Sweet Scent", "Swords Dance", "Synthesis", "Teeter Dance", "Tickle", "Toxic", "Trailblaze", "Venoshock", "Weather Ball"],
-    "pokedexNumber": 45
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "atk": 80,
+      "def": 85,
+      "spa": 110,
+      "spd": 90,
+      "spe": 50
+    },
+    "abilities": [
+      "Chlorophyll",
+      "Effect Spore"
+    ],
+    "moves": [
+      "Acid Spray",
+      "After You",
+      "Attract",
+      "Body Slam",
+      "Bullet Seed",
+      "Charm",
+      "Corrosive Gas",
+      "Dazzling Gleam",
+      "Endure",
+      "Energy Ball",
+      "Facade",
+      "Flail",
+      "Fling",
+      "Giga Drain",
+      "Giga Impact",
+      "Grass Knot",
+      "Grassy Glide",
+      "Grassy Terrain",
+      "Growth",
+      "Helping Hand",
+      "Hyper Beam",
+      "Ingrain",
+      "Leaf Storm",
+      "Leech Seed",
+      "Moonblast",
+      "Moonlight",
+      "Petal Blizzard",
+      "Petal Dance",
+      "Poison Powder",
+      "Pollen Puff",
+      "Protect",
+      "Rest",
+      "Round",
+      "Seed Bomb",
+      "Sleep Powder",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Snore",
+      "Solar Beam",
+      "Solar Blade",
+      "Strength Sap",
+      "Stun Spore",
+      "Substitute",
+      "Sunny Day",
+      "Sweet Scent",
+      "Swords Dance",
+      "Synthesis",
+      "Teeter Dance",
+      "Tickle",
+      "Toxic",
+      "Trailblaze",
+      "Venoshock",
+      "Weather Ball"
+    ],
+    "pokedexNumber": 45,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Qwilfish": {
-    "types": ["Water", "Poison"],
-    "baseStats": {"hp": 65, "atk": 95, "def": 85, "spa": 55, "spd": 55, "spe": 85},
-    "abilities": ["Poison Point", "Swift Swim", "Intimidate"],
-    "moves": ["Acid Spray", "Acupressure", "Agility", "Aqua Jet", "Aqua Tail", "Assurance", "Barb Barrage", "Blizzard", "Chilling Water", "Crunch", "Curse", "Destiny Bond", "Dive", "Double-Edge", "Endure", "Facade", "Fell Stinger", "Flail", "Flip Turn", "Giga Impact", "Gunk Shot", "Gyro Ball", "Haze", "Hex", "Hydro Pump", "Ice Beam", "Icy Wind", "Liquidation", "Minimize", "Mud Shot", "Pain Split", "Payback", "Pin Missile", "Poison Jab", "Protect", "Rain Dance", "Rest", "Reversal", "Round", "Scale Shot", "Scary Face", "Self-Destruct", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Spikes", "Spit Up", "Spite", "Steel Roller", "Stockpile", "Substitute", "Surf", "Swords Dance", "Taunt", "Throat Chop", "Thunder Wave", "Toxic", "Toxic Spikes", "Venoshock", "Water Pulse", "Waterfall", "Whirlpool"],
-    "pokedexNumber": 211
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 85
+    },
+    "abilities": [
+      "Poison Point",
+      "Swift Swim",
+      "Intimidate"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Acupressure",
+      "Agility",
+      "Aqua Jet",
+      "Aqua Tail",
+      "Assurance",
+      "Barb Barrage",
+      "Blizzard",
+      "Chilling Water",
+      "Crunch",
+      "Curse",
+      "Destiny Bond",
+      "Dive",
+      "Double-Edge",
+      "Endure",
+      "Facade",
+      "Fell Stinger",
+      "Flail",
+      "Flip Turn",
+      "Giga Impact",
+      "Gunk Shot",
+      "Gyro Ball",
+      "Haze",
+      "Hex",
+      "Hydro Pump",
+      "Ice Beam",
+      "Icy Wind",
+      "Liquidation",
+      "Minimize",
+      "Mud Shot",
+      "Pain Split",
+      "Payback",
+      "Pin Missile",
+      "Poison Jab",
+      "Protect",
+      "Rain Dance",
+      "Rest",
+      "Reversal",
+      "Round",
+      "Scale Shot",
+      "Scary Face",
+      "Self-Destruct",
+      "Shadow Ball",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Snore",
+      "Spikes",
+      "Spit Up",
+      "Spite",
+      "Steel Roller",
+      "Stockpile",
+      "Substitute",
+      "Surf",
+      "Swords Dance",
+      "Taunt",
+      "Throat Chop",
+      "Thunder Wave",
+      "Toxic",
+      "Toxic Spikes",
+      "Venoshock",
+      "Water Pulse",
+      "Waterfall",
+      "Whirlpool"
+    ],
+    "pokedexNumber": 211,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Sceptile": {
-    "types": ["Grass"],
-    "baseStats": {"hp": 70, "atk": 85, "def": 65, "spa": 105, "spd": 85, "spe": 120},
-    "abilities": ["Overgrow", "Unburden"],
-    "moves": ["Acrobatics", "Aerial Ace", "Agility", "Assurance", "Body Slam", "Breaking Swipe", "Brick Break", "Brutal Swing", "Bulldoze", "Bullet Seed", "Cross Poison", "Crunch", "Detect", "Dig", "Double Team", "Double-Edge", "Dragon Cheer", "Dragon Claw", "Dragon Dance", "Dragon Pulse", "Dragon Rush", "Dragon Tail", "Drain Punch", "Earth Power", "Earthquake", "Endeavor", "Endure", "Energy Ball", "Facade", "Fling", "Focus Blast", "Focus Punch", "Frenzy Plant", "Giga Drain", "Giga Impact", "Grass Knot", "Grassy Glide", "Grassy Terrain", "Helping Hand", "Hyper Beam", "Iron Tail", "Leaf Blade", "Leaf Storm", "Leech Seed", "Low Kick", "Low Sweep", "Mega Kick", "Night Slash", "Outrage", "Protect", "Quick Attack", "Quick Guard", "Rest", "Roar", "Rock Slide", "Rock Tomb", "Round", "Scale Shot", "Screech", "Seed Bomb", "Shed Tail", "Sleep Talk", "Snore", "Solar Beam", "Solar Blade", "Substitute", "Sunny Day", "Swords Dance", "Synthesis", "Thief", "Throat Chop", "Thunder Punch", "Trailblaze", "Upper Hand", "Vacuum Wave", "Worry Seed", "X-Scissor"],
-    "mega": [{"name": "Mega Sceptile", "types": ["Grass", "Dragon"], "ability": "Lightning Rod", "baseStats": {"hp": 70, "atk": 110, "def": 75, "spa": 145, "spd": 85, "spe": 145}}],
-    "pokedexNumber": 254
+    "types": [
+      "Grass"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "atk": 85,
+      "def": 65,
+      "spa": 105,
+      "spd": 85,
+      "spe": 120
+    },
+    "abilities": [
+      "Overgrow",
+      "Unburden"
+    ],
+    "moves": [
+      "Acrobatics",
+      "Aerial Ace",
+      "Agility",
+      "Assurance",
+      "Body Slam",
+      "Breaking Swipe",
+      "Brick Break",
+      "Brutal Swing",
+      "Bulldoze",
+      "Bullet Seed",
+      "Cross Poison",
+      "Crunch",
+      "Detect",
+      "Dig",
+      "Double Team",
+      "Double-Edge",
+      "Dragon Cheer",
+      "Dragon Claw",
+      "Dragon Dance",
+      "Dragon Pulse",
+      "Dragon Rush",
+      "Dragon Tail",
+      "Drain Punch",
+      "Earth Power",
+      "Earthquake",
+      "Endeavor",
+      "Endure",
+      "Energy Ball",
+      "Facade",
+      "Fling",
+      "Focus Blast",
+      "Focus Punch",
+      "Frenzy Plant",
+      "Giga Drain",
+      "Giga Impact",
+      "Grass Knot",
+      "Grassy Glide",
+      "Grassy Terrain",
+      "Helping Hand",
+      "Hyper Beam",
+      "Iron Tail",
+      "Leaf Blade",
+      "Leaf Storm",
+      "Leech Seed",
+      "Low Kick",
+      "Low Sweep",
+      "Mega Kick",
+      "Night Slash",
+      "Outrage",
+      "Protect",
+      "Quick Attack",
+      "Quick Guard",
+      "Rest",
+      "Roar",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Scale Shot",
+      "Screech",
+      "Seed Bomb",
+      "Shed Tail",
+      "Sleep Talk",
+      "Snore",
+      "Solar Beam",
+      "Solar Blade",
+      "Substitute",
+      "Sunny Day",
+      "Swords Dance",
+      "Synthesis",
+      "Thief",
+      "Throat Chop",
+      "Thunder Punch",
+      "Trailblaze",
+      "Upper Hand",
+      "Vacuum Wave",
+      "Worry Seed",
+      "X-Scissor"
+    ],
+    "mega": [
+      {
+        "name": "Mega Sceptile",
+        "types": [
+          "Grass",
+          "Dragon"
+        ],
+        "ability": "Lightning Rod",
+        "baseStats": {
+          "hp": 70,
+          "atk": 110,
+          "def": 75,
+          "spa": 145,
+          "spd": 85,
+          "spe": 145
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 254,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Blaziken": {
-    "types": ["Fire", "Fighting"],
-    "baseStats": {"hp": 80, "atk": 120, "def": 70, "spa": 110, "spd": 70, "spe": 80},
-    "abilities": ["Blaze", "Speed Boost"],
-    "moves": ["Acrobatics", "Aerial Ace", "Agility", "Assurance", "Aura Sphere", "Baton Pass", "Blast Burn", "Blaze Kick", "Body Slam", "Bounce", "Brave Bird", "Brick Break", "Bulk Up", "Bulldoze", "Close Combat", "Coaching", "Counter", "Crush Claw", "Curse", "Detect", "Dig", "Double-Edge", "Earthquake", "Endure", "Facade", "Feather Dance", "Feint", "Fire Blast", "Fire Punch", "Fire Spin", "Flame Charge", "Flamethrower", "Flare Blitz", "Fling", "Focus Blast", "Focus Energy", "Focus Punch", "Giga Impact", "Heat Crash", "Heat Wave", "Helping Hand", "High Jump Kick", "Hyper Beam", "Knock Off", "Last Resort", "Low Kick", "Low Sweep", "Mega Kick", "Mud-Slap", "Night Slash", "Overheat", "Poison Jab", "Protect", "Quick Attack", "Rest", "Reversal", "Roar", "Rock Slide", "Rock Tomb", "Round", "Scorching Sands", "Shadow Claw", "Sleep Talk", "Snore", "Solar Beam", "Stone Edge", "Substitute", "Sunny Day", "Superpower", "Swords Dance", "Temper Flare", "Thief", "Thunder Punch", "U-turn", "Upper Hand", "Uproar", "Vacuum Wave", "Will-O-Wisp"],
-    "mega": [{"name": "Mega Blaziken", "types": ["Fire", "Fighting"], "ability": "Speed Boost", "baseStats": {"hp": 80, "atk": 160, "def": 80, "spa": 130, "spd": 80, "spe": 100}}],
-    "pokedexNumber": 257
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 120,
+      "def": 70,
+      "spa": 110,
+      "spd": 70,
+      "spe": 80
+    },
+    "abilities": [
+      "Blaze",
+      "Speed Boost"
+    ],
+    "moves": [
+      "Acrobatics",
+      "Aerial Ace",
+      "Agility",
+      "Assurance",
+      "Aura Sphere",
+      "Baton Pass",
+      "Blast Burn",
+      "Blaze Kick",
+      "Body Slam",
+      "Bounce",
+      "Brave Bird",
+      "Brick Break",
+      "Bulk Up",
+      "Bulldoze",
+      "Close Combat",
+      "Coaching",
+      "Counter",
+      "Crush Claw",
+      "Curse",
+      "Detect",
+      "Dig",
+      "Double-Edge",
+      "Earthquake",
+      "Endure",
+      "Facade",
+      "Feather Dance",
+      "Feint",
+      "Fire Blast",
+      "Fire Punch",
+      "Fire Spin",
+      "Flame Charge",
+      "Flamethrower",
+      "Flare Blitz",
+      "Fling",
+      "Focus Blast",
+      "Focus Energy",
+      "Focus Punch",
+      "Giga Impact",
+      "Heat Crash",
+      "Heat Wave",
+      "Helping Hand",
+      "High Jump Kick",
+      "Hyper Beam",
+      "Knock Off",
+      "Last Resort",
+      "Low Kick",
+      "Low Sweep",
+      "Mega Kick",
+      "Mud-Slap",
+      "Night Slash",
+      "Overheat",
+      "Poison Jab",
+      "Protect",
+      "Quick Attack",
+      "Rest",
+      "Reversal",
+      "Roar",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Scorching Sands",
+      "Shadow Claw",
+      "Sleep Talk",
+      "Snore",
+      "Solar Beam",
+      "Stone Edge",
+      "Substitute",
+      "Sunny Day",
+      "Superpower",
+      "Swords Dance",
+      "Temper Flare",
+      "Thief",
+      "Thunder Punch",
+      "U-turn",
+      "Upper Hand",
+      "Uproar",
+      "Vacuum Wave",
+      "Will-O-Wisp"
+    ],
+    "mega": [
+      {
+        "name": "Mega Blaziken",
+        "types": [
+          "Fire",
+          "Fighting"
+        ],
+        "ability": "Speed Boost",
+        "baseStats": {
+          "hp": 80,
+          "atk": 160,
+          "def": 80,
+          "spa": 130,
+          "spd": 80,
+          "spe": 100
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 257,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Swampert": {
-    "types": ["Water", "Ground"],
-    "baseStats": {"hp": 100, "atk": 110, "def": 90, "spa": 85, "spd": 90, "spe": 60},
-    "abilities": ["Torrent", "Damp"],
-    "moves": ["Amnesia", "Ancient Power", "Aqua Ring", "Avalanche", "Bite", "Blizzard", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Chilling Water", "Counter", "Curse", "Dig", "Dive", "Double-Edge", "Earth Power", "Earthquake", "Endeavor", "Endure", "Facade", "Fling", "Flip Turn", "Focus Blast", "Focus Punch", "Giga Impact", "Hammer Arm", "Hard Press", "Helping Hand", "High Horsepower", "Hydro Cannon", "Hydro Pump", "Hyper Beam", "Ice Beam", "Ice Punch", "Icy Wind", "Iron Tail", "Knock Off", "Liquidation", "Low Kick", "Mega Kick", "Mirror Coat", "Mud Shot", "Mud-Slap", "Muddy Water", "Outrage", "Poison Jab", "Protect", "Rain Dance", "Rest", "Roar", "Rock Slide", "Rock Tomb", "Round", "Sand Tomb", "Scary Face", "Screech", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smack Down", "Snore", "Stealth Rock", "Stomping Tantrum", "Stone Edge", "Substitute", "Superpower", "Surf", "Uproar", "Water Pulse", "Waterfall", "Wave Crash", "Weather Ball", "Whirlpool", "Wide Guard", "Yawn"],
-    "mega": [{"name": "Mega Swampert", "types": ["Water", "Ground"], "ability": "Swift Swim", "baseStats": {"hp": 100, "atk": 150, "def": 110, "spa": 95, "spd": 110, "spe": 70}}],
-    "pokedexNumber": 260
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "atk": 110,
+      "def": 90,
+      "spa": 85,
+      "spd": 90,
+      "spe": 60
+    },
+    "abilities": [
+      "Torrent",
+      "Damp"
+    ],
+    "moves": [
+      "Amnesia",
+      "Ancient Power",
+      "Aqua Ring",
+      "Avalanche",
+      "Bite",
+      "Blizzard",
+      "Body Press",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Bulldoze",
+      "Chilling Water",
+      "Counter",
+      "Curse",
+      "Dig",
+      "Dive",
+      "Double-Edge",
+      "Earth Power",
+      "Earthquake",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "Fling",
+      "Flip Turn",
+      "Focus Blast",
+      "Focus Punch",
+      "Giga Impact",
+      "Hammer Arm",
+      "Hard Press",
+      "Helping Hand",
+      "High Horsepower",
+      "Hydro Cannon",
+      "Hydro Pump",
+      "Hyper Beam",
+      "Ice Beam",
+      "Ice Punch",
+      "Icy Wind",
+      "Iron Tail",
+      "Knock Off",
+      "Liquidation",
+      "Low Kick",
+      "Mega Kick",
+      "Mirror Coat",
+      "Mud Shot",
+      "Mud-Slap",
+      "Muddy Water",
+      "Outrage",
+      "Poison Jab",
+      "Protect",
+      "Rain Dance",
+      "Rest",
+      "Roar",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Sand Tomb",
+      "Scary Face",
+      "Screech",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Smack Down",
+      "Snore",
+      "Stealth Rock",
+      "Stomping Tantrum",
+      "Stone Edge",
+      "Substitute",
+      "Superpower",
+      "Surf",
+      "Uproar",
+      "Water Pulse",
+      "Waterfall",
+      "Wave Crash",
+      "Weather Ball",
+      "Whirlpool",
+      "Wide Guard",
+      "Yawn"
+    ],
+    "mega": [
+      {
+        "name": "Mega Swampert",
+        "types": [
+          "Water",
+          "Ground"
+        ],
+        "ability": "Swift Swim",
+        "baseStats": {
+          "hp": 100,
+          "atk": 150,
+          "def": 110,
+          "spa": 95,
+          "spd": 110,
+          "spe": 70
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 260,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Mawile": {
-    "types": ["Steel", "Fairy"],
-    "baseStats": {"hp": 50, "atk": 85, "def": 85, "spa": 55, "spd": 55, "spe": 50},
-    "abilities": ["Hyper Cutter", "Intimidate", "Sheer Force"],
-    "moves": ["Ancient Power", "Assurance", "Attract", "Baton Pass", "Bite", "Body Slam", "Brick Break", "Brutal Swing", "Charm", "Crunch", "Dark Pulse", "Double-Edge", "Draining Kiss", "Dynamic Punch", "Endure", "Facade", "Fake Tears", "Fire Blast", "Fire Fang", "Flamethrower", "Flash Cannon", "Fling", "Focus Blast", "Foul Play", "Giga Impact", "Grass Knot", "Guard Swap", "Helping Hand", "Hyper Beam", "Ice Beam", "Ice Fang", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Knock Off", "Mega Kick", "Misty Terrain", "Payback", "Play Rough", "Poison Fang", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rock Slide", "Rock Tomb", "Round", "Sandstorm", "Seismic Toss", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Snore", "Solar Beam", "Spit Up", "Stealth Rock", "Steel Beam", "Stockpile", "Stone Edge", "Substitute", "Sucker Punch", "Sunny Day", "Swagger", "Swallow", "Sweet Scent", "Swords Dance", "Taunt", "Thunder Fang", "Thunder Punch", "Tickle"],
-    "mega": [{"name": "Mega Mawile", "types": ["Steel", "Fairy"], "ability": "Huge Power", "baseStats": {"hp": 50, "atk": 105, "def": 125, "spa": 55, "spd": 95, "spe": 50}}],
-    "pokedexNumber": 303
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "atk": 85,
+      "def": 85,
+      "spa": 55,
+      "spd": 55,
+      "spe": 50
+    },
+    "abilities": [
+      "Hyper Cutter",
+      "Intimidate",
+      "Sheer Force"
+    ],
+    "moves": [
+      "Ancient Power",
+      "Assurance",
+      "Attract",
+      "Baton Pass",
+      "Bite",
+      "Body Slam",
+      "Brick Break",
+      "Brutal Swing",
+      "Charm",
+      "Crunch",
+      "Dark Pulse",
+      "Double-Edge",
+      "Draining Kiss",
+      "Dynamic Punch",
+      "Endure",
+      "Facade",
+      "Fake Tears",
+      "Fire Blast",
+      "Fire Fang",
+      "Flamethrower",
+      "Flash Cannon",
+      "Fling",
+      "Focus Blast",
+      "Foul Play",
+      "Giga Impact",
+      "Grass Knot",
+      "Guard Swap",
+      "Helping Hand",
+      "Hyper Beam",
+      "Ice Beam",
+      "Ice Fang",
+      "Ice Punch",
+      "Icy Wind",
+      "Iron Defense",
+      "Iron Head",
+      "Knock Off",
+      "Mega Kick",
+      "Misty Terrain",
+      "Payback",
+      "Play Rough",
+      "Poison Fang",
+      "Protect",
+      "Psychic Fangs",
+      "Rain Dance",
+      "Rest",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Sandstorm",
+      "Seismic Toss",
+      "Shadow Ball",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Snore",
+      "Solar Beam",
+      "Spit Up",
+      "Stealth Rock",
+      "Steel Beam",
+      "Stockpile",
+      "Stone Edge",
+      "Substitute",
+      "Sucker Punch",
+      "Sunny Day",
+      "Swagger",
+      "Swallow",
+      "Sweet Scent",
+      "Swords Dance",
+      "Taunt",
+      "Thunder Fang",
+      "Thunder Punch",
+      "Tickle"
+    ],
+    "mega": [
+      {
+        "name": "Mega Mawile",
+        "types": [
+          "Steel",
+          "Fairy"
+        ],
+        "ability": "Huge Power",
+        "baseStats": {
+          "hp": 50,
+          "atk": 105,
+          "def": 125,
+          "spa": 55,
+          "spd": 95,
+          "spe": 50
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 303,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Metagross": {
-    "types": ["Steel", "Psychic"],
-    "baseStats": {"hp": 80, "atk": 135, "def": 130, "spa": 95, "spd": 90, "spe": 70},
-    "abilities": ["Clear Body", "Light Metal"],
-    "moves": ["Aerial Ace", "Agility", "Body Press", "Body Slam", "Brick Break", "Brutal Swing", "Bulldoze", "Bullet Punch", "Cosmic Power", "Double-Edge", "Earthquake", "Endure", "Expanding Force", "Explosion", "Facade", "Flash Cannon", "Focus Punch", "Future Sight", "Giga Impact", "Grass Knot", "Gravity", "Gyro Ball", "Hammer Arm", "Hard Press", "Hyper Beam", "Ice Punch", "Icy Wind", "Iron Defense", "Iron Head", "Light Screen", "Magnet Rise", "Meteor Beam", "Meteor Mash", "Mud-Slap", "Protect", "Psych Up", "Psychic", "Psychic Fangs", "Psychic Noise", "Psycho Cut", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Round", "Sandstorm", "Scary Face", "Self-Destruct", "Shadow Ball", "Shadow Claw", "Shadow Punch", "Sleep Talk", "Sludge Bomb", "Snore", "Stealth Rock", "Steel Beam", "Steel Roller", "Stomping Tantrum", "Stone Edge", "Substitute", "Sunny Day", "Swagger", "Thunder Punch", "Trailblaze", "Trick", "Zen Headbutt"],
-    "mega": [{"name": "Mega Metagross", "types": ["Steel", "Psychic"], "ability": "Tough Claws", "baseStats": {"hp": 80, "atk": 145, "def": 150, "spa": 105, "spd": 110, "spe": 110}}],
-    "pokedexNumber": 376
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "atk": 135,
+      "def": 130,
+      "spa": 95,
+      "spd": 90,
+      "spe": 70
+    },
+    "abilities": [
+      "Clear Body",
+      "Light Metal"
+    ],
+    "moves": [
+      "Aerial Ace",
+      "Agility",
+      "Body Press",
+      "Body Slam",
+      "Brick Break",
+      "Brutal Swing",
+      "Bulldoze",
+      "Bullet Punch",
+      "Cosmic Power",
+      "Double-Edge",
+      "Earthquake",
+      "Endure",
+      "Expanding Force",
+      "Explosion",
+      "Facade",
+      "Flash Cannon",
+      "Focus Punch",
+      "Future Sight",
+      "Giga Impact",
+      "Grass Knot",
+      "Gravity",
+      "Gyro Ball",
+      "Hammer Arm",
+      "Hard Press",
+      "Hyper Beam",
+      "Ice Punch",
+      "Icy Wind",
+      "Iron Defense",
+      "Iron Head",
+      "Light Screen",
+      "Magnet Rise",
+      "Meteor Beam",
+      "Meteor Mash",
+      "Mud-Slap",
+      "Protect",
+      "Psych Up",
+      "Psychic",
+      "Psychic Fangs",
+      "Psychic Noise",
+      "Psycho Cut",
+      "Psyshock",
+      "Rain Dance",
+      "Reflect",
+      "Rest",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Sandstorm",
+      "Scary Face",
+      "Self-Destruct",
+      "Shadow Ball",
+      "Shadow Claw",
+      "Shadow Punch",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Snore",
+      "Stealth Rock",
+      "Steel Beam",
+      "Steel Roller",
+      "Stomping Tantrum",
+      "Stone Edge",
+      "Substitute",
+      "Sunny Day",
+      "Swagger",
+      "Thunder Punch",
+      "Trailblaze",
+      "Trick",
+      "Zen Headbutt"
+    ],
+    "mega": [
+      {
+        "name": "Mega Metagross",
+        "types": [
+          "Steel",
+          "Psychic"
+        ],
+        "ability": "Tough Claws",
+        "baseStats": {
+          "hp": 80,
+          "atk": 145,
+          "def": 150,
+          "spa": 105,
+          "spd": 110,
+          "spe": 110
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 376,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Staraptor": {
-    "types": ["Normal", "Flying"],
-    "baseStats": {"hp": 85, "atk": 120, "def": 70, "spa": 50, "spd": 60, "spe": 100},
-    "abilities": ["Intimidate", "Reckless"],
-    "moves": ["Acrobatics", "Aerial Ace", "Agility", "Air Cutter", "Air Slash", "Blaze Kick", "Brave Bird", "Brick Break", "Bulk Up", "Close Combat", "Double Team", "Double-Edge", "Dual Wingbeat", "Endeavor", "Endure", "Facade", "Feather Dance", "Final Gambit", "Fly", "Focus Blast", "Giga Impact", "Heat Wave", "Helping Hand", "Hurricane", "Hyper Beam", "Protect", "Quick Attack", "Rain Dance", "Rest", "Roost", "Round", "Sky Attack", "Sleep Talk", "Snore", "Steel Wing", "Substitute", "Sunny Day", "Swagger", "Tailwind", "Thief", "U-turn", "Uproar", "Whirlwind"],
-    "mega": [{"name": "Mega Staraptor", "types": ["Fighting", "Flying"], "ability": "Contrary", "baseStats": {"hp": 85, "atk": 140, "def": 100, "spa": 60, "spd": 90, "spe": 110}}],
-    "pokedexNumber": 398
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 120,
+      "def": 70,
+      "spa": 50,
+      "spd": 60,
+      "spe": 100
+    },
+    "abilities": [
+      "Intimidate",
+      "Reckless"
+    ],
+    "moves": [
+      "Acrobatics",
+      "Aerial Ace",
+      "Agility",
+      "Air Cutter",
+      "Air Slash",
+      "Blaze Kick",
+      "Brave Bird",
+      "Brick Break",
+      "Bulk Up",
+      "Close Combat",
+      "Double Team",
+      "Double-Edge",
+      "Dual Wingbeat",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "Feather Dance",
+      "Final Gambit",
+      "Fly",
+      "Focus Blast",
+      "Giga Impact",
+      "Heat Wave",
+      "Helping Hand",
+      "Hurricane",
+      "Hyper Beam",
+      "Protect",
+      "Quick Attack",
+      "Rain Dance",
+      "Rest",
+      "Roost",
+      "Round",
+      "Sky Attack",
+      "Sleep Talk",
+      "Snore",
+      "Steel Wing",
+      "Substitute",
+      "Sunny Day",
+      "Swagger",
+      "Tailwind",
+      "Thief",
+      "U-turn",
+      "Uproar",
+      "Whirlwind"
+    ],
+    "mega": [
+      {
+        "name": "Mega Staraptor",
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "ability": "Contrary",
+        "baseStats": {
+          "hp": 85,
+          "atk": 140,
+          "def": 100,
+          "spa": 60,
+          "spd": 90,
+          "spe": 110
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 398,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Musharna": {
-    "types": ["Psychic"],
-    "baseStats": {"hp": 116, "atk": 55, "def": 85, "spa": 107, "spd": 95, "spe": 29},
-    "abilities": ["Forewarn", "Synchronize", "Telepathy"],
-    "moves": ["Ally Switch", "Amnesia", "Attract", "Calm Mind", "Charge Beam", "Charm", "Curse", "Dazzling Gleam", "Double Team", "Endure", "Energy Ball", "Expanding Force", "Facade", "Future Sight", "Giga Impact", "Guard Swap", "Gyro Ball", "Healing Wish", "Helping Hand", "Hyper Beam", "Hypnosis", "Imprison", "Light Screen", "Misty Explosion", "Moonblast", "Moonlight", "Power Swap", "Protect", "Psychic", "Psychic Terrain", "Psyshock", "Rain Dance", "Reflect", "Rest", "Rock Slide", "Rock Tomb", "Round", "Safeguard", "Shadow Ball", "Skill Swap", "Sleep Talk", "Snore", "Stored Power", "Substitute", "Thunder Wave", "Trick", "Trick Room", "Wonder Room", "Yawn", "Zen Headbutt"],
-    "pokedexNumber": 518
+    "types": [
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 116,
+      "atk": 55,
+      "def": 85,
+      "spa": 107,
+      "spd": 95,
+      "spe": 29
+    },
+    "abilities": [
+      "Forewarn",
+      "Synchronize",
+      "Telepathy"
+    ],
+    "moves": [
+      "Ally Switch",
+      "Amnesia",
+      "Attract",
+      "Calm Mind",
+      "Charge Beam",
+      "Charm",
+      "Curse",
+      "Dazzling Gleam",
+      "Double Team",
+      "Endure",
+      "Energy Ball",
+      "Expanding Force",
+      "Facade",
+      "Future Sight",
+      "Giga Impact",
+      "Guard Swap",
+      "Gyro Ball",
+      "Healing Wish",
+      "Helping Hand",
+      "Hyper Beam",
+      "Hypnosis",
+      "Imprison",
+      "Light Screen",
+      "Misty Explosion",
+      "Moonblast",
+      "Moonlight",
+      "Power Swap",
+      "Protect",
+      "Psychic",
+      "Psychic Terrain",
+      "Psyshock",
+      "Rain Dance",
+      "Reflect",
+      "Rest",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Safeguard",
+      "Shadow Ball",
+      "Skill Swap",
+      "Sleep Talk",
+      "Snore",
+      "Stored Power",
+      "Substitute",
+      "Thunder Wave",
+      "Trick",
+      "Trick Room",
+      "Wonder Room",
+      "Yawn",
+      "Zen Headbutt"
+    ],
+    "pokedexNumber": 518,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Scolipede": {
-    "types": ["Bug", "Poison"],
-    "baseStats": {"hp": 60, "atk": 100, "def": 89, "spa": 55, "spd": 69, "spe": 112},
-    "abilities": ["Poison Point", "Swarm", "Speed Boost"],
-    "moves": ["Acid Spray", "Agility", "Assurance", "Attract", "Baton Pass", "Bite", "Bug Bite", "Bulldoze", "Cross Poison", "Dig", "Double Hit", "Double-Edge", "Earthquake", "Endure", "Facade", "Giga Impact", "Gunk Shot", "Gyro Ball", "Hex", "Hyper Beam", "Iron Defense", "Iron Tail", "Leech Life", "Megahorn", "Payback", "Pin Missile", "Poison Jab", "Pounce", "Protect", "Rest", "Rock Slide", "Rock Tomb", "Round", "Screech", "Skitter Smack", "Sleep Talk", "Sludge Bomb", "Smart Strike", "Snore", "Solar Beam", "Spikes", "Steel Roller", "Stomping Tantrum", "Substitute", "Sunny Day", "Superpower", "Swords Dance", "Throat Chop", "Toxic", "Toxic Spikes", "Trailblaze", "Venoshock", "X-Scissor"],
-    "mega": [{"name": "Mega Scolipede", "types": ["Bug", "Poison"], "ability": "Shell Armor", "baseStats": {"hp": 60, "atk": 140, "def": 149, "spa": 75, "spd": 99, "spe": 62}}],
-    "pokedexNumber": 545
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "atk": 100,
+      "def": 89,
+      "spa": 55,
+      "spd": 69,
+      "spe": 112
+    },
+    "abilities": [
+      "Poison Point",
+      "Swarm",
+      "Speed Boost"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Agility",
+      "Assurance",
+      "Attract",
+      "Baton Pass",
+      "Bite",
+      "Bug Bite",
+      "Bulldoze",
+      "Cross Poison",
+      "Dig",
+      "Double Hit",
+      "Double-Edge",
+      "Earthquake",
+      "Endure",
+      "Facade",
+      "Giga Impact",
+      "Gunk Shot",
+      "Gyro Ball",
+      "Hex",
+      "Hyper Beam",
+      "Iron Defense",
+      "Iron Tail",
+      "Leech Life",
+      "Megahorn",
+      "Payback",
+      "Pin Missile",
+      "Poison Jab",
+      "Pounce",
+      "Protect",
+      "Rest",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Screech",
+      "Skitter Smack",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Smart Strike",
+      "Snore",
+      "Solar Beam",
+      "Spikes",
+      "Steel Roller",
+      "Stomping Tantrum",
+      "Substitute",
+      "Sunny Day",
+      "Superpower",
+      "Swords Dance",
+      "Throat Chop",
+      "Toxic",
+      "Toxic Spikes",
+      "Trailblaze",
+      "Venoshock",
+      "X-Scissor"
+    ],
+    "mega": [
+      {
+        "name": "Mega Scolipede",
+        "types": [
+          "Bug",
+          "Poison"
+        ],
+        "ability": "Shell Armor",
+        "baseStats": {
+          "hp": 60,
+          "atk": 140,
+          "def": 149,
+          "spa": 75,
+          "spd": 99,
+          "spe": 62
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 545,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Scrafty": {
-    "types": ["Dark", "Fighting"],
-    "baseStats": {"hp": 65, "atk": 90, "def": 115, "spa": 45, "spd": 115, "spe": 58},
-    "abilities": ["Shed Skin", "Moxie", "Intimidate"],
-    "moves": ["Acid Spray", "Amnesia", "Assurance", "Beat Up", "Body Slam", "Brick Break", "Bulk Up", "Close Combat", "Coaching", "Counter", "Crunch", "Curse", "Dark Pulse", "Detect", "Dig", "Double-Edge", "Dragon Claw", "Dragon Dance", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Dynamic Punch", "Encore", "Endeavor", "Endure", "Facade", "Fake Out", "Fake Tears", "Fire Punch", "Fling", "Focus Blast", "Focus Punch", "Foul Play", "Giga Impact", "Grass Knot", "Head Smash", "Helping Hand", "High Jump Kick", "Hyper Beam", "Ice Punch", "Iron Defense", "Iron Head", "Iron Tail", "Knock Off", "Lash Out", "Low Kick", "Low Sweep", "Mega Kick", "Outrage", "Payback", "Poison Jab", "Protect", "Quick Guard", "Rain Dance", "Rest", "Reversal", "Roar", "Rock Slide", "Rock Tomb", "Round", "Scary Face", "Sleep Talk", "Sludge Bomb", "Smack Down", "Snarl", "Snore", "Spite", "Stone Edge", "Substitute", "Sunny Day", "Super Fang", "Swagger", "Swords Dance", "Taunt", "Thief", "Throat Chop", "Thunder Punch", "Torment", "Trailblaze", "Upper Hand", "Uproar", "Zen Headbutt"],
-    "mega": [{"name": "Mega Scrafty", "types": ["Dark", "Fighting"], "ability": "Intimidate", "baseStats": {"hp": 65, "atk": 130, "def": 135, "spa": 55, "spd": 135, "spe": 68}}],
-    "pokedexNumber": 560
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 90,
+      "def": 115,
+      "spa": 45,
+      "spd": 115,
+      "spe": 58
+    },
+    "abilities": [
+      "Shed Skin",
+      "Moxie",
+      "Intimidate"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Amnesia",
+      "Assurance",
+      "Beat Up",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Close Combat",
+      "Coaching",
+      "Counter",
+      "Crunch",
+      "Curse",
+      "Dark Pulse",
+      "Detect",
+      "Dig",
+      "Double-Edge",
+      "Dragon Claw",
+      "Dragon Dance",
+      "Dragon Pulse",
+      "Dragon Tail",
+      "Drain Punch",
+      "Dynamic Punch",
+      "Encore",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "Fake Out",
+      "Fake Tears",
+      "Fire Punch",
+      "Fling",
+      "Focus Blast",
+      "Focus Punch",
+      "Foul Play",
+      "Giga Impact",
+      "Grass Knot",
+      "Head Smash",
+      "Helping Hand",
+      "High Jump Kick",
+      "Hyper Beam",
+      "Ice Punch",
+      "Iron Defense",
+      "Iron Head",
+      "Iron Tail",
+      "Knock Off",
+      "Lash Out",
+      "Low Kick",
+      "Low Sweep",
+      "Mega Kick",
+      "Outrage",
+      "Payback",
+      "Poison Jab",
+      "Protect",
+      "Quick Guard",
+      "Rain Dance",
+      "Rest",
+      "Reversal",
+      "Roar",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Scary Face",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Smack Down",
+      "Snarl",
+      "Snore",
+      "Spite",
+      "Stone Edge",
+      "Substitute",
+      "Sunny Day",
+      "Super Fang",
+      "Swagger",
+      "Swords Dance",
+      "Taunt",
+      "Thief",
+      "Throat Chop",
+      "Thunder Punch",
+      "Torment",
+      "Trailblaze",
+      "Upper Hand",
+      "Uproar",
+      "Zen Headbutt"
+    ],
+    "mega": [
+      {
+        "name": "Mega Scrafty",
+        "types": [
+          "Dark",
+          "Fighting"
+        ],
+        "ability": "Intimidate",
+        "baseStats": {
+          "hp": 65,
+          "atk": 130,
+          "def": 135,
+          "spa": 55,
+          "spd": 135,
+          "spe": 68
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 560,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Eelektross": {
-    "types": ["Electric"],
-    "baseStats": {"hp": 85, "atk": 115, "def": 80, "spa": 105, "spd": 80, "spe": 50},
-    "abilities": ["Levitate"],
-    "moves": ["Acid Spray", "Acrobatics", "Body Press", "Body Slam", "Bounce", "Brick Break", "Bulk Up", "Bulldoze", "Charge", "Charge Beam", "Close Combat", "Coil", "Confuse Ray", "Crunch", "Crush Claw", "Discharge", "Dragon Claw", "Dragon Pulse", "Dragon Tail", "Drain Punch", "Eerie Impulse", "Electric Terrain", "Electro Ball", "Electroweb", "Endure", "Facade", "Fire Punch", "Flamethrower", "Flash Cannon", "Focus Punch", "Gastro Acid", "Giga Drain", "Giga Impact", "Grass Knot", "Heavy Slam", "Hex", "Hyper Beam", "Iron Tail", "Knock Off", "Light Screen", "Liquidation", "Lunge", "Muddy Water", "Outrage", "Poison Fang", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Rising Voltage", "Rock Slide", "Rock Tomb", "Round", "Scary Face", "Sleep Talk", "Snore", "Stomping Tantrum", "Substitute", "Sunny Day", "Super Fang", "Supercell Slam", "Superpower", "Thrash", "Throat Chop", "Thunder", "Thunder Fang", "Thunder Punch", "Thunder Wave", "Thunderbolt", "U-turn", "Volt Switch", "Waterfall", "Wild Charge", "Zap Cannon", "Zen Headbutt"],
-    "mega": [{"name": "Mega Eelektross", "types": ["Electric"], "ability": "Eelevate", "baseStats": {"hp": 85, "atk": 145, "def": 80, "spa": 135, "spd": 90, "spe": 80}}],
-    "pokedexNumber": 604
+    "types": [
+      "Electric"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 80,
+      "spa": 105,
+      "spd": 80,
+      "spe": 50
+    },
+    "abilities": [
+      "Levitate"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Acrobatics",
+      "Body Press",
+      "Body Slam",
+      "Bounce",
+      "Brick Break",
+      "Bulk Up",
+      "Bulldoze",
+      "Charge",
+      "Charge Beam",
+      "Close Combat",
+      "Coil",
+      "Confuse Ray",
+      "Crunch",
+      "Crush Claw",
+      "Discharge",
+      "Dragon Claw",
+      "Dragon Pulse",
+      "Dragon Tail",
+      "Drain Punch",
+      "Eerie Impulse",
+      "Electric Terrain",
+      "Electro Ball",
+      "Electroweb",
+      "Endure",
+      "Facade",
+      "Fire Punch",
+      "Flamethrower",
+      "Flash Cannon",
+      "Focus Punch",
+      "Gastro Acid",
+      "Giga Drain",
+      "Giga Impact",
+      "Grass Knot",
+      "Heavy Slam",
+      "Hex",
+      "Hyper Beam",
+      "Iron Tail",
+      "Knock Off",
+      "Light Screen",
+      "Liquidation",
+      "Lunge",
+      "Muddy Water",
+      "Outrage",
+      "Poison Fang",
+      "Protect",
+      "Psychic Fangs",
+      "Rain Dance",
+      "Rest",
+      "Rising Voltage",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Scary Face",
+      "Sleep Talk",
+      "Snore",
+      "Stomping Tantrum",
+      "Substitute",
+      "Sunny Day",
+      "Super Fang",
+      "Supercell Slam",
+      "Superpower",
+      "Thrash",
+      "Throat Chop",
+      "Thunder",
+      "Thunder Fang",
+      "Thunder Punch",
+      "Thunder Wave",
+      "Thunderbolt",
+      "U-turn",
+      "Volt Switch",
+      "Waterfall",
+      "Wild Charge",
+      "Zap Cannon",
+      "Zen Headbutt"
+    ],
+    "mega": [
+      {
+        "name": "Mega Eelektross",
+        "types": [
+          "Electric"
+        ],
+        "ability": "Eelevate",
+        "baseStats": {
+          "hp": 85,
+          "atk": 145,
+          "def": 80,
+          "spa": 135,
+          "spd": 90,
+          "spe": 80
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 604,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Pyroar": {
-    "types": ["Fire", "Normal"],
-    "baseStats": {"hp": 86, "atk": 68, "def": 72, "spa": 109, "spd": 66, "spe": 106},
-    "abilities": ["Rivalry", "Unnerve", "Moxie"],
-    "moves": ["Acrobatics", "Body Slam", "Bulldoze", "Burning Jealousy", "Crunch", "Dark Pulse", "Dig", "Double-Edge", "Endeavor", "Endure", "Entrainment", "Facade", "Fire Blast", "Fire Fang", "Fire Spin", "Flame Charge", "Flamethrower", "Flare Blitz", "Giga Impact", "Heat Wave", "Helping Hand", "Hyper Beam", "Hyper Voice", "Iron Tail", "Mud-Slap", "Noble Roar", "Overheat", "Payback", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Round", "Scorching Sands", "Sleep Talk", "Snarl", "Snore", "Solar Beam", "Substitute", "Sunny Day", "Taunt", "Temper Flare", "Thief", "Thunder Fang", "Trailblaze", "Wild Charge", "Will-O-Wisp", "Yawn"],
-    "mega": [{"name": "Mega Pyroar", "types": ["Fire", "Normal"], "ability": "Fire Mane", "baseStats": {"hp": 86, "atk": 88, "def": 92, "spa": 129, "spd": 86, "spe": 126}}],
-    "pokedexNumber": 668
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 68,
+      "def": 72,
+      "spa": 109,
+      "spd": 66,
+      "spe": 106
+    },
+    "abilities": [
+      "Rivalry",
+      "Unnerve",
+      "Moxie"
+    ],
+    "moves": [
+      "Acrobatics",
+      "Body Slam",
+      "Bulldoze",
+      "Burning Jealousy",
+      "Crunch",
+      "Dark Pulse",
+      "Dig",
+      "Double-Edge",
+      "Endeavor",
+      "Endure",
+      "Entrainment",
+      "Facade",
+      "Fire Blast",
+      "Fire Fang",
+      "Fire Spin",
+      "Flame Charge",
+      "Flamethrower",
+      "Flare Blitz",
+      "Giga Impact",
+      "Heat Wave",
+      "Helping Hand",
+      "Hyper Beam",
+      "Hyper Voice",
+      "Iron Tail",
+      "Mud-Slap",
+      "Noble Roar",
+      "Overheat",
+      "Payback",
+      "Protect",
+      "Psychic Fangs",
+      "Rain Dance",
+      "Rest",
+      "Roar",
+      "Round",
+      "Scorching Sands",
+      "Sleep Talk",
+      "Snarl",
+      "Snore",
+      "Solar Beam",
+      "Substitute",
+      "Sunny Day",
+      "Taunt",
+      "Temper Flare",
+      "Thief",
+      "Thunder Fang",
+      "Trailblaze",
+      "Wild Charge",
+      "Will-O-Wisp",
+      "Yawn"
+    ],
+    "mega": [
+      {
+        "name": "Mega Pyroar",
+        "types": [
+          "Fire",
+          "Normal"
+        ],
+        "ability": "Fire Mane",
+        "baseStats": {
+          "hp": 86,
+          "atk": 88,
+          "def": 92,
+          "spa": 129,
+          "spd": 86,
+          "spe": 126
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 668,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Malamar": {
-    "types": ["Dark", "Psychic"],
-    "baseStats": {"hp": 86, "atk": 92, "def": 88, "spa": 68, "spd": 75, "spe": 73},
-    "abilities": ["Contrary", "Suction Cups", "Infiltrator"],
-    "moves": ["Acupressure", "Aerial Ace", "Baton Pass", "Brutal Swing", "Calm Mind", "Dark Pulse", "Destiny Bond", "Disable", "Double Hit", "Double Team", "Endure", "Expanding Force", "Facade", "Fake Tears", "Flamethrower", "Fling", "Foul Play", "Future Sight", "Giga Impact", "Gravity", "Guard Swap", "Helping Hand", "Hyper Beam", "Hypnosis", "Knock Off", "Lash Out", "Light Screen", "Liquidation", "Lunge", "Nasty Plot", "Night Slash", "Payback", "Pluck", "Poison Jab", "Protect", "Psych Up", "Psychic", "Psychic Noise", "Psycho Cut", "Psyshock", "Rain Dance", "Reflect", "Rest", "Reversal", "Rock Slide", "Round", "Scary Face", "Skill Swap", "Sleep Talk", "Snore", "Spite", "Stored Power", "Substitute", "Sunny Day", "Superpower", "Swagger", "Switcheroo", "Taunt", "Thief", "Throat Chop", "Thunderbolt", "Topsy-Turvy", "Torment", "Trailblaze", "Trick", "Trick Room", "Wrap", "Zen Headbutt"],
-    "mega": [{"name": "Mega Malamar", "types": ["Dark", "Psychic"], "ability": "Contrary", "baseStats": {"hp": 86, "atk": 102, "def": 88, "spa": 98, "spd": 120, "spe": 88}}],
-    "pokedexNumber": 687
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "baseStats": {
+      "hp": 86,
+      "atk": 92,
+      "def": 88,
+      "spa": 68,
+      "spd": 75,
+      "spe": 73
+    },
+    "abilities": [
+      "Contrary",
+      "Suction Cups",
+      "Infiltrator"
+    ],
+    "moves": [
+      "Acupressure",
+      "Aerial Ace",
+      "Baton Pass",
+      "Brutal Swing",
+      "Calm Mind",
+      "Dark Pulse",
+      "Destiny Bond",
+      "Disable",
+      "Double Hit",
+      "Double Team",
+      "Endure",
+      "Expanding Force",
+      "Facade",
+      "Fake Tears",
+      "Flamethrower",
+      "Fling",
+      "Foul Play",
+      "Future Sight",
+      "Giga Impact",
+      "Gravity",
+      "Guard Swap",
+      "Helping Hand",
+      "Hyper Beam",
+      "Hypnosis",
+      "Knock Off",
+      "Lash Out",
+      "Light Screen",
+      "Liquidation",
+      "Lunge",
+      "Nasty Plot",
+      "Night Slash",
+      "Payback",
+      "Pluck",
+      "Poison Jab",
+      "Protect",
+      "Psych Up",
+      "Psychic",
+      "Psychic Noise",
+      "Psycho Cut",
+      "Psyshock",
+      "Rain Dance",
+      "Reflect",
+      "Rest",
+      "Reversal",
+      "Rock Slide",
+      "Round",
+      "Scary Face",
+      "Skill Swap",
+      "Sleep Talk",
+      "Snore",
+      "Spite",
+      "Stored Power",
+      "Substitute",
+      "Sunny Day",
+      "Superpower",
+      "Swagger",
+      "Switcheroo",
+      "Taunt",
+      "Thief",
+      "Throat Chop",
+      "Thunderbolt",
+      "Topsy-Turvy",
+      "Torment",
+      "Trailblaze",
+      "Trick",
+      "Trick Room",
+      "Wrap",
+      "Zen Headbutt"
+    ],
+    "mega": [
+      {
+        "name": "Mega Malamar",
+        "types": [
+          "Dark",
+          "Psychic"
+        ],
+        "ability": "Contrary",
+        "baseStats": {
+          "hp": 86,
+          "atk": 102,
+          "def": 88,
+          "spa": 98,
+          "spd": 120,
+          "spe": 88
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 687,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Barbaracle": {
-    "types": ["Rock", "Water"],
-    "baseStats": {"hp": 72, "atk": 105, "def": 115, "spa": 54, "spd": 86, "spe": 68},
-    "abilities": ["Tough Claws", "Sniper", "Pickpocket"],
-    "moves": ["Ancient Power", "Aqua Cutter", "Assurance", "Attract", "Beat Up", "Blizzard", "Brick Break", "Brutal Swing", "Bulk Up", "Bulldoze", "Chilling Water", "Close Combat", "Cross Chop", "Dig", "Dive", "Double Hit", "Dragon Claw", "Earth Power", "Earthquake", "Endure", "Facade", "Fling", "Focus Blast", "Giga Impact", "Grass Knot", "Helping Hand", "Hyper Beam", "Ice Beam", "Icy Wind", "Iron Defense", "Liquidation", "Low Kick", "Meteor Beam", "Mud Shot", "Mud-Slap", "Muddy Water", "Night Slash", "Payback", "Poison Jab", "Protect", "Rain Dance", "Razor Shell", "Rest", "Rock Blast", "Rock Polish", "Rock Slide", "Rock Tomb", "Round", "Safeguard", "Sandstorm", "Scald", "Screech", "Shadow Claw", "Shell Smash", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Stealth Rock", "Stone Edge", "Substitute", "Superpower", "Surf", "Switcheroo", "Swords Dance", "Taunt", "Thief", "Uproar", "Waterfall", "Whirlpool", "X-Scissor"],
-    "mega": [{"name": "Mega Barbaracle", "types": ["Rock", "Fighting"], "ability": "Tough Claws", "baseStats": {"hp": 72, "atk": 140, "def": 130, "spa": 64, "spd": 106, "spe": 88}}],
-    "pokedexNumber": 689
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 105,
+      "def": 115,
+      "spa": 54,
+      "spd": 86,
+      "spe": 68
+    },
+    "abilities": [
+      "Tough Claws",
+      "Sniper",
+      "Pickpocket"
+    ],
+    "moves": [
+      "Ancient Power",
+      "Aqua Cutter",
+      "Assurance",
+      "Attract",
+      "Beat Up",
+      "Blizzard",
+      "Brick Break",
+      "Brutal Swing",
+      "Bulk Up",
+      "Bulldoze",
+      "Chilling Water",
+      "Close Combat",
+      "Cross Chop",
+      "Dig",
+      "Dive",
+      "Double Hit",
+      "Dragon Claw",
+      "Earth Power",
+      "Earthquake",
+      "Endure",
+      "Facade",
+      "Fling",
+      "Focus Blast",
+      "Giga Impact",
+      "Grass Knot",
+      "Helping Hand",
+      "Hyper Beam",
+      "Ice Beam",
+      "Icy Wind",
+      "Iron Defense",
+      "Liquidation",
+      "Low Kick",
+      "Meteor Beam",
+      "Mud Shot",
+      "Mud-Slap",
+      "Muddy Water",
+      "Night Slash",
+      "Payback",
+      "Poison Jab",
+      "Protect",
+      "Rain Dance",
+      "Razor Shell",
+      "Rest",
+      "Rock Blast",
+      "Rock Polish",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Safeguard",
+      "Sandstorm",
+      "Scald",
+      "Screech",
+      "Shadow Claw",
+      "Shell Smash",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Snore",
+      "Stealth Rock",
+      "Stone Edge",
+      "Substitute",
+      "Superpower",
+      "Surf",
+      "Switcheroo",
+      "Swords Dance",
+      "Taunt",
+      "Thief",
+      "Uproar",
+      "Waterfall",
+      "Whirlpool",
+      "X-Scissor"
+    ],
+    "mega": [
+      {
+        "name": "Mega Barbaracle",
+        "types": [
+          "Rock",
+          "Fighting"
+        ],
+        "ability": "Tough Claws",
+        "baseStats": {
+          "hp": 72,
+          "atk": 140,
+          "def": 130,
+          "spa": 64,
+          "spd": 106,
+          "spe": 88
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 689,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Dragalge": {
-    "types": ["Poison", "Dragon"],
-    "baseStats": {"hp": 65, "atk": 75, "def": 90, "spa": 97, "spd": 123, "spe": 44},
-    "abilities": ["Poison Point", "Poison Touch", "Adaptability"],
-    "moves": ["Acid Armor", "Acid Spray", "Aqua Tail", "Chilling Water", "Dive", "Double Team", "Draco Meteor", "Dragon Pulse", "Dragon Tail", "Endure", "Facade", "Flip Turn", "Focus Blast", "Giga Impact", "Gunk Shot", "Haze", "Hydro Pump", "Hyper Beam", "Icy Wind", "Iron Tail", "Liquidation", "Mud Shot", "Mud-Slap", "Muddy Water", "Outrage", "Play Rough", "Poison Jab", "Protect", "Rain Dance", "Rest", "Round", "Scald", "Scale Shot", "Scary Face", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Snore", "Snowscape", "Spite", "Substitute", "Surf", "Thief", "Thunder", "Thunderbolt", "Toxic", "Toxic Spikes", "Venoshock", "Water Pulse", "Waterfall", "Whirlpool"],
-    "mega": [{"name": "Mega Dragalge", "types": ["Poison", "Dragon"], "ability": "Regenerator", "baseStats": {"hp": 65, "atk": 85, "def": 105, "spa": 132, "spd": 163, "spe": 44}}],
-    "pokedexNumber": 691
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 75,
+      "def": 90,
+      "spa": 97,
+      "spd": 123,
+      "spe": 44
+    },
+    "abilities": [
+      "Poison Point",
+      "Poison Touch",
+      "Adaptability"
+    ],
+    "moves": [
+      "Acid Armor",
+      "Acid Spray",
+      "Aqua Tail",
+      "Chilling Water",
+      "Dive",
+      "Double Team",
+      "Draco Meteor",
+      "Dragon Pulse",
+      "Dragon Tail",
+      "Endure",
+      "Facade",
+      "Flip Turn",
+      "Focus Blast",
+      "Giga Impact",
+      "Gunk Shot",
+      "Haze",
+      "Hydro Pump",
+      "Hyper Beam",
+      "Icy Wind",
+      "Iron Tail",
+      "Liquidation",
+      "Mud Shot",
+      "Mud-Slap",
+      "Muddy Water",
+      "Outrage",
+      "Play Rough",
+      "Poison Jab",
+      "Protect",
+      "Rain Dance",
+      "Rest",
+      "Round",
+      "Scald",
+      "Scale Shot",
+      "Scary Face",
+      "Shadow Ball",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Snore",
+      "Snowscape",
+      "Spite",
+      "Substitute",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunderbolt",
+      "Toxic",
+      "Toxic Spikes",
+      "Venoshock",
+      "Water Pulse",
+      "Waterfall",
+      "Whirlpool"
+    ],
+    "mega": [
+      {
+        "name": "Mega Dragalge",
+        "types": [
+          "Poison",
+          "Dragon"
+        ],
+        "ability": "Regenerator",
+        "baseStats": {
+          "hp": 65,
+          "atk": 85,
+          "def": 105,
+          "spa": 132,
+          "spd": 163,
+          "spe": 44
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 691,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Grimmsnarl": {
-    "types": ["Dark", "Fairy"],
-    "baseStats": {"hp": 95, "atk": 120, "def": 65, "spa": 95, "spd": 75, "spe": 60},
-    "abilities": ["Prankster", "Frisk", "Pickpocket"],
-    "moves": ["Assurance", "Bite", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Burning Jealousy", "Chilling Water", "Crunch", "Dark Pulse", "Dazzling Gleam", "Drain Punch", "Draining Kiss", "Endure", "Facade", "Fake Out", "Fake Tears", "Fire Punch", "Flatter", "Fling", "Focus Blast", "Focus Energy", "Focus Punch", "Foul Play", "Giga Impact", "Hammer Arm", "Hyper Beam", "Ice Punch", "Imprison", "Lash Out", "Leech Life", "Light Screen", "Low Kick", "Low Sweep", "Mega Kick", "Misty Terrain", "Nasty Plot", "Parting Shot", "Play Rough", "Power Swap", "Power Whip", "Protect", "Reflect", "Rest", "Round", "Scary Face", "Shadow Claw", "Sleep Talk", "Snore", "Spirit Break", "Stomping Tantrum", "Substitute", "Sucker Punch", "Superpower", "Swagger", "Taunt", "Thief", "Throat Chop", "Thunder Punch", "Torment", "Trailblaze", "Trick", "Uproar", "Wonder Room"],
-    "pokedexNumber": 861
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "atk": 120,
+      "def": 65,
+      "spa": 95,
+      "spd": 75,
+      "spe": 60
+    },
+    "abilities": [
+      "Prankster",
+      "Frisk",
+      "Pickpocket"
+    ],
+    "moves": [
+      "Assurance",
+      "Bite",
+      "Body Press",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Burning Jealousy",
+      "Chilling Water",
+      "Crunch",
+      "Dark Pulse",
+      "Dazzling Gleam",
+      "Drain Punch",
+      "Draining Kiss",
+      "Endure",
+      "Facade",
+      "Fake Out",
+      "Fake Tears",
+      "Fire Punch",
+      "Flatter",
+      "Fling",
+      "Focus Blast",
+      "Focus Energy",
+      "Focus Punch",
+      "Foul Play",
+      "Giga Impact",
+      "Hammer Arm",
+      "Hyper Beam",
+      "Ice Punch",
+      "Imprison",
+      "Lash Out",
+      "Leech Life",
+      "Light Screen",
+      "Low Kick",
+      "Low Sweep",
+      "Mega Kick",
+      "Misty Terrain",
+      "Nasty Plot",
+      "Parting Shot",
+      "Play Rough",
+      "Power Swap",
+      "Power Whip",
+      "Protect",
+      "Reflect",
+      "Rest",
+      "Round",
+      "Scary Face",
+      "Shadow Claw",
+      "Sleep Talk",
+      "Snore",
+      "Spirit Break",
+      "Stomping Tantrum",
+      "Substitute",
+      "Sucker Punch",
+      "Superpower",
+      "Swagger",
+      "Taunt",
+      "Thief",
+      "Throat Chop",
+      "Thunder Punch",
+      "Torment",
+      "Trailblaze",
+      "Trick",
+      "Uproar",
+      "Wonder Room"
+    ],
+    "pokedexNumber": 861,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Falinks": {
-    "types": ["Fighting"],
-    "baseStats": {"hp": 65, "atk": 100, "def": 100, "spa": 70, "spd": 60, "spe": 75},
-    "abilities": ["Battle Armor", "Defiant"],
-    "moves": ["Agility", "Assurance", "Beat Up", "Body Press", "Body Slam", "Brick Break", "Bulk Up", "Close Combat", "Coaching", "Counter", "Double Hit", "Endeavor", "Endure", "Facade", "First Impression", "Focus Blast", "Focus Energy", "Giga Impact", "Helping Hand", "High Horsepower", "Hyper Beam", "Iron Defense", "Iron Head", "Knock Off", "Lunge", "Megahorn", "No Retreat", "Payback", "Poison Jab", "Protect", "Psych Up", "Rain Dance", "Rest", "Reversal", "Rock Slide", "Rock Tomb", "Round", "Screech", "Seed Bomb", "Sleep Talk", "Smart Strike", "Snore", "Substitute", "Sunny Day", "Superpower", "Swords Dance", "Throat Chop", "Trailblaze", "Upper Hand", "Uproar", "Zen Headbutt"],
-    "mega": [{"name": "Mega Falinks", "types": ["Fighting"], "ability": "Defiant", "baseStats": {"hp": 65, "atk": 135, "def": 135, "spa": 70, "spd": 65, "spe": 100}}],
-    "pokedexNumber": 870
+    "types": [
+      "Fighting"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "atk": 100,
+      "def": 100,
+      "spa": 70,
+      "spd": 60,
+      "spe": 75
+    },
+    "abilities": [
+      "Battle Armor",
+      "Defiant"
+    ],
+    "moves": [
+      "Agility",
+      "Assurance",
+      "Beat Up",
+      "Body Press",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Close Combat",
+      "Coaching",
+      "Counter",
+      "Double Hit",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "First Impression",
+      "Focus Blast",
+      "Focus Energy",
+      "Giga Impact",
+      "Helping Hand",
+      "High Horsepower",
+      "Hyper Beam",
+      "Iron Defense",
+      "Iron Head",
+      "Knock Off",
+      "Lunge",
+      "Megahorn",
+      "No Retreat",
+      "Payback",
+      "Poison Jab",
+      "Protect",
+      "Psych Up",
+      "Rain Dance",
+      "Rest",
+      "Reversal",
+      "Rock Slide",
+      "Rock Tomb",
+      "Round",
+      "Screech",
+      "Seed Bomb",
+      "Sleep Talk",
+      "Smart Strike",
+      "Snore",
+      "Substitute",
+      "Sunny Day",
+      "Superpower",
+      "Swords Dance",
+      "Throat Chop",
+      "Trailblaze",
+      "Upper Hand",
+      "Uproar",
+      "Zen Headbutt"
+    ],
+    "mega": [
+      {
+        "name": "Mega Falinks",
+        "types": [
+          "Fighting"
+        ],
+        "ability": "Defiant",
+        "baseStats": {
+          "hp": 65,
+          "atk": 135,
+          "def": 135,
+          "spa": 70,
+          "spd": 65,
+          "spe": 100
+        },
+        "regulations": [
+          "Regulation M-B"
+        ]
+      }
+    ],
+    "pokedexNumber": 870,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Overqwil": {
-    "types": ["Dark", "Poison"],
-    "baseStats": {"hp": 85, "atk": 115, "def": 95, "spa": 65, "spd": 65, "spe": 85},
-    "abilities": ["Poison Point", "Swift Swim", "Intimidate"],
-    "moves": ["Acid Spray", "Acupressure", "Agility", "Aqua Jet", "Aqua Tail", "Barb Barrage", "Bite", "Blizzard", "Chilling Water", "Crunch", "Curse", "Dark Pulse", "Destiny Bond", "Double-Edge", "Endure", "Facade", "Fell Stinger", "Flail", "Giga Impact", "Gunk Shot", "Gyro Ball", "Haze", "Hex", "Hydro Pump", "Hyper Beam", "Ice Beam", "Icy Wind", "Lash Out", "Liquidation", "Minimize", "Mud Shot", "Pain Split", "Pin Missile", "Poison Jab", "Protect", "Rain Dance", "Rest", "Reversal", "Scale Shot", "Scary Face", "Self-Destruct", "Shadow Ball", "Sleep Talk", "Sludge Bomb", "Sludge Wave", "Smart Strike", "Spikes", "Spit Up", "Spite", "Stockpile", "Substitute", "Surf", "Swords Dance", "Taunt", "Throat Chop", "Toxic", "Toxic Spikes", "Venoshock", "Water Pulse", "Waterfall"],
-    "pokedexNumber": 904
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "atk": 115,
+      "def": 95,
+      "spa": 65,
+      "spd": 65,
+      "spe": 85
+    },
+    "abilities": [
+      "Poison Point",
+      "Swift Swim",
+      "Intimidate"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Acupressure",
+      "Agility",
+      "Aqua Jet",
+      "Aqua Tail",
+      "Barb Barrage",
+      "Bite",
+      "Blizzard",
+      "Chilling Water",
+      "Crunch",
+      "Curse",
+      "Dark Pulse",
+      "Destiny Bond",
+      "Double-Edge",
+      "Endure",
+      "Facade",
+      "Fell Stinger",
+      "Flail",
+      "Giga Impact",
+      "Gunk Shot",
+      "Gyro Ball",
+      "Haze",
+      "Hex",
+      "Hydro Pump",
+      "Hyper Beam",
+      "Ice Beam",
+      "Icy Wind",
+      "Lash Out",
+      "Liquidation",
+      "Minimize",
+      "Mud Shot",
+      "Pain Split",
+      "Pin Missile",
+      "Poison Jab",
+      "Protect",
+      "Rain Dance",
+      "Rest",
+      "Reversal",
+      "Scale Shot",
+      "Scary Face",
+      "Self-Destruct",
+      "Shadow Ball",
+      "Sleep Talk",
+      "Sludge Bomb",
+      "Sludge Wave",
+      "Smart Strike",
+      "Spikes",
+      "Spit Up",
+      "Spite",
+      "Stockpile",
+      "Substitute",
+      "Surf",
+      "Swords Dance",
+      "Taunt",
+      "Throat Chop",
+      "Toxic",
+      "Toxic Spikes",
+      "Venoshock",
+      "Water Pulse",
+      "Waterfall"
+    ],
+    "pokedexNumber": 904,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Houndstone": {
-    "types": ["Ghost"],
-    "baseStats": {"hp": 72, "atk": 101, "def": 100, "spa": 50, "spd": 97, "spe": 68},
-    "abilities": ["Sand Rush", "Fluffy"],
-    "moves": ["Ally Switch", "Bite", "Body Press", "Bulldoze", "Charm", "Confuse Ray", "Crunch", "Destiny Bond", "Dig", "Disable", "Double-Edge", "Endeavor", "Endure", "Facade", "Fire Fang", "Giga Impact", "Helping Hand", "Hex", "Howl", "Hyper Beam", "Ice Fang", "Last Respects", "Memento", "Mud Shot", "Mud-Slap", "Night Shade", "Pain Split", "Phantom Force", "Play Rough", "Poltergeist", "Protect", "Psychic Fangs", "Rain Dance", "Rest", "Roar", "Sandstorm", "Scary Face", "Shadow Ball", "Shadow Sneak", "Sleep Talk", "Snarl", "Stomping Tantrum", "Substitute", "Sunny Day", "Swagger", "Thief", "Thunder Fang", "Trick", "Uproar", "Will-O-Wisp", "Yawn", "Zen Headbutt"],
-    "pokedexNumber": 972
+    "types": [
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 72,
+      "atk": 101,
+      "def": 100,
+      "spa": 50,
+      "spd": 97,
+      "spe": 68
+    },
+    "abilities": [
+      "Sand Rush",
+      "Fluffy"
+    ],
+    "moves": [
+      "Ally Switch",
+      "Bite",
+      "Body Press",
+      "Bulldoze",
+      "Charm",
+      "Confuse Ray",
+      "Crunch",
+      "Destiny Bond",
+      "Dig",
+      "Disable",
+      "Double-Edge",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "Fire Fang",
+      "Giga Impact",
+      "Helping Hand",
+      "Hex",
+      "Howl",
+      "Hyper Beam",
+      "Ice Fang",
+      "Last Respects",
+      "Memento",
+      "Mud Shot",
+      "Mud-Slap",
+      "Night Shade",
+      "Pain Split",
+      "Phantom Force",
+      "Play Rough",
+      "Poltergeist",
+      "Protect",
+      "Psychic Fangs",
+      "Rain Dance",
+      "Rest",
+      "Roar",
+      "Sandstorm",
+      "Scary Face",
+      "Shadow Ball",
+      "Shadow Sneak",
+      "Sleep Talk",
+      "Snarl",
+      "Stomping Tantrum",
+      "Substitute",
+      "Sunny Day",
+      "Swagger",
+      "Thief",
+      "Thunder Fang",
+      "Trick",
+      "Uproar",
+      "Will-O-Wisp",
+      "Yawn",
+      "Zen Headbutt"
+    ],
+    "pokedexNumber": 972,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Annihilape": {
-    "types": ["Fighting", "Ghost"],
-    "baseStats": {"hp": 110, "atk": 115, "def": 80, "spa": 50, "spd": 90, "spe": 90},
-    "abilities": ["Vital Spirit", "Inner Focus", "Defiant"],
-    "moves": ["Acrobatics", "Assurance", "Beat Up", "Body Slam", "Brick Break", "Bulk Up", "Bulldoze", "Close Combat", "Coaching", "Counter", "Cross Chop", "Curse", "Dig", "Double-Edge", "Drain Punch", "Dynamic Punch", "Earthquake", "Encore", "Endeavor", "Endure", "Facade", "Fire Punch", "Fling", "Focus Blast", "Focus Energy", "Focus Punch", "Giga Impact", "Gunk Shot", "Helping Hand", "Hyper Beam", "Ice Punch", "Lash Out", "Low Kick", "Low Sweep", "Night Shade", "Night Slash", "Outrage", "Overheat", "Phantom Force", "Poison Jab", "Protect", "Rage Fist", "Rain Dance", "Rest", "Reversal", "Rock Slide", "Rock Tomb", "Scary Face", "Screech", "Seed Bomb", "Seismic Toss", "Shadow Ball", "Shadow Claw", "Shadow Punch", "Sleep Talk", "Smack Down", "Spite", "Stealth Rock", "Stomping Tantrum", "Stone Edge", "Storm Throw", "Substitute", "Sunny Day", "Swagger", "Taunt", "Thief", "Thrash", "Throat Chop", "Thunder", "Thunder Punch", "Thunderbolt", "Torment", "U-turn", "Uproar", "Vacuum Wave"],
-    "pokedexNumber": 979
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "atk": 115,
+      "def": 80,
+      "spa": 50,
+      "spd": 90,
+      "spe": 90
+    },
+    "abilities": [
+      "Vital Spirit",
+      "Inner Focus",
+      "Defiant"
+    ],
+    "moves": [
+      "Acrobatics",
+      "Assurance",
+      "Beat Up",
+      "Body Slam",
+      "Brick Break",
+      "Bulk Up",
+      "Bulldoze",
+      "Close Combat",
+      "Coaching",
+      "Counter",
+      "Cross Chop",
+      "Curse",
+      "Dig",
+      "Double-Edge",
+      "Drain Punch",
+      "Dynamic Punch",
+      "Earthquake",
+      "Encore",
+      "Endeavor",
+      "Endure",
+      "Facade",
+      "Fire Punch",
+      "Fling",
+      "Focus Blast",
+      "Focus Energy",
+      "Focus Punch",
+      "Giga Impact",
+      "Gunk Shot",
+      "Helping Hand",
+      "Hyper Beam",
+      "Ice Punch",
+      "Lash Out",
+      "Low Kick",
+      "Low Sweep",
+      "Night Shade",
+      "Night Slash",
+      "Outrage",
+      "Overheat",
+      "Phantom Force",
+      "Poison Jab",
+      "Protect",
+      "Rage Fist",
+      "Rain Dance",
+      "Rest",
+      "Reversal",
+      "Rock Slide",
+      "Rock Tomb",
+      "Scary Face",
+      "Screech",
+      "Seed Bomb",
+      "Seismic Toss",
+      "Shadow Ball",
+      "Shadow Claw",
+      "Shadow Punch",
+      "Sleep Talk",
+      "Smack Down",
+      "Spite",
+      "Stealth Rock",
+      "Stomping Tantrum",
+      "Stone Edge",
+      "Storm Throw",
+      "Substitute",
+      "Sunny Day",
+      "Swagger",
+      "Taunt",
+      "Thief",
+      "Thrash",
+      "Throat Chop",
+      "Thunder",
+      "Thunder Punch",
+      "Thunderbolt",
+      "Torment",
+      "U-turn",
+      "Uproar",
+      "Vacuum Wave"
+    ],
+    "pokedexNumber": 979,
+    "regulations": [
+      "Regulation M-B"
+    ]
   },
   "Gholdengo": {
-    "types": ["Steel", "Ghost"],
-    "baseStats": {"hp": 87, "atk": 60, "def": 95, "spa": 133, "spd": 91, "spe": 84},
-    "abilities": ["Good as Gold"],
-    "moves": ["Charge Beam", "Confuse Ray", "Dazzling Gleam", "Electro Ball", "Endure", "Flash Cannon", "Fling", "Focus Blast", "Focus Punch", "Giga Impact", "Heavy Slam", "Hex", "Hyper Beam", "Iron Head", "Light Screen", "Low Kick", "Low Sweep", "Make It Rain", "Memento", "Metal Sound", "Nasty Plot", "Night Shade", "Poltergeist", "Power Gem", "Protect", "Psychic", "Psyshock", "Recover", "Reflect", "Rest", "Sandstorm", "Shadow Ball", "Shadow Punch", "Sleep Talk", "Steel Beam", "Substitute", "Surf", "Thief", "Thunder", "Thunder Punch", "Thunderbolt", "Trick"],
-    "pokedexNumber": 1000
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "baseStats": {
+      "hp": 87,
+      "atk": 60,
+      "def": 95,
+      "spa": 133,
+      "spd": 91,
+      "spe": 84
+    },
+    "abilities": [
+      "Good as Gold"
+    ],
+    "moves": [
+      "Charge Beam",
+      "Confuse Ray",
+      "Dazzling Gleam",
+      "Electro Ball",
+      "Endure",
+      "Flash Cannon",
+      "Fling",
+      "Focus Blast",
+      "Focus Punch",
+      "Giga Impact",
+      "Heavy Slam",
+      "Hex",
+      "Hyper Beam",
+      "Iron Head",
+      "Light Screen",
+      "Low Kick",
+      "Low Sweep",
+      "Make It Rain",
+      "Memento",
+      "Metal Sound",
+      "Nasty Plot",
+      "Night Shade",
+      "Poltergeist",
+      "Power Gem",
+      "Protect",
+      "Psychic",
+      "Psyshock",
+      "Recover",
+      "Reflect",
+      "Rest",
+      "Sandstorm",
+      "Shadow Ball",
+      "Shadow Punch",
+      "Sleep Talk",
+      "Steel Beam",
+      "Substitute",
+      "Surf",
+      "Thief",
+      "Thunder",
+      "Thunder Punch",
+      "Thunderbolt",
+      "Trick"
+    ],
+    "pokedexNumber": 1000,
+    "regulations": [
+      "Regulation M-B"
+    ]
   }
 }
