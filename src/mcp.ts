@@ -1,7 +1,8 @@
-import { McpServer, StdioServerTransport } from "@modelcontextprotocol/server";
+import { McpServer } from "@modelcontextprotocol/server";
+import { StdioServerTransport } from "@modelcontextprotocol/server/stdio";
 import registerCheckVgcTeamLegality from "./tools/checkVgcTeamLegality";
-import registerShareVgcTeam from "./tools/shareVgcTeam";
 import registerParseVgcTeam from "./tools/parseVgcTeam";
+import registerShareVgcTeam from "./tools/shareVgcTeam";
 
 export function createServer(): McpServer {
   const server = new McpServer({

@@ -829,6 +829,16 @@
     "target": "Special",
     "effect": ""
   },
+  "Court Change": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Field",
+    "effect": "Swaps the statuses affecting the user's side of the field with the statuses affecting the opponent's side of the field."
+  },
   "Covet": {
     "type": "Normal",
     "category": "Physical",
@@ -947,7 +957,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack also removes the effect of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes and Stealth Rock on the target Pok\u00e9mon's side of battle. It also removes the effects of all Terrains on the battlefield if it has been set up by a Pok\u00e9mon using moves or abilities."
+    "effect": "This attack also removes the effect of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes and Stealth Rock on the target Pokémon's side of battle. It also removes the effects of all Terrains on the battlefield if it has been set up by a Pokémon using moves or abilities."
   },
   "Destiny Bond": {
     "type": "Ghost",
@@ -1028,6 +1038,16 @@
     "priority": 0,
     "target": "Selected Target",
     "effect": ""
+  },
+  "Double Shock": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 101,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "The user loses the Electric type. This move fails unless it is used by an Electric type."
   },
   "Double Team": {
     "type": "Normal",
@@ -1169,6 +1189,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Drum Beating": {
+    "type": "Grass",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Lowers the target's Speed stat by 1 stage."
+  },
   "Dual Wingbeat": {
     "type": "Flying",
     "category": "Physical",
@@ -1237,7 +1267,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Field",
-    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It prevents the Pok\u00e9mon from sleep and boosts the power of Electric-type moves on grounded Pok\u00e9mon by 30%"
+    "effect": "This move creates a terrain that helps Pokémon on the ground for 5 turns. It prevents the Pokémon from sleep and boosts the power of Electric-type moves on grounded Pokémon by 30%"
   },
   "Electrify": {
     "type": "Electric",
@@ -1327,7 +1357,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move changes the opponent's abiliy to that of the user of this move. Doesn't work against Pok\u00e9mon with the Truant, Zen Mode or Multitype abilities."
+    "effect": "This move changes the opponent's abiliy to that of the user of this move. Doesn't work against Pokémon with the Truant, Zen Mode or Multitype abilities."
   },
   "Eruption": {
     "type": "Fire",
@@ -1617,7 +1647,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "As the Base Power can get up to 130, it adds major strategy possibilities, especially on Dark Type Pok\u00e9mon which get the Same Type Attack Bonus from this move. Causing 195 Base Power maximum"
+    "effect": "As the Base Power can get up to 130, it adds major strategy possibilities, especially on Dark Type Pokémon which get the Same Type Attack Bonus from this move. Causing 195 Base Power maximum"
   },
   "Flip Turn": {
     "type": "Water",
@@ -1757,7 +1787,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move causes damage to the opponent two turns after it is used. The damage given cannot critical hit without external influence. It bypasses any Protection (Protect, Endure etc.) of the opponent on the turn it damages and if the opponent switches out, it hits the new Pok\u00e9mon"
+    "effect": "This move causes damage to the opponent two turns after it is used. The damage given cannot critical hit without external influence. It bypasses any Protection (Protect, Endure etc.) of the opponent on the turn it damages and if the opponent switches out, it hits the new Pokémon"
   },
   "Gastro Acid": {
     "type": "Poison",
@@ -1799,6 +1829,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Glaive Rush": {
+    "type": "Dragon",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "The user gains the Wide Open status until the next time it takes an action."
+  },
   "Glare": {
     "type": "Normal",
     "category": "Status",
@@ -1817,7 +1857,7 @@
     "pp": 20,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Grass Knot as standard in Pok\u00e9mon Champions"
+    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPokémon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPokémon That Learn Grass Knot as standard in Pokémon Champions"
   },
   "Grassy Glide": {
     "type": "Grass",
@@ -1837,7 +1877,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Field",
-    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It increases their Hit Points by 1/16th per turn and increases Grass-type move power by 30%"
+    "effect": "This move creates a terrain that helps Pokémon on the ground for 5 turns. It increases their Hit Points by 1/16th per turn and increases Grass-type move power by 30%"
   },
   "Grav Apple": {
     "type": "Grass",
@@ -1857,7 +1897,7 @@
     "pp": 8,
     "priority": 0,
     "target": "Field",
-    "effect": "In addition to lowering all Pok\u00e9mon's Evasion stat and grounding Ground-type moves, it prevents the following moves from working. If they are in effect such as Fly or Sky Drop, then those moves get cancelled. The following moves cannot be used when Gravity is in effect"
+    "effect": "In addition to lowering all Pokémon's Evasion stat and grounding Ground-type moves, it prevents the following moves from working. If they are in effect such as Fly or Sky Drop, then those moves get cancelled. The following moves cannot be used when Gravity is in effect"
   },
   "Growth": {
     "type": "Grass",
@@ -1867,7 +1907,7 @@
     "pp": 20,
     "priority": 0,
     "target": "Self",
-    "effect": "This move increases Attack & Special Attack one stage in standard weather. However, if Sunny Day or Drought has been used and Growth is then used, the Pok\u00e9mon's Attack & Special Attack is increased by two stages"
+    "effect": "This move increases Attack & Special Attack one stage in standard weather. However, if Sunny Day or Drought has been used and Growth is then used, the Pokémon's Attack & Special Attack is increased by two stages"
   },
   "Guard Split": {
     "type": "Psychic",
@@ -1917,7 +1957,7 @@
     "pp": 8,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack's Base Power is anything from 1 up to 150 making it a very powerful attack to be used. However, this is completely dependant on your Pok\u00e9mon's Speed as well as the Speed of your target. First, the user & targets speeds are claculated. Their Speed Stat is taken into account as well as other effects such as previous attack effects that my have raised or lowered speed, whether the Pok\u00e9mon is Paralyzed and whether or not it is holding an item that lowers Speed such as the Power Items used to train EVs or an Iron ball."
+    "effect": "This attack's Base Power is anything from 1 up to 150 making it a very powerful attack to be used. However, this is completely dependant on your Pokémon's Speed as well as the Speed of your target. First, the user & targets speeds are claculated. Their Speed Stat is taken into account as well as other effects such as previous attack effects that my have raised or lowered speed, whether the Pokémon is Paralyzed and whether or not it is holding an item that lowers Speed such as the Power Items used to train EVs or an Iron ball."
   },
   "Hammer Arm": {
     "type": "Fighting",
@@ -2339,6 +2379,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Jaw Lock": {
+    "type": "Dark",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "The user and target gain the Jaw Locked status."
+  },
   "Jet Punch": {
     "type": "Water",
     "category": "Physical",
@@ -2367,7 +2417,7 @@
     "pp": 20,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "If the target of this move is holding an item, then the target will lose the item and the power of the move is increased by 50%.  The item cannot be recovered with RecycleIf the Pok\u00e9mon is holding an item that cannot be removed, such as Giratina with the Griseous Orb, Arceus holding any of its plates or a Pok\u00e9mon who is holding a Mega Stone needed for it to Mega Evolve, then the move will not do extra damage and they will not lose the hold item. If the user is knocked out from recoil caused by the opponent's hold item or ability, then the opponent will keep the hold item. If the target has got the Sticky Hold ability, the damage will be increased, but the opponent will not lose the hold item."
+    "effect": "If the target of this move is holding an item, then the target will lose the item and the power of the move is increased by 50%.  The item cannot be recovered with RecycleIf the Pokémon is holding an item that cannot be removed, such as Giratina with the Griseous Orb, Arceus holding any of its plates or a Pokémon who is holding a Mega Stone needed for it to Mega Evolve, then the move will not do extra damage and they will not lose the hold item. If the user is knocked out from recoil caused by the opponent's hold item or ability, then the opponent will keep the hold item. If the target has got the Sticky Hold ability, the damage will be increased, but the opponent will not lose the hold item."
   },
   "Kowtow Cleave": {
     "type": "Dark",
@@ -2407,7 +2457,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack will increase its base power based on the amount of Pok\u00e9mon that are fainted in your party. For each Pok\u00e9mon fainted, it increases by 50 base power."
+    "effect": "This attack will increase its base power based on the amount of Pokémon that are fainted in your party. For each Pokémon fainted, it increases by 50 base power."
   },
   "Lava Plume": {
     "type": "Fire",
@@ -2517,7 +2567,7 @@
     "pp": 20,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Low Kick as standard in Pok\u00e9mon Champions"
+    "effect": "This attack's power is based on your target's weight. This alone determines how strong, or how weak the attack is going to be. With as little as 20 Base Power, it can go as high as 120, making it a very powerful attack if used against the right team. Below is the set up of how it is calculatedWeightBase PowerUnder 10kgUnder 22lbs2010.1kg - 25kg22.1lbs - 55lbs4025.1kg - 50kg55.1lbs - 110lbs6050.1kg - 100kg110.1lbs - 220lbs80100.1kg - 200kg220.1lbs - 440lbs100Over 200kgOver 440lbs120\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t-- %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPokémon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tYes\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPokémon That Learn Low Kick as standard in Pokémon Champions"
   },
   "Low Sweep": {
     "type": "Fighting",
@@ -2669,6 +2719,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Meteor Assault": {
+    "type": "Fighting",
+    "category": "Physical",
+    "power": 170,
+    "accuracy": 100,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "The user gains the Recharging status on the turn after this move is used."
+  },
   "Meteor Beam": {
     "type": "Rock",
     "category": "Special",
@@ -2688,6 +2748,16 @@
     "priority": 0,
     "target": "Selected Target",
     "effect": ""
+  },
+  "Milk Drink": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 8,
+    "priority": 0,
+    "target": "Self",
+    "effect": "Restores 1/2 of the max HP of the user or an ally."
   },
   "Minimize": {
     "type": "Normal",
@@ -2727,7 +2797,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Field",
-    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It protects the Pok\u00e9mon from status afflictions and halves the power of Dragon-type moves for Pok\u00e9mon on the ground"
+    "effect": "This move creates a terrain that helps Pokémon on the ground for 5 turns. It protects the Pokémon from status afflictions and halves the power of Dragon-type moves for Pokémon on the ground"
   },
   "Moonblast": {
     "type": "Fairy",
@@ -2879,6 +2949,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Octolock": {
+    "type": "Fighting",
+    "category": "Status",
+    "power": null,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Gives the target the Octolocked and Can't Escape statuses."
+  },
   "Outrage": {
     "type": "Dragon",
     "category": "Physical",
@@ -2887,6 +2967,16 @@
     "pp": 12,
     "priority": 0,
     "target": "Random Target",
+    "effect": ""
+  },
+  "Overdrive": {
+    "type": "Electric",
+    "category": "Special",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "All Adjacent Foes",
     "effect": ""
   },
   "Overheat": {
@@ -3137,7 +3227,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pok\u00e9mon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
+    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pokémon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
   },
   "Power Whip": {
     "type": "Grass",
@@ -3207,7 +3297,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Field",
-    "effect": "This move creates a terrain that helps Pok\u00e9mon on the ground for 5 turns. It prevents all Pok\u00e9mon on the ground from using attacks or being targeted by attacks with increased priority from opposing Pok\u00e9mon, and boosts the power of Psychic-type moves on grounded Pok\u00e9mon by 30%"
+    "effect": "This move creates a terrain that helps Pokémon on the ground for 5 turns. It prevents all Pokémon on the ground from using attacks or being targeted by attacks with increased priority from opposing Pokémon, and boosts the power of Psychic-type moves on grounded Pokémon by 30%"
   },
   "Psycho Cut": {
     "type": "Psychic",
@@ -3239,6 +3329,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Pyro Ball": {
+    "type": "Fire",
+    "category": "Physical",
+    "power": 120,
+    "accuracy": 90,
+    "pp": 8,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Has a 10% chance of burning the target. Cures the user of being frozen."
+  },
   "Quash": {
     "type": "Dark",
     "category": "Status",
@@ -3267,7 +3367,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Unknown",
-    "effect": "Unlike Protect, which works on all moves, Quick Guard prevents all effects from moves with a heightened Speed Priority. In addition to that, it also protects all the player's Pok\u00e9mon on the field rather than just the user."
+    "effect": "Unlike Protect, which works on all moves, Quick Guard prevents all effects from moves with a heightened Speed Priority. In addition to that, it also protects all the player's Pokémon on the field rather than just the user."
   },
   "Quiver Dance": {
     "type": "Bug",
@@ -3399,6 +3499,16 @@
     "target": "Selected Target",
     "effect": ""
   },
+  "Revival Blessing": {
+    "type": "Normal",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 1,
+    "priority": 0,
+    "target": "Self",
+    "effect": "Revives a Pokémon in the user's party that has fainted and restores 1/2 of that Pokémon's max HP."
+  },
   "Rising Voltage": {
     "type": "Electric",
     "category": "Special",
@@ -3477,7 +3587,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move changes the user's abiliy to that of the target Pok\u00e9mon. Doesn't work on Pok\u00e9mon with the Wonder Guard ability."
+    "effect": "This move changes the user's abiliy to that of the target Pokémon. Doesn't work on Pokémon with the Wonder Guard ability."
   },
   "Roost": {
     "type": "Flying",
@@ -3497,7 +3607,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move increases in power when used by different Pok\u00e9mon on your side in a single turn. When Round is used by multiple Pok\u00e9mon, the Pok\u00e9mon will immediately use it, regardless of Speed or Priority. Each consecutive use of this move has the power doubled up until it hits the maximum of 240."
+    "effect": "This move increases in power when used by different Pokémon on your side in a single turn. When Round is used by multiple Pokémon, the Pokémon will immediately use it, regardless of Speed or Priority. Each consecutive use of this move has the power doubled up until it hits the maximum of 240."
   },
   "Sacred Sword": {
     "type": "Fighting",
@@ -3687,7 +3797,7 @@
     "pp": 8,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move has its accuracy lowered when used by non-Ice-type Pok\u00e9mon;, and cannot damage Ice-type Pok\u00e9mon"
+    "effect": "This move has its accuracy lowered when used by non-Ice-type Pokémon;, and cannot damage Ice-type Pokémon"
   },
   "Shell Side Arm": {
     "type": "Poison",
@@ -3697,7 +3807,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "If Shell Side Arm becomes a Physical move, it will make Physical Contact as well.\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t20 %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPok\u00e9mon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPok\u00e9mon That Learn Shell Side Arm as standard in Pok\u00e9mon Champions"
+    "effect": "If Shell Side Arm becomes a Physical move, it will make Physical Contact as well.\t\r\n\t\r\n\t\r\n\t\tSecondary Effect:\r\n\t\tEffect Rate:\r\n\t\r\n\t\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\t\t20 %\t\r\n\t\r\n\t\r\n\t\t\r\n\t\tBase Critical Hit Rate\t\r\n\t\t\r\n\t\tSpeed Priority\t\r\n\t\t\r\n\t\tPokémon Hit in Battle\t\r\n\t\r\n\t\r\n\t\t\r\n\t\t4.17%\r\n\t\t\r\n\t\t0\t\r\n\t\t\r\n\t\tSelected Target\r\n\t\r\n\r\n\r\n\t\r\n\t\t\r\n\t\tPhysical Contact\r\n\t\t\r\n\t\tSound-Type - Details\r\n\t\t\r\n\t\tPunch Move - Details\r\n\t\t\r\n\t\tBiting Move - Details\r\n\t\t\r\n\t\tSnatchable\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\tSlicing Move - Details\r\n\t\t\r\n\t\tBullet-Type - Details\r\n\t\t\r\n\t\tWind Move - Details\r\n\t\t\r\n\t\tPowder Move\r\n\t\t\r\n\t\tMetronome\r\n\r\n\t\r\n\t\r\n\t\t\tNo\r\n\t\t\tNo\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\t\t\tYes\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\tAffected by Gravity\r\n\t\t\r\n\t\tDefrosts When Used?\r\n\r\n\t\t\r\n\t\tReflected By Magic Coat/Magic Bounce?\r\n\t\t\r\n\t\tBlocked by Protect/Detect?\r\n\t\t\r\n\t\tCopyable by Mirror Move?\r\n\t\r\n\t\r\n\t\t\tNo\t\t\r\n\t\t\tNo\r\n\r\n\t\t\tNo\r\n\t\t\tYes\r\n\t\t\tYes\r\n\t\r\n\r\n\tPokémon That Learn Shell Side Arm as standard in Pokémon Champions"
   },
   "Shell Smash": {
     "type": "Normal",
@@ -3719,6 +3829,16 @@
     "target": "Self",
     "effect": ""
   },
+  "Shift Gear": {
+    "type": "Steel",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 12,
+    "priority": 0,
+    "target": "Self",
+    "effect": "Boosts the user's Attack stat by 1 stage and Speed stat by 2 stages."
+  },
   "Simple Beam": {
     "type": "Normal",
     "category": "Status",
@@ -3727,7 +3847,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "Changes the target's ability to be Simple. This does not work on Pok\u00e9mon with the abilities Multitype, Stance Change, or Truant."
+    "effect": "Changes the target's ability to be Simple. This does not work on Pokémon with the abilities Multitype, Stance Change, or Truant."
   },
   "Sing": {
     "type": "Normal",
@@ -3747,7 +3867,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This move will switch the users ability to the ability of the target Pok\u00e9mon if that Pok\u00e9mon does not have the Illusion, Wonder Guard, Stance Change, Multitype, RKS System, Zen Mode, Battle Bond, Comatose, Gulp Missile, DIsguise, Hunger Switch, Neutralizing Gas, Shields Down, Schooling, Power Construct, As One - Unnerve Chilling Neigh, As One - Unnerve Grim Neigh, Zero to Hero, Commander, Hadron Engine, Orichalcum Pulse, Protosynthesis & Quark Drive abilities"
+    "effect": "This move will switch the users ability to the ability of the target Pokémon if that Pokémon does not have the Illusion, Wonder Guard, Stance Change, Multitype, RKS System, Zen Mode, Battle Bond, Comatose, Gulp Missile, DIsguise, Hunger Switch, Neutralizing Gas, Shields Down, Schooling, Power Construct, As One - Unnerve Chilling Neigh, As One - Unnerve Grim Neigh, Zero to Hero, Commander, Hadron Engine, Orichalcum Pulse, Protosynthesis & Quark Drive abilities"
   },
   "Skitter Smack": {
     "type": "Bug",
@@ -3778,6 +3898,16 @@
     "priority": 0,
     "target": "Self",
     "effect": ""
+  },
+  "Slash": {
+    "type": "Normal",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move has a 1-stage Critical-Hit Ratio Boost."
   },
   "Sleep Powder": {
     "type": "Grass",
@@ -3827,7 +3957,7 @@
     "pp": 16,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "In addition to removing Ground-type immunities, this move can also affect Pok\u00e9mon that have flown up into the air using Fly or Bounce. Doing so cancels the move. It can hit Pok\u00e9mon using or affected by Sky Drop but doesn't cancel the move."
+    "effect": "In addition to removing Ground-type immunities, this move can also affect Pokémon that have flown up into the air using Fly or Bounce. Doing so cancels the move. It can hit Pokémon using or affected by Sky Drop but doesn't cancel the move."
   },
   "Smart Strike": {
     "type": "Steel",
@@ -3858,6 +3988,16 @@
     "priority": 0,
     "target": "All Adjacent Foes",
     "effect": ""
+  },
+  "Snipe Shot": {
+    "type": "Water",
+    "category": "Special",
+    "power": 85,
+    "accuracy": 100,
+    "pp": 16,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "This move ignores the effects of Abilities and moves that draw in moves. It has a 1-stage Critical-Hit Ratio Boost."
   },
   "Snore": {
     "type": "Normal",
@@ -4087,7 +4227,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pok\u00e9mon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
+    "effect": "This attack's power starts off with 20 Base Power but increases by 20 Base Power for each stat increase used by the Pokémon. Can get a maximum Base Power of 860. Moves with stat lowering effects do not affect this move's power."
   },
   "Storm Throw": {
     "type": "Fighting",
@@ -4479,6 +4619,16 @@
     "target": "Self",
     "effect": ""
   },
+  "Topsy-Turvy": {
+    "type": "Dark",
+    "category": "Status",
+    "power": null,
+    "accuracy": null,
+    "pp": 20,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Inverts all stat changes affecting the target."
+  },
   "Torch Song": {
     "type": "Fire",
     "category": "Special",
@@ -4517,7 +4667,7 @@
     "pp": 20,
     "priority": 0,
     "target": "Enemy Side",
-    "effect": "Toxic Spikes is the only Entry Hazard attack that does not afflict damage on the Pok\u00e9mon straight away. Instead, it inflicts them with the Poison Condition. It does not affect Pok\u00e9mon of the Flying Type, Steel Type, Poison Type or Pok\u00e9mon with the Levitate Ability"
+    "effect": "Toxic Spikes is the only Entry Hazard attack that does not afflict damage on the Pokémon straight away. Instead, it inflicts them with the Poison Condition. It does not affect Pokémon of the Flying Type, Steel Type, Poison Type or Pokémon with the Levitate Ability"
   },
   "Toxic Thread": {
     "type": "Poison",
@@ -4547,7 +4697,7 @@
     "pp": 12,
     "priority": 0,
     "target": "Selected Target",
-    "effect": "Transform can change many features of the Pok\u00e9mon temporarily. The features are as follows;Pok\u00e9mon SpeciesPok\u00e9mon CryAttack StatDefense StatSpeed StatSpecial Attack StatSpecial Defense StatStat ChangesEXP YieldPok\u00e9mon MovesAs such, this means that apart from its HitPoints and Level, Ditto/Mew is essentially the other Pok\u00e9mon.  Also, the EV training that you have put on Ditto becomes void for this battle. However, that said, when Critical Hits happen, it will still be based upon Ditto/Mew's stats."
+    "effect": "Transform can change many features of the Pokémon temporarily. The features are as follows;Pokémon SpeciesPokémon CryAttack StatDefense StatSpeed StatSpecial Attack StatSpecial Defense StatStat ChangesEXP YieldPokémon MovesAs such, this means that apart from its HitPoints and Level, Ditto/Mew is essentially the other Pokémon.  Also, the EV training that you have put on Ditto becomes void for this battle. However, that said, when Critical Hits happen, it will still be based upon Ditto/Mew's stats."
   },
   "Tri Attack": {
     "type": "Normal",
@@ -4898,5 +5048,15 @@
     "priority": 0,
     "target": "Selected Target",
     "effect": ""
+  },
+  "Zing Zap": {
+    "type": "Electric",
+    "category": "Physical",
+    "power": 80,
+    "accuracy": 100,
+    "pp": 12,
+    "priority": 0,
+    "target": "Selected Target",
+    "effect": "Has a 30% chance of making the target flinch."
   }
 }

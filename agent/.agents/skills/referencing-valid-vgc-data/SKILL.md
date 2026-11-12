@@ -1,15 +1,15 @@
 ---
 name: referencing-valid-vgc-data
-description: Use whenever considering a Pokemon, its moveset, its ability, or its held item. Directs the Harness to query the static asset files with `jq` rather than reading them in full or relying on trained knowledge.
+description: Use to verify legality or availability of a Pokemon, move, ability, or item against the static assets.
 ---
 
 # Valid Data
 
-All Pokemon, moves, abilities, and held items must come from the static asset files in the `agent/` working directory. Never use pre-trained Pokemon knowledge — it will be factually incorrect for the Champions ruleset.
+Source every Pokemon, move, ability, and held item from static assets in `agent/`; never use pre-trained knowledge.
 
 ## How to Query the Data
 
-Always query the asset files with `jq` via the Bash tool. Do **not** read the entire JSON file into context, and do **not** use `grep`/`rg` to scan them.
+Query assets with `jq` via Bash. Never load whole JSON into context or scan it with `grep`/`rg`.
 
 - Paths are relative to the `agent/` working directory (e.g. `assets/pokemon.json`).
 - All five files are **top-level JSON objects** keyed by a name string. Keys are **case-sensitive** and must match exactly as they appear in the file (e.g. `"Mega Venusaur"`, `"Choice Scarf"`, `"Close Combat"`).
@@ -33,6 +33,7 @@ Top-level object: `{ <PokemonName>: <PokemonEntry>, ... }`. 215 entries.
   "mega": [
     {
       "name": "Mega Venusaur",
+      "item": "Venusaurite",
       "types": ["Grass", "Poison"],
       "ability": "Thick Fat",
       "baseStats": { "hp": 80, "atk": 100, "def": 123, "spa": 122, "spd": 120, "spe": 80 },
@@ -43,7 +44,7 @@ Top-level object: `{ <PokemonName>: <PokemonEntry>, ... }`. 215 entries.
 }
 ```
 
-Field notes:
+Notes:
 - `mega` is an **array** (some Pokemon have multiple Mega forms, e.g. Charizard); absent on non-Mega-eligible Pokemon.
 - `regulations` is absent on some entries and on some Mega forms.
 - `baseStats` keys are always: `hp`, `atk`, `def`, `spa`, `spd`, `spe` (lowercase).
@@ -112,20 +113,11 @@ Field notes:
 
 Top-level object: `{ <AttackingType>: { <DefendingType>: <multiplier> } }`. 18 attacking types.
 
-```json
-{
-  "Fire": { "Fire": 0.5, "Water": 0.5, "Grass": 2, "Ice": 2, "Bug": 2, "Rock": 0.5, "Dragon": 0.5, "Steel": 2 }
-}
-```
-
-Field notes:
-- Multipliers are `0`, `0.5`, `1`, or `2`.
-- **A missing defender entry means 1× (neutral).** Do not assume the file is exhaustive.
-- Used for offensive and defensive matchup math. See `referencing-vgc-vulnerabilities` for vuln/resist workflow.
+The schema, multiplier values, the "missing defender entry means 1×" convention, and the full vuln/resist query workflow live in `referencing-vgc-vulnerabilities` — the single source for type-chart usage.
 
 ## Common Queries
 
-These are the patterns you will use most often. Substitute `$NAME` literally (or build the jq filter from a variable in your own shell) — do not invent fields.
+Use these common patterns. Substitute `$NAME` literally, or construct filter from shell variable; never invent fields.
 
 ```bash
 # Does a Pokemon exist?
@@ -175,7 +167,7 @@ jq -r 'to_entries[] | select(.value.type == "Fairy" and .value.category == "Spec
 
 ## Legality Rules
 
-A team member is only legal if **all** of the following hold:
+A member is legal only if all hold:
 
 1. The Pokemon name is a key in `assets/pokemon.json`.
 2. The held item name is a key in `assets/items.json`.
@@ -183,4 +175,4 @@ A team member is only legal if **all** of the following hold:
 4. Each of its moves is a key in `assets/moves.json` **and** appears in the Pokemon's `moves` array.
 5. If the Pokemon is holding its Mega Stone, the Mega form name appears in `pokemon.json[<name>].mega[]`.
 
-Do not infer legality from descriptions or pre-trained memory. Verify each rule with a `jq` query. Use the `check-vgc-team-legality` tool for whole-team validation.
+Never infer legality from descriptions or memory. Verify each rule with `jq`; use `check-vgc-team-legality` for whole team.

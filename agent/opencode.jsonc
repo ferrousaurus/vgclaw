@@ -1,24 +1,35 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "mcp": {
-    "pokemon-data": {
-      "type": "local",
-      "command": ["bun", "run", "../src/mcp.ts"],
+    "servers": {
+      "pokemon-data": {
+        "type": "local",
+        "cwd": "../src",
+        "command": [
+          "nub",
+          "run",
+          "mcp"
+        ],
+      },
     },
   },
-  "agent": {
+  "agents": {
     "build": {
-      "disable": true,
+      "disabled": true,
     },
     "plan": {
-      "permission": {
-        "bash": {
-          "jq *": "allow",
+      "permissions": [
+        {
+          "action": "shell",
+          "resource": "jq *",
+          "effect": "allow"
         },
-        "edit": {
-          "teams/**.md": "allow",
-        },
-      },
+        {
+          "action": "edit",
+          "resource": "teams/**.md",
+          "effect": "allow"
+        }
+      ]
     },
   },
 }

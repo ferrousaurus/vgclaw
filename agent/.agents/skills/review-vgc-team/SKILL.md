@@ -1,55 +1,25 @@
 ---
 name: review-vgc-team
-description: Use when the user wants to evaluate or tweak an existing competitive VGC team for Pokemon Champions.
+description: Use when the user wants to review an existing VGC team for Pokemon Champions.
 ---
 
 # Reviewing VGC Teams
 
-Evaluate an existing Pokemon Champions VGC team and produce ranked, user-selectable recommendations.
-
-This skill is advisory only. Its job is to help the user decide what to change, not to decide for them.
+Evaluate an existing Pokemon Champions VGC team; produce ranked, user-selectable recommendations.
 
 ## Decision Authority
 
-- The user owns all roster, replacement, move, item, ability, nature, and SP decisions.
-- The agent may analyze, rank, and explain options, but must never choose one on the user's behalf.
+`AGENTS.md` > Advisory Contract governs authority. This skill adds:
+
 - Every recommendation set must end with a clear question asking the user which direction they want.
-- Never infer approval. A change is accepted only when the user explicitly selects it.
-- Never auto-fill an open slot. Partial teams, open slots, unresolved replacements, and incomplete sets are valid working states during review.
 - Never output an updated Showdown paste unless the user explicitly asks for it.
 
 ## Data Sources
 
-### Deterministic Data Sources
-
-You MUST utilize these data sources to determine availability, legality, etc. Use the `referencing-valid-vgc-data` skill to guide verification.
-
-- File: `assets/pokemon.json` -- Available Pokemon, their types, base stats, abilities, moves, and mega data
-- File: `assets/moves.json` -- Available moves and their details (type, power, category, target)
-- File: `assets/abilities.json` -- Available abilities and their effects
-- File: `assets/items.json` -- Available held items and their effects
-- Tool: `check-vgc-team-legality` -- Validate that a team is legal
-- Tool: `share-vgc-team` -- Transform a team into Pokemon Showdown format
-- File: `assets/type-chart.json` -- type effectiveness multipliers (2, 1, 0.5, 0). Missing entries = 1x.
-
-### Viability References
-Located under `.agents/skills/evaluating-vgc-team-viability/references/`:
-- `roles.md` -- VGC role definitions
-- `archetypes.md` -- common team archetypes
-- `items.md` -- item selection heuristics
-- `synergies.md` -- pair synergy patterns with layered evaluation and anti-synergy framework
-- `speed-tiers.md` -- speed tier framework, investment heuristics, and speed control interaction
-- `win-conditions.md` -- win condition types, quality evaluation, and sufficiency heuristics
-- `tempo.md` -- lead pair evaluation and game-plan resilience heuristics
-- `stat-calculations.md` -- stat formulas, speed thresholds, damage calculation, bulk and offensive thresholds
-
-### Meta Data
-- Fetch `https://www.pikalytics.com/champions` via `webfetch` for current usage stats, top threats, common sets, and teammates
-
-### Mega Stone Interpretation
-- Multiple Mega Stones on the roster of 6 are neutral in bring-4 play.
-- Do not penalize a team solely for carrying two Mega Stones.
-- Penalize only if a validated bring-4 would need both Mega Stone holders together, or if one Mega holder fails to justify its slot outside the other Mega's mode.
+- **Legality & availability:** Use the `referencing-valid-vgc-data` skill for every Pokemon, move, ability, item, and type-chart lookup.
+- **Viability heuristics:** Roles, archetypes, items, synergies, speed tiers, win conditions, tempo, and stat calculations live in the `evaluating-vgc-team-viability` skill and its `references/`. Use them across the analysis layers below.
+- **Meta data:** Fetch `https://www.pikalytics.com/champions` via `webfetch` when available; use documented static proxy only when unavailable.
+- **Mega Stones:** See `evaluating-vgc-team-viability` > `items.md` > Mega Stones for the bring-4 interpretation, including when two Megas become a problem.
 
 ## Default Response Shape
 
@@ -63,13 +33,19 @@ Use this structure unless the user explicitly asks for a different format:
 6. Trade-offs
 7. Direct question asking which direction the user wants
 
-Do not continue past that decision point in the same response.
+Stop after that decision.
 
 ## Workflow
 
 ### 1. Parse & Validate
 
-The user provides a team in Showdown paste format. Parse it into structured data (Pokemon name, item, ability, SPs, nature, moves).
+Parse Showdown paste into Pokemon name, item, ability, SPs, nature, and moves:
+
+1. **Convert EVs to SPs:** Divide each EV value by 8 and round down. Verify the total does not exceed 66 SPs. Example: `252 HP EVs` = `31 HP SPs` (since 252 / 8 = 31.5, round down to 31).
+2. **Ignore IV lines:** All IVs are fixed to 31 in Champions. Never reference IV manipulation.
+3. **Interpret `IVs: 0 Spe`:** In Champions, this means 0 Speed SPs + a Speed-hindering nature (Brave, Quiet, Relaxed, or Sassy). **Verify the nature is one of these four.** If the nature is neutral or Speed-boosting, flag a **Stat Efficiency** conflict — do not assume the nature should be changed.
+4. **Assume Level 50:** If the paste lacks a level line, assume Level 50.
+5. **Validate totals:** After conversion, ensure no stat exceeds 32 SPs and the sum of all SPs does not exceed 66.
 
 **Partial teams:** If the paste contains fewer than 6 Pokemon, accept it and evaluate what's there. Flag the incomplete roster in the assessment and skip any analysis that requires more confirmed members. Do not prompt the user to fill missing slots unless they ask for next-step guidance.
 
@@ -115,7 +91,9 @@ If the team has fewer than 6 Pokemon, state that clearly: `This team currently h
 
 ### 4. Analysis Layers
 
-Each layer follows the same interaction pattern:
+Each layer is a user-selected **drill-down**. Run its pattern, then stop; never auto-advance.
+
+Layer interaction pattern:
 
 1. Findings
 2. Problem statement
@@ -124,14 +102,15 @@ Each layer follows the same interaction pattern:
 5. Short trade-offs
 6. Explicit question asking which option the user wants
 
-The user can drill into any layer in any order. Do not move on to another layer automatically after giving options.
+Within a layer, escalate by **fix-tier**; try least-disruptive option before replacement:
 
-Fix tiers, in order:
 1. Move change
 2. Item change
 3. Ability change
 4. SP/Nature adjustment
 5. Pokemon replacement candidates
+
+Present fix-tier 1–4 options before any tier-5 swap candidate; only offer a swap if the lower tiers cannot solve the problem.
 
 #### Layer 1: Type Coverage
 
@@ -234,7 +213,7 @@ Read `tempo.md`. Evaluate lead pairs for each validated mode and assess fallback
 
 ### 5. Change Tracking
 
-Track only changes the user explicitly accepts.
+Track only explicitly accepted changes.
 
 Accepted changes may include:
 - a move change
@@ -246,29 +225,14 @@ Accepted changes may include:
 
 Do not add implied follow-up changes. Example: if the user accepts `remove Sinistcha`, record only the removal. Do not choose a replacement until the user selects one.
 
-### 6. Export
+### 6. Export & Save
 
-Only export when the user explicitly asks for an updated paste or current draft.
-
-If exporting:
-- Include only explicitly accepted changes.
-- Preserve any open slots or unresolved set details.
-- If the roster is incomplete, output it as incomplete rather than synthesizing a finished team.
-- Use `share-vgc-team` whenever you output a full or partial team in Showdown format.
-
-### 7. Save
-
-*CRITICAL*: Store and routinely update the roster in `teams/XXX-NAME.md`, using the `share-vgc-team` tool. `XXX` should be the next index in the `teams/` directory `NAME` should be a five-word description of the starting point, such as "feraligatr", "aegislash-and-ninetails", or "rain".
-
-If the saved team is incomplete, you may save it as an incomplete team.
+Export only on explicit updated-paste/current-draft request. Follow `AGENTS.md` > Team Output & Storage and `teams/XXX-NAME.md`; include only accepted changes and mark incomplete teams incomplete.
 
 ## Conversation Style
 
 - The user can jump between layers, revisit analysis, accept or reject fixes freely.
-- Present 2-3 options when suggesting roster changes, not one answer.
-- Explain trade-offs concisely.
 - Always stop after presenting the current decision set and wait for the user's selection.
-- All move and ability data is Champions-accurate from the roster. If the user reports a discrepancy, trust the user and note it for roster updates.
 
 ## Examples
 

@@ -10,7 +10,7 @@ This repository is an OpenCode suite for managing, building, and evaluating Pok√
 - **Configuration**: Local agent configuration is in `agent/opencode.jsonc`.
 
 ## Development Constraints & Tech Stack
-- **Bun**: This project uses `bun` instead of `node`/`npm`. Use `bun install`, `bun run`, and `bun test`.
+- **Nub**: This project uses `nub` instead of `node`/`npm`. Use `nub install`, `nub run mcp`, and `nub run test`.
 - **MCP SDK**: The server uses `@modelcontextprotocol/sdk`.
 
 ## Agent Instructions

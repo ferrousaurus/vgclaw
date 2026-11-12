@@ -1,11 +1,11 @@
 ---
 name: referencing-vgc-vulnerabilities
-description: Use whenever considering the resistances or vulnerabilities of a Pokemon or move. Directs the Harness to compute type matchups with `jq` against the static type chart.
+description: Use to compute a Pokemon's or move's type matchups — resistances and vulnerabilities.
 ---
 
 # Vulnerabilities
 
-All type-chart data lives in `assets/type-chart.json`. Query it with `jq` — do not read the file in full, and do not rely on pre-trained type-chart memory.
+Type chart is `assets/type-chart.json`. Query with `jq`; never load full file or use type-chart memory.
 
 ## How to Query
 
@@ -25,7 +25,7 @@ All type-chart data lives in `assets/type-chart.json`. Query it with `jq` — do
 }
 ```
 
-The Fire row above means: Fire deals 0.5× to Fire-types, 2× to Grass-types, etc. Types not listed under Fire (e.g. Electric) take 1× from Fire.
+Fire row means Fire deals 0.5× to Fire and 2× to Grass; unlisted types (for example Electric) take 1×.
 
 ## Common Queries
 
@@ -77,7 +77,7 @@ jq -r --slurpfile pkmn assets/pokemon.json '
 # Feraligatr (Water): Electric 2, Grass 2, Fire 0.5, Water 0.5, Ice 0.5, Steel 0.5, ...
 ```
 
-Tip: for repetitive roster-wide calculations, write a small jq program file (e.g. `/tmp/vuln.jq`) and invoke it as `jq -f /tmp/vuln.jq` with the asset as input. The same source-of-truth file makes results reproducible.
+For repeated roster calculations, write a jq program (for example `/tmp/vuln.jq`) and run `jq -f /tmp/vuln.jq`; this retains reproducibility.
 
 ## Quick Sanity Checks
 
@@ -85,5 +85,3 @@ Tip: for repetitive roster-wide calculations, write a small jq program file (e.g
 - `jq -r '[.. | numbers] | unique | .[]' assets/type-chart.json` returns only the multipliers that are **explicitly encoded** in the file — typically `0`, `0.5`, and `2`. Neutral `1` is **not** stored; missing defender keys mean 1× by convention.
 - For a STAB move, the move's `type` field on `assets/moves.json` is the attacking type for the chart lookup.
 - Ability-based immunities (Levitate, Flash Fire, Lightning Rod, etc.) and **type-based** immunities (e.g. Ghost is immune to Normal and Fighting) are both relevant. Type-based immunities are already encoded in the chart (multiplier 0). Ability-based immunities must be checked separately against `assets/abilities.json` and `assets/pokemon.json`.
-
-Do **not** modify the type chart. It is a static reference for the current regulation set.
